@@ -99,7 +99,7 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfgYf9er-0pfjILXSkydusTmk2eXak-Pe5Eg&s ",
 
   }
-}
+},
 {
   "player": {
     "id": 83,
@@ -115,7 +115,7 @@
     "goals": 7,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8iPlA3fzlNfxvJuZi9LnCHrE_4yD5Rqf1A&s ",
   }
-}
+},
 {
   "player": {
     "id": 84,
@@ -131,7 +131,7 @@
     "goals": 3,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUZwEUh4eYiADY0o2oqs3Y0Ae1suR0PuhzDA&s ",
   }
-}
+},
 {
   "player": {
     "id": 85,
@@ -146,10 +146,10 @@
     "foot": "Left",
     "goals": 14,
     "imageUrl": "https://tmssl.akamaized.net/images/foto/galerie/raphinha-fc-barcelona-2024-2025-1729714757-152192.jpg ",
--
+
 
   }
-}
+},
 {
   "player": {
     "id": 86,
@@ -165,7 +165,7 @@
     "goals": 6,
     "imageUrl": "https://www.fcbarcelona.com/photo-resources/2024/12/25/524f5dd8-1925-4c64-ad06-5fce9a855f6d/EA019746.jpg?width=1200&height=750 ",
   }
-}
+},
 {
   "player": {
     "id": 87,
@@ -181,7 +181,7 @@
     "goals": 500,
     "imageUrl": "https://www.fcbarcelona.com/photo-resources/2024/10/13/b666059e-1d0a-493f-a7e5-dd7a258d8165/09-Lewandowski-M.jpg?width=1200&height=750 ",
   }
-}
+},
 {
   "player": {
     "id": 88,
@@ -197,7 +197,7 @@
     "goals": 200,
     "imageUrl": "https://assets-fr.imgfoot.com/media/cache/1200x1200/mohamed-salah-2425.jpg ",
   }
-}
+},
 {
   "player": {
     "id": 89,
@@ -213,7 +213,7 @@
     "goals": 35,
     "imageUrl": "https://i2-prod.liverpoolecho.co.uk/article28742134.ece/ALTERNATES/s615/0_GettyImages-1923405093.jpg ",
   }
-}
+},
 {
   "player": {
     "id": 90,
@@ -229,7 +229,7 @@
     "goals": 0,
     "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/210225123210-alisson-liverpool-0207.jpg?q=w_3656,h_2709,x_0,y_0,c_fill"
   }
-}
+},
 {
   "player": {
     "id": 91,
@@ -248,7 +248,7 @@
     "goals": 25,
     "imageUrl": "https://static.srpcdigital.com/styles/1037xauto/public/2024-10/825422.jpeg.web"
   }
-}
+},
 {
   "player": {
     "id": 92,
@@ -266,7 +266,7 @@
     "goals": 6,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDKR1sOa1xuEQtT4wh-QuIxYfXyJDGYR2haw&s"
   }
-}
+},
 {
   "player": {
     "id": 93,
@@ -285,7 +285,7 @@
     "goals": 10,
     "imageUrl": "https://o.kooora.com/ophotos/articlephoto/1301835?size=0&v=1"
   }
-}
+},
 {
   "player": {
     "id": 94,
@@ -303,7 +303,7 @@
     "goals": 12,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Prn06i8lbgFTZAFdI4GFVni-H9R7-uIgrg&s"
   }
-}
+},
 {
   "player": {
     "id":95,
@@ -322,10 +322,10 @@
     "goals": 35,
     "imageUrl": "https://assets.goal.com/images/v3/blt9002d67f43801b97/a063e505e8b34be82ba816ff0c59478cbad41350.jpeg?auto=webp&format=pjpg&width=3840&quality=60"
   }
-}
+},
 {
   "player": {
-    "id": 55678,
+    "id": 96,
     "name": "Luis Díaz",
     "nationality": "Colombian",
     "currentTeam": "Liverpool FC",
@@ -341,9 +341,71 @@
     "goals": 28,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOCBeTy0tuC2wtBEiYxXAsV7l12pPFQk41hA&s"
   }
-}
-
-
+},
+{
+  "player": {
+    "id": 97,
+    "name": "Federico Chiesa",
+    "nationality": "Italian",
+    "currentTeam": "Juventus",
+    "prevTeams": ["Fiorentina"],
+    "position": "Winger",
+    "age": 26,
+    "height": "1.78m",
+    "weight": "73kg",
+    "foot": "Right",
+    "goals": 15,
+    "imageUrl": "https://i0.wp.com/elkorapost.com/wp-content/uploads/2024/10/image-4874-scaled.jpeg"
+  }
+},
+{
+  "player": {
+    "id": 98,
+    "name": "Altay Bayindir",
+    "nationality": "Turkish",
+    "currentTeam": "Fenerbahçe",
+    "prevTeams": ["Ankaragücü"],
+    "position": "Goalkeeper",
+    "age": 26,
+    "height": "1.92m",
+    "weight": "88kg",
+    "foot": "Right",
+    "goals": 0,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkjbrZ3OCP9sQiDQRv4yfiRtYgW3GJPa2ADA&s"
+  }
+},
+{
+  "player": {
+    "id": 99,
+    "name": "André Onana",
+    "nationality": "Cameroonian",
+    "currentTeam": "Manchester United",
+    "prevTeams": ["Ajax", "RSC Anderlecht"],
+    "position": "Goalkeeper",
+    "age": 27,
+    "height": "1.95m",
+    "weight": "91kg",
+    "foot": "Right",
+    "goals": 0,
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/149E/production/_131487250_gettyimages-1640839760.jpg"
+  }
+},
+{
+  "player": {
+    "id": 100,
+    "name": "Tom Heaton",
+    "nationality": "English",
+    "currentTeam": "Manchester United",
+    "prevTeams": ["Aston Villa", "Burnley", "Cardiff City", "Brentford"],
+    "position": "Goalkeeper",
+    "age": 38,
+    "height": "1.93m",
+    "weight": "87kg",
+    "foot": "Right",
+    "goals": 0,
+    "imageUrl": "https://static.independent.co.uk/2024/08/21/16/abd94da019b349a3cf8be32a4222120fY29udGVudHNlYXJjaGFwaSwxNzI0MzMzNzA3-2.77163188.jpg"
+  }
+},
 
 
 

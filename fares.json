@@ -1,0 +1,552 @@
+{
+  "data": [
+    {
+      "player": {
+        "id": 76,
+        "name": "Marc-André ter Stegen",
+        "nationality": "Germany",
+        "currentTeam": "FC Barcelona",
+        "prevTeam": "Borussia Mönchengladbach",
+        "position": "Goalkeeper",
+        "age": 32,
+        "height": "1.87m",
+        "weight": "85kg",
+        "foot": "Right",
+        "goals": 0,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-oAzOjw_T_-7G9yKSTsHGiTd9ysVEuo0zAQ&s"
+      }
+    },
+    {
+      "player": {
+        "id": 77,
+        "name": "Ronald Federico Araújo da Silva",
+        "nationality": "Uruguay",
+        "currentTeam": "FC Barcelona",
+        "prevTeam": "Boston River",
+        "position": "Center-back",
+        "age": 25,
+        "height": "1.88m",
+        "weight": "79kg",
+        "foot": "Right",
+        "goals": 9,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg"
+      }
+    },
+    {
+      "player": {
+        "id": 78,
+        "name": "Andreas Christensen",
+        "nationality": "Denmark",
+        "currentTeam": "FC Barcelona",
+        "prevTeam": "Chelsea",
+        "position": "Defender",
+        "age": 28,
+        "height": "1.82m",
+        "weight": "82kg",
+        "foot": "Right",
+        "goals": 4,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu3nBR49QMNX47FQkLY63-QAhSVA5ZPSf6Vg&s"
+      }
+    },
+    {
+      "player": {
+        "id": 79,
+        "name": "Pau Cubarsí Paredes",
+        "nationality": "Spain",
+        "currentTeam": "FC Barcelona",
+        "prevTeam": "Espanyol",
+        "position": "Defender",
+        "age": 17,
+        "height": "1.84m",
+        "weight": "75kg",
+        "foot": "Right",
+        "goals": 2,
+        "imageUrl": "https://tmssl.akamaized.net/images/foto/galerie/pau-cubarsi-barcellona-2023-24-1708510395-129920.jpg"
+      }
+    },
+    {
+      "player": {
+        "id": 81,
+        "name": "Alejandro Balde",
+        "nationality": "Spain",
+        "currentTeam": "FC Barcelona",
+        "prevTeam": "La Masia",
+        "position": "Defender",
+        "age": 26,
+        "height": "1.80m",
+        "weight": "68kg",
+        "foot": "Left",
+        "goals": 5,
+        "imageUrl": "https://cdn.vox-cdn.com/thumbor/05uwAMWZsGBg4jo_p-rz8AWHh3k=/0x0:5000x3333/1200x800/filters:focal(2133x493:2933x1293)/cdn.vox-cdn.com/uploads/chorus_image/image/73753075/2181616396.0.jpg"
+      }
+    }
+  ]
+
+
+{
+  "player": {
+    "id": 82,
+    "name": "Pedri",
+    "nationality": "Spain",
+    "currentTeam": "FC Barcelona",
+    "prevTeam": "Las Palmas",
+    "position": "Midfielder",
+    "age": 22,
+    "height": "1.74m",
+    "weight": "60kg",
+    "foot": "Left",
+    "goals": 14,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfgYf9er-0pfjILXSkydusTmk2eXak-Pe5Eg&s ",
+
+  }
+},
+{
+  "player": {
+    "id": 83,
+    "name": "Gavi",
+    "nationality": "Spain",
+    "currentTeam": "FC Barcelona",
+    "prevTeam": "La Masia",
+    "position": "Midfielder",
+    "age": 20,
+    "height": "1.73m",
+    "weight": "66kg",
+    "foot": "Right",
+    "goals": 7,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8iPlA3fzlNfxvJuZi9LnCHrE_4yD5Rqf1A&s ",
+  }
+},
+{
+  "player": {
+    "id": 84,
+    "name": "Fermín López",
+    "nationality": "Spain",
+    "currentTeam": "FC Barcelona",
+    "prevTeam": "FC Barcelona B",
+    "position": "Midfielder",
+    "age": 20,
+    "height": "1.70m",
+    "weight": "65kg",
+    "foot": "Right",
+    "goals": 3,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUZwEUh4eYiADY0o2oqs3Y0Ae1suR0PuhzDA&s ",
+  }
+},
+{
+  "player": {
+    "id": 85,
+    "name": "Raphinha",
+    "nationality": "Brazil",
+    "currentTeam": "FC Barcelona",
+    "prevTeam": "Leeds United",
+    "position": "Winger",
+    "age": 27,
+    "height": "1.76m",
+    "weight": "70kg",
+    "foot": "Left",
+    "goals": 14,
+    "imageUrl": "https://tmssl.akamaized.net/images/foto/galerie/raphinha-fc-barcelona-2024-2025-1729714757-152192.jpg ",
+
+
+  }
+},
+{
+  "player": {
+    "id": 86,
+    "name": "Lamine Yamal",
+    "nationality": "Spain",
+    "currentTeam": "FC Barcelona",
+    "prevTeam": "La Masia",
+    "position": "Winger",
+    "age": 16,
+    "height": "1.70m",
+    "weight": "60kg",
+    "foot": "Left",
+    "goals": 6,
+    "imageUrl": "https://www.fcbarcelona.com/photo-resources/2024/12/25/524f5dd8-1925-4c64-ad06-5fce9a855f6d/EA019746.jpg?width=1200&height=750 ",
+  }
+},
+{
+  "player": {
+    "id": 87,
+    "name": "Robert Lewandowski",
+    "nationality": "Poland",
+    "currentTeam": "FC Barcelona",
+    "prevTeam": "Bayern Munich",
+    "position": "Striker",
+    "age": 35,
+    "height": "1.84m",
+    "weight": "81kg",
+    "foot": "Right",
+    "goals": 500,
+    "imageUrl": "https://www.fcbarcelona.com/photo-resources/2024/10/13/b666059e-1d0a-493f-a7e5-dd7a258d8165/09-Lewandowski-M.jpg?width=1200&height=750 ",
+  }
+},
+{
+  "player": {
+    "id": 88,
+    "name": "Mohamed Salah",
+    "nationality": "Egypt",
+    "currentTeam": "Liverpool FC",
+    "prevTeam": "AS Roma",
+    "position": "Winger",
+    "age": 32,
+    "height": "1.75m",
+    "weight": "71kg",
+    "foot": "Left",
+    "goals": 200,
+    "imageUrl": "https://assets-fr.imgfoot.com/media/cache/1200x1200/mohamed-salah-2425.jpg ",
+  }
+},
+{
+  "player": {
+    "id": 89,
+    "name": "Cody Gakpo",
+    "nationality": "Netherlands",
+    "currentTeam": "Liverpool FC",
+    "prevTeam": "PSV Eindhoven",
+    "position": "Winger",
+    "age": 25,
+    "height": "1.87m",
+    "weight": "75kg",
+    "foot": "Right",
+    "goals": 35,
+    "imageUrl": "https://i2-prod.liverpoolecho.co.uk/article28742134.ece/ALTERNATES/s615/0_GettyImages-1923405093.jpg ",
+  }
+},
+{
+  "player": {
+    "id": 90,
+    "name": "Alison Becker",
+    "nationality": "Brazilian",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [ "Internacional", "Roma" ],
+    "position": "Goalkeeper",
+    "age": 32,
+    "height": 1.93,
+    "weight": 92,
+    "foot": "Right",
+    "goals": 0,
+    "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/210225123210-alisson-liverpool-0207.jpg?q=w_3656,h_2709,x_0,y_0,c_fill"
+  }
+},
+{
+  "player": {
+    "id": 91,
+    "name": "Virgil van Dijk",
+    "nationality": "Dutch",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "Celtic",
+      "Southampton"
+    ],
+    "position": "Centre-back",
+    "age": 33,
+    "height": 1.93,
+    "weight": 92,
+    "foot": "Right",
+    "goals": 25,
+    "imageUrl": "https://static.srpcdigital.com/styles/1037xauto/public/2024-10/825422.jpeg.web"
+  }
+},
+{
+  "player": {
+    "id": 92,
+    "name": "Ibrahima Konaté",
+    "nationality": "French",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "RB Leipzig"
+    ],
+    "position": "Centre-back",
+    "age": 25,
+    "height": 1.94,
+    "weight": 88,
+    "foot": "Right",
+    "goals": 6,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDKR1sOa1xuEQtT4wh-QuIxYfXyJDGYR2haw&s"
+  }
+},
+{
+  "player": {
+    "id": 93,
+    "name": "Andrew Robertson",
+    "nationality": "Scottish",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "Hull City",
+      "Dundee United"
+    ],
+    "position": "Left-back",
+    "age": 29,
+    "height": 1.78,
+    "weight": 74,
+    "foot": "Left",
+    "goals": 10,
+    "imageUrl": "https://o.kooora.com/ophotos/articlephoto/1301835?size=0&v=1"
+  }
+},
+{
+  "player": {
+    "id": 94,
+    "name": "Trent Alexander-Arnold",
+    "nationality": "English",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "None"
+    ],
+    "position": "Right-back",
+    "age": 25,
+    "height": 1.82,
+    "weight": 76,
+    "foot": "Right",
+    "goals": 12,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Prn06i8lbgFTZAFdI4GFVni-H9R7-uIgrg&s"
+  }
+},
+{
+  "player": {
+    "id":95,
+    "name": "Diogo Jota",
+    "nationality": "Portuguese",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "Wolves",
+      "Paços de Ferreira"
+    ],
+    "position": "Winger/Forward",
+    "age": 27,
+    "height": 1.78,
+    "weight": 72,
+    "foot": "Right",
+    "goals": 35,
+    "imageUrl": "https://assets.goal.com/images/v3/blt9002d67f43801b97/a063e505e8b34be82ba816ff0c59478cbad41350.jpeg?auto=webp&format=pjpg&width=3840&quality=60"
+  }
+},
+{
+  "player": {
+    "id": 96,
+    "name": "Luis Díaz",
+    "nationality": "Colombian",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "Porto",
+      "Junior FC"
+    ],
+    "position": "Winger/Forward",
+    "age": 26,
+    "height": 1.78,
+    "weight": 72,
+    "foot": "Left",
+    "goals": 28,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOCBeTy0tuC2wtBEiYxXAsV7l12pPFQk41hA&s"
+  }
+},
+{
+  "player": {
+    "id": 97,
+    "name": "Federico Chiesa",
+    "nationality": "Italian",
+    "currentTeam": "Juventus",
+    "prevTeams": ["Fiorentina"],
+    "position": "Winger",
+    "age": 26,
+    "height": "1.78m",
+    "weight": "73kg",
+    "foot": "Right",
+    "goals": 15,
+    "imageUrl": "https://i0.wp.com/elkorapost.com/wp-content/uploads/2024/10/image-4874-scaled.jpeg"
+  }
+}
+{
+  "player": {
+    "id": 98,
+    "name": "Altay Bayindir",
+    "nationality": "Turkish",
+    "currentTeam": "Fenerbahçe",
+    "prevTeams": ["Ankaragücü"],
+    "position": "Goalkeeper",
+    "age": 26,
+    "height": "1.92m",
+    "weight": "88kg",
+    "foot": "Right",
+    "goals": 0,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkjbrZ3OCP9sQiDQRv4yfiRtYgW3GJPa2ADA&s"
+  }
+},
+{
+  "player": {
+    "id": 99,
+    "name": "André Onana",
+    "nationality": "Cameroonian",
+    "currentTeam": "Manchester United",
+    "prevTeams": ["Ajax", "RSC Anderlecht"],
+    "position": "Goalkeeper",
+    "age": 27,
+    "height": "1.95m",
+    "weight": "91kg",
+    "foot": "Right",
+    "goals": 0,
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/149E/production/_131487250_gettyimages-1640839760.jpg"
+  }
+},
+{
+  "player": {
+    "id": 100,
+    "name": "Tom Heaton",
+    "nationality": "English",
+    "currentTeam": "Manchester United",
+    "prevTeams": ["Aston Villa", "Burnley", "Cardiff City", "Brentford"],
+    "position": "Goalkeeper",
+    "age": 38,
+    "height": "1.93m",
+    "weight": "87kg",
+    "foot": "Right",
+    "goals": 0,
+    "imageUrl": "https://static.independent.co.uk/2024/08/21/16/abd94da019b349a3cf8be32a4222120fY29udGVudHNlYXJjaGFwaSwxNzI0MzMzNzA3-2.77163188.jpg"
+  }
+},
+{
+  "player": {
+    "id": 101,
+    "name": "Diogo Dalot",
+    "nationality": "Portugal",
+    "currentTeam": "Manchester United",
+    "prevTeams": ["FC Porto", "AC Milan"],
+    "position": "Right-back",
+    "age": 24,
+    "height": "1.82m",
+    "weight": "77kg",
+    "foot": "Right",
+    "goals": 5,
+    "imageUrl": "https://cdn1.unitedinfocus.com/uploads/14/2024/09/GettyImages-2169803850-scaled.jpg"
+  }
+}
+{
+  "player": {
+    "id": 102,
+    "name": "Habeeb Ogunneye",
+    "nationality": "Nigeria",
+    "currentTeam": "Example FC",
+    "prevTeams": ["Youth Team", "Example Academy"],
+    "position": "Midfielder",
+    "age": 22,
+    "height": "1.80m",
+    "weight": "74kg",
+    "foot": "Right",
+    "goals": 12,
+    "imageUrl": "https://www.thesun.co.uk/wp-content/uploads/2024/02/habeeb-ogunneye-manchester-united-u21s-880760162.jpg?strip=all&w=958"
+  }
+}
+{
+  "player": {
+    "id": 103,
+    "name": "Harry Amass",
+    "nationality": "English",
+    "currentTeam": "Example FC",
+    "prevTeams": ["Youth Team", "Example Academy"],
+    "position": "Defender",
+    "age": 21,
+    "height": "1.85m",
+    "weight": "80kg",
+    "foot": "Right",
+    "goals": 5,
+    "imageUrl": "https://assets.manutd.com/AssetPicker/images/0/0/20/196/1361138/41-Harry-Amass_31725464821468.png"
+  }
+}
+{
+  "player": {
+    "id": 104,
+    "name": "Noussair Mazraoui",
+    "nationality": "Moroccan",
+    "currentTeam": "Bayern Munich",
+    "prevTeams": ["Ajax"],
+    "position": "Right-back",
+    "age": 27,
+    "height": "1.80m",
+    "weight": "75kg",
+    "foot": "Right",
+    "goals": 5,
+    "imageUrl": "https://static.independent.co.uk/2024/10/10/16/6f3d91fe6d550005af890589fb156eecY29udGVudHNlYXJjaGFwaSwxNzI4NjU4MDI1-2.77494423.jpg"
+  }
+}
+{
+  "players": [
+    {
+      "id": 105,
+      "name": "Toby Collye",
+      "nationality": "English",
+      "currentTeam": "Manchester United",
+      "prevTeams": ["None"],
+      "position": "Midfielder",
+      "age": 18,
+      "height": "1.75m",
+      "weight": "70kg",
+      "foot": "Right",
+      "goals": 0,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmxUis6FrwW7eQHmuGIK0kjTgl57HGEcnKBQ&s"
+    },
+    {
+      "id": 106,
+      "name": "Mason Mount",
+      "nationality": "English",
+      "currentTeam": "Manchester United",
+      "prevTeams": ["Chelsea"],
+      "position": "Midfielder",
+      "age": 25,
+      "height": "1.78m",
+      "weight": "74kg",
+      "foot": "Right",
+      "goals": 15,
+      "imageUrl": "https://tmssl.akamaized.net/images/foto/galerie/mount-mason-2023-2024-manchester-united-1033525869hjpg-1695738957-117757.jpg"
+    },
+    {
+      "id": 107,
+      "name": "Manuel Ugarte",
+      "nationality": "Uruguayan",
+      "currentTeam": "Chelsea",
+      "prevTeams": ["Sporting CP"],
+      "position": "Midfielder",
+      "age": 22,
+      "height": "1.80m",
+      "weight": "74kg",
+      "foot": "Right",
+      "goals": 3,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXVWalE4v-jmOADLlc4YIbeY6qblyTjXjCOA&s"
+    },
+    {
+      "id": 108,
+      "name": "Kobbie Mainoo",
+      "nationality": "English",
+      "currentTeam": "Manchester United",
+      "prevTeams": ["None"],
+      "position": "Midfielder",
+      "age": 18,
+      "height": "1.80m",
+      "weight": "72kg",
+      "foot": "Right",
+      "goals": 1,
+      "imageUrl": "https://assets.manutd.com/AssetPicker/images/0/0/20/150/1349163/37-Kobbie-Mainoo_11723709556719.png"
+    },
+    {
+      "id": 109,
+      "name": "Daniel Gore",
+      "nationality": "English",
+      "currentTeam": "Manchester United",
+      "prevTeams": ["None"],
+      "position": "Midfielder",
+      "age": 19,
+      "height": "1.78m",
+      "weight": "70kg",
+      "foot": "Right",
+      "goals": 2,
+      "imageUrl": "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333352/44-Dan-gore1719823879660.png"
+    }
+  ]
+}
+
+
+
+
+
+}

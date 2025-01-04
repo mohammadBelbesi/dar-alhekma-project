@@ -212,4 +212,101 @@
     "imageUrl": "https://i2-prod.liverpoolecho.co.uk/article28742134.ece/ALTERNATES/s615/0_GettyImages-1923405093.jpg ",
   }
 }
+{
+  "player": {
+    "id": 90,
+    "name": "Alison Becker",
+    "nationality": "Brazilian",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [ "Internacional", "Roma" ],
+    "position": "Goalkeeper",
+    "age": 32,
+    "height": 1.93,
+    "weight": 92,
+    "foot": "Right",
+    "goals": 0,
+    "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/210225123210-alisson-liverpool-0207.jpg?q=w_3656,h_2709,x_0,y_0,c_fill"
+  }
+}
+{
+  "player": {
+    "id": 91,
+    "name": "Virgil van Dijk",
+    "nationality": "Dutch",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "Celtic",
+      "Southampton"
+    ],
+    "position": "Centre-back",
+    "age": 33,
+    "height": 1.93,
+    "weight": 92,
+    "foot": "Right",
+    "goals": 25,
+    "imageUrl": "https://static.srpcdigital.com/styles/1037xauto/public/2024-10/825422.jpeg.web"
+  }
+}
+{
+  "player": {
+    "id": 92,
+    "name": "Ibrahima Konaté",
+    "nationality": "French",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "RB Leipzig"
+    ],
+    "position": "Centre-back",
+    "age": 25,
+    "height": 1.94,
+    "weight": 88,
+    "foot": "Right",
+    "goals": 6,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDKR1sOa1xuEQtT4wh-QuIxYfXyJDGYR2haw&s"
+  }
+}
+{
+  "player": {
+    "id": 93,
+    "name": "Andrew Robertson",
+    "nationality": "Scottish",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "Hull City",
+      "Dundee United"
+    ],
+    "position": "Left-back",
+    "age": 29,
+    "height": 1.78,
+    "weight": 74,
+    "foot": "Left",
+    "goals": 10,
+    "imageUrl": "https://o.kooora.com/ophotos/articlephoto/1301835?size=0&v=1"
+  }
+}
+{
+  "player": {
+    "id": 11223,
+    "name": "Trent Alexander-Arnold",
+    "nationality": "English",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "None"
+    ],
+    "position": "Right-back",
+    "age": 25,
+    "height": 1.82,
+    "weight": 76,
+    "foot": "Right",
+    "goals": 12,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Prn06i8lbgFTZAFdI4GFVni-H9R7-uIgrg&s"
+  }
+}
+
+
+
+
+
+
+
 }

@@ -1,86 +1,88 @@
-{  "data" :
 {
-  "player": {
-    "id": 76,
-    "name": "Marc-André ter Stegen",
-    "nationality": "Germany",
-    "currentTeam": "FC Barcelona",
-    "prevTeam": "Borussia Mönchengladbach",
-    "position": "Goalkeeper",
-    "age": 32,
-    "height": "1.87m",
-    "weight": "85kg"
-    "foot": "Right",
-    "goals": 0,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-oAzOjw_T_-7G9yKSTsHGiTd9ysVEuo0zAQ&s ",
+  "data": [
+    {
+      "player": {
+        "id": 76,
+        "name": "Marc-André ter Stegen",
+        "nationality": "Germany",
+        "currentTeam": "FC Barcelona",
+        "prevTeam": "Borussia Mönchengladbach",
+        "position": "Goalkeeper",
+        "age": 32,
+        "height": "1.87m",
+        "weight": "85kg",
+        "foot": "Right",
+        "goals": 0,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-oAzOjw_T_-7G9yKSTsHGiTd9ysVEuo0zAQ&s"
+      }
+    },
+    {
+      "player": {
+        "id": 77,
+        "name": "Ronald Federico Araújo da Silva",
+        "nationality": "Uruguay",
+        "currentTeam": "FC Barcelona",
+        "prevTeam": "Boston River",
+        "position": "Center-back",
+        "age": 25,
+        "height": "1.88m",
+        "weight": "79kg",
+        "foot": "Right",
+        "goals": 9,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg"
+      }
+    },
+    {
+      "player": {
+        "id": 78,
+        "name": "Andreas Christensen",
+        "nationality": "Denmark",
+        "currentTeam": "FC Barcelona",
+        "prevTeam": "Chelsea",
+        "position": "Defender",
+        "age": 28,
+        "height": "1.82m",
+        "weight": "82kg",
+        "foot": "Right",
+        "goals": 4,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu3nBR49QMNX47FQkLY63-QAhSVA5ZPSf6Vg&s"
+      }
+    },
+    {
+      "player": {
+        "id": 79,
+        "name": "Pau Cubarsí Paredes",
+        "nationality": "Spain",
+        "currentTeam": "FC Barcelona",
+        "prevTeam": "Espanyol",
+        "position": "Defender",
+        "age": 17,
+        "height": "1.84m",
+        "weight": "75kg",
+        "foot": "Right",
+        "goals": 2,
+        "imageUrl": "https://tmssl.akamaized.net/images/foto/galerie/pau-cubarsi-barcellona-2023-24-1708510395-129920.jpg"
+      }
+    },
+    {
+      "player": {
+        "id": 81,
+        "name": "Alejandro Balde",
+        "nationality": "Spain",
+        "currentTeam": "FC Barcelona",
+        "prevTeam": "La Masia",
+        "position": "Defender",
+        "age": 26,
+        "height": "1.80m",
+        "weight": "68kg",
+        "foot": "Left",
+        "goals": 5,
+        "imageUrl": "https://cdn.vox-cdn.com/thumbor/05uwAMWZsGBg4jo_p-rz8AWHh3k=/0x0:5000x3333/1200x800/filters:focal(2133x493:2933x1293)/cdn.vox-cdn.com/uploads/chorus_image/image/73753075/2181616396.0.jpg"
+      }
+    }
+  ]
 
-  }
-}
-{
-  "player": {
-    "id": 77,
-    "name": "Ronald Federico Araújo da Silva",
-    "nationality": "Uruguay",
-    "currentTeam": "FC Barcelona",
-    "prevTeam": "Boston River",
-    "position": "Center-back",
-    "age": 25,
-    "height": "1.88m",
-    "weight": "79kg",
-    "foot": "Right",
-    "goals": 9,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
-  }
-}
-{
-  "player": {
-    "id": 78,
-    "name": "Andreas Christensen",
-    "nationality": "Denmark",
-    "currentTeam": "FC Barcelona",
-    "prevTeam": "Chelsea",
-    "position": "defender",
-    "age": 28,
-    "height": "1.82m",
-    "weight": "82kg",
-    "foot": "Right",
-    "goals": 4,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu3nBR49QMNX47FQkLY63-QAhSVA5ZPSf6Vg&s ",
-  }
-}
-{
-  "player": {
-    "id": 79,
-    "name": "Pau Cubarsí Paredes",
-    "nationality": "Spain",
-    "currentTeam": "FC Barcelona",
-    "prevTeam": "Espanyol",
-    "position": "Defender",
-    "age": 17,
-    "height": "1.84m",
-    "weight": "75kg",
-    "foot": "Right",
-    "goals": 2,
-    "imageUrl": "https://tmssl.akamaized.net/images/foto/galerie/pau-cubarsi-barcellona-2023-24-1708510395-129920.jpg ",
-  }
-}
 
-{
-  "player": {
-    "id": 81,
-    "name": "Alejandro Balde",
-    "nationality": "Spain",
-    "currentTeam": "FC Barcelona",
-    "prevTeam": "La Masia",
-    "position": "Defender",
-    "age": 26,
-    "height": "1.80m",
-    "weight": "68kg",
-    "foot": "Left",
-    "goals": 5,
-    "imageUrl": "https://cdn.vox-cdn.com/thumbor/05uwAMWZsGBg4jo_p-rz8AWHh3k=/0x0:5000x3333/1200x800/filters:focal(2133x493:2933x1293)/cdn.vox-cdn.com/uploads/chorus_image/image/73753075/2181616396.0.jpg ",
-  }
-}
 {
   "player": {
     "id": 82,
@@ -286,7 +288,7 @@
 }
 {
   "player": {
-    "id": 11223,
+    "id": 94,
     "name": "Trent Alexander-Arnold",
     "nationality": "English",
     "currentTeam": "Liverpool FC",
@@ -300,6 +302,44 @@
     "foot": "Right",
     "goals": 12,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Prn06i8lbgFTZAFdI4GFVni-H9R7-uIgrg&s"
+  }
+}
+{
+  "player": {
+    "id":95,
+    "name": "Diogo Jota",
+    "nationality": "Portuguese",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "Wolves",
+      "Paços de Ferreira"
+    ],
+    "position": "Winger/Forward",
+    "age": 27,
+    "height": 1.78,
+    "weight": 72,
+    "foot": "Right",
+    "goals": 35,
+    "imageUrl": "https://assets.goal.com/images/v3/blt9002d67f43801b97/a063e505e8b34be82ba816ff0c59478cbad41350.jpeg?auto=webp&format=pjpg&width=3840&quality=60"
+  }
+}
+{
+  "player": {
+    "id": 55678,
+    "name": "Luis Díaz",
+    "nationality": "Colombian",
+    "currentTeam": "Liverpool FC",
+    "prevTeams": [
+      "Porto",
+      "Junior FC"
+    ],
+    "position": "Winger/Forward",
+    "age": 26,
+    "height": 1.78,
+    "weight": 72,
+    "foot": "Left",
+    "goals": 28,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOCBeTy0tuC2wtBEiYxXAsV7l12pPFQk41hA&s"
   }
 }
 

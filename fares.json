@@ -406,6 +406,54 @@
     "imageUrl": "https://static.independent.co.uk/2024/08/21/16/abd94da019b349a3cf8be32a4222120fY29udGVudHNlYXJjaGFwaSwxNzI0MzMzNzA3-2.77163188.jpg"
   }
 },
+{
+  "player": {
+    "id": 101,
+    "name": "Diogo Dalot",
+    "nationality": "Portugal",
+    "currentTeam": "Manchester United",
+    "prevTeams": ["FC Porto", "AC Milan"],
+    "position": "Right-back",
+    "age": 24,
+    "height": "1.82m",
+    "weight": "77kg",
+    "foot": "Right",
+    "goals": 5,
+    "imageUrl": "https://cdn1.unitedinfocus.com/uploads/14/2024/09/GettyImages-2169803850-scaled.jpg"
+  }
+}
+{
+  "player": {
+    "id": 102,
+    "name": "Habeeb Ogunneye",
+    "nationality": "Nigeria",
+    "currentTeam": "Example FC",
+    "prevTeams": ["Youth Team", "Example Academy"],
+    "position": "Midfielder",
+    "age": 22,
+    "height": "1.80m",
+    "weight": "74kg",
+    "foot": "Right",
+    "goals": 12,
+    "imageUrl": "https://www.thesun.co.uk/wp-content/uploads/2024/02/habeeb-ogunneye-manchester-united-u21s-880760162.jpg?strip=all&w=958"
+  }
+}
+{
+  "player": {
+    "id": 103,
+    "name": "Harry Amass",
+    "nationality": "English",
+    "currentTeam": "Example FC",
+    "prevTeams": ["Youth Team", "Example Academy"],
+    "position": "Defender",
+    "age": 21,
+    "height": "1.85m",
+    "weight": "80kg",
+    "foot": "Right",
+    "goals": 5,
+    "imageUrl": "https://assets.manutd.com/AssetPicker/images/0/0/20/196/1361138/41-Harry-Amass_31725464821468.png"
+  }
+}
 
 
 

@@ -182,7 +182,7 @@
 }
 {
   "player": {
-    "id": 1,
+    "id": 88,
     "name": "Mohamed Salah",
     "nationality": "Egypt",
     "currentTeam": "Liverpool FC",
@@ -198,7 +198,7 @@
 }
 {
   "player": {
-    "id": 1,
+    "id": 89,
     "name": "Cody Gakpo",
     "nationality": "Netherlands",
     "currentTeam": "Liverpool FC",
@@ -207,7 +207,7 @@
     "age": 25,
     "height": "1.87m",
     "weight": "75kg",
-    "foot": "Left",
+    "foot": "Right",
     "goals": 35,
     "imageUrl": "https://i2-prod.liverpoolecho.co.uk/article28742134.ece/ALTERNATES/s615/0_GettyImages-1923405093.jpg ",
   }

@@ -454,6 +454,96 @@
     "imageUrl": "https://assets.manutd.com/AssetPicker/images/0/0/20/196/1361138/41-Harry-Amass_31725464821468.png"
   }
 }
+{
+  "player": {
+    "id": 104,
+    "name": "Noussair Mazraoui",
+    "nationality": "Moroccan",
+    "currentTeam": "Bayern Munich",
+    "prevTeams": ["Ajax"],
+    "position": "Right-back",
+    "age": 27,
+    "height": "1.80m",
+    "weight": "75kg",
+    "foot": "Right",
+    "goals": 5,
+    "imageUrl": "https://static.independent.co.uk/2024/10/10/16/6f3d91fe6d550005af890589fb156eecY29udGVudHNlYXJjaGFwaSwxNzI4NjU4MDI1-2.77494423.jpg"
+  }
+}
+{
+  "players": [
+    {
+      "id": 105,
+      "name": "Toby Collye",
+      "nationality": "English",
+      "currentTeam": "Manchester United",
+      "prevTeams": ["None"],
+      "position": "Midfielder",
+      "age": 18,
+      "height": "1.75m",
+      "weight": "70kg",
+      "foot": "Right",
+      "goals": 0,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmxUis6FrwW7eQHmuGIK0kjTgl57HGEcnKBQ&s"
+    },
+    {
+      "id": 106,
+      "name": "Mason Mount",
+      "nationality": "English",
+      "currentTeam": "Manchester United",
+      "prevTeams": ["Chelsea"],
+      "position": "Midfielder",
+      "age": 25,
+      "height": "1.78m",
+      "weight": "74kg",
+      "foot": "Right",
+      "goals": 15,
+      "imageUrl": "https://tmssl.akamaized.net/images/foto/galerie/mount-mason-2023-2024-manchester-united-1033525869hjpg-1695738957-117757.jpg"
+    },
+    {
+      "id": 107,
+      "name": "Manuel Ugarte",
+      "nationality": "Uruguayan",
+      "currentTeam": "Chelsea",
+      "prevTeams": ["Sporting CP"],
+      "position": "Midfielder",
+      "age": 22,
+      "height": "1.80m",
+      "weight": "74kg",
+      "foot": "Right",
+      "goals": 3,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXVWalE4v-jmOADLlc4YIbeY6qblyTjXjCOA&s"
+    },
+    {
+      "id": 108,
+      "name": "Kobbie Mainoo",
+      "nationality": "English",
+      "currentTeam": "Manchester United",
+      "prevTeams": ["None"],
+      "position": "Midfielder",
+      "age": 18,
+      "height": "1.80m",
+      "weight": "72kg",
+      "foot": "Right",
+      "goals": 1,
+      "imageUrl": "https://assets.manutd.com/AssetPicker/images/0/0/20/150/1349163/37-Kobbie-Mainoo_11723709556719.png"
+    },
+    {
+      "id": 109,
+      "name": "Daniel Gore",
+      "nationality": "English",
+      "currentTeam": "Manchester United",
+      "prevTeams": ["None"],
+      "position": "Midfielder",
+      "age": 19,
+      "height": "1.78m",
+      "weight": "70kg",
+      "foot": "Right",
+      "goals": 2,
+      "imageUrl": "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333352/44-Dan-gore1719823879660.png"
+    }
+  ]
+}
 
 
 

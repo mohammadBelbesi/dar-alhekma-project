@@ -90,7 +90,7 @@ const matrixGenerator = (cardValues, size = 5) => {
   cards.forEach((card) => {
     card.addEventListener("click", () => {
       //If selected card is not matched yet then only run (i.e already matched card when clicked would be ignored)
-      if (!card.classList.contains("matched")) {
+      if (!card.classList.contains("matched") && !card.classList.contains("flipped")) {
         //flip the cliked card
         card.classList.add("flipped");
         //if it is the firstcard (!firstCard since firstCard is initially false)

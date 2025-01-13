@@ -627,7 +627,161 @@
         "foot": "Right",
         "goals": 235,
         "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-0000ia-dfl-clu-00000g-dfl-sea-0001k8.png"
-      }
-      
-]
+      },
+      {
+        "id": "40",
+        "name": "Serge Gnabry",
+        "nationality": "German",
+        "currentTeam": "Bayern Munich",
+        "prevTeams": [
+            "Arsenal",
+            "West Bromwich Albion",
+            "Hoffenheim",
+            "Bayern Munich (loan)"
+        ],
+        "position": "Winger",
+        "age": 30,
+        "height": 1.75,
+        "weight": 77,
+        "foot": "Right",
+        "goals": 80,
+        "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-0027g6-dfl-clu-00000g-dfl-sea-0001k8.png"
+    },
+    {
+      "id": "41",
+      "name": "Harry Kane",
+      "nationality": "English",
+      "currentTeam": "Bayern Munich",
+      "prevTeams": [
+          "Tottenham Hotspur",
+          "Bayern Munich (loan)"
+      ],
+      "position": "Striker",
+      "age": 31,
+      "height": 1.88,
+      "weight": 86,
+      "foot": "Right",
+      "goals": 255,
+      "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-j00zz3-dfl-clu-00000g-dfl-sea-0001k8.png"
+  },
+  {
+    "id": "42",
+    "name": "Kingsley Coman",
+    "nationality": "French",
+    "currentTeam": "Bayern Munich",
+    "prevTeams": [
+        "PSG",
+        "Juventus",
+        "Bayern Munich (loan)"
+    ],
+    "position": "Winger",
+    "age": 27,
+    "height": 1.80,
+    "weight": 70,
+    "foot": "Right",
+    "goals": 50,
+    "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-0026pm-dfl-clu-00000g-dfl-sea-0001k8.png"
+},
+{
+  "id": "43",
+  "name": "Michael Olise",
+  "nationality": "French",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "Reading",
+      "Crystal Palace"
+  ],
+  "position": "Winger",
+  "age": 22,
+  "height": 1.80,
+  "weight": 75,
+  "foot": "Left",
+  "goals": 10,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-j01r3r-dfl-clu-00000g-dfl-sea-0001k8.png"
+},
+{
+  "id": "44",
+  "name": "Leon Goretzka",
+  "nationality": "German",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "Schalke 04"
+  ],
+  "position": "Midfielder",
+  "age": 29,
+  "height": 1.89,
+  "weight": 82,
+  "foot": "Right",
+  "goals": 35,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-000191-dfl-clu-00000g-dfl-sea-0001k8.png?fit=320,320"
+},
+{
+  "id": "45",
+  "name": "Jamal Musiala",
+  "nationality": "German",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "Chelsea Academy",
+      "Bayern Munich Academy"
+  ],
+  "position": "Attacking Midfielder",
+  "age": 22,
+  "height": 1.80,
+  "weight": 75,
+  "foot": "Both",
+  "goals": 25,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-002gcr-dfl-clu-00000g-dfl-sea-0001k8.png?fit=320,320"
+},
+{
+  "id": "46",
+  "name": "Dayot Upamecano",
+  "nationality": "French",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "RB Leipzig"
+  ],
+  "position": "Center-back",
+  "age": 25,
+  "height": 1.86,
+  "weight": 82,
+  "foot": "Right",
+  "goals": 10,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-0027kl-dfl-clu-00000g-dfl-sea-0001k8.png?fit=320,320"
+},
+{
+  "id": "47",
+  "name": "Min-jae Kim",
+  "nationality": "South Korean",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "Napoli",
+      "Fenerbahçe",
+      "Jeonbuk Hyundai Motors"
+  ],
+  "position": "Center-back",
+  "age": 27,
+  "height": 1.90,
+  "weight": 85,
+  "foot": "Right",
+  "goals": 5,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-j01ae6-dfl-clu-00000g-dfl-sea-0001k8.png"
+},
+{
+  "id": "48",
+  "name": "Alphonso Davies",
+  "nationality": "Canadian",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "Vancouver Whitecaps"
+  ],
+  "position": "Left-back",
+  "age": 23,
+  "height": 1.76,
+  "weight": 71,
+  "foot": "Left",
+  "goals": 15,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-002fwz-dfl-clu-00000g-dfl-sea-0001k8.png"
 }
+
+    ]
+    }

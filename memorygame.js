@@ -9,21 +9,20 @@ let cards;
 let interval;
 let firstCard = false;
 let secondcard = false;
-//Items array
-const items = [
-  { name: "bee", image: "./New folder/bee.png" },
-  { name: "crocodile", image: "./New folder/crocodile.png" },
-  { name: "macaw", image: "./New folder/macaw.png" },
-  { name: "gorilla", image: "./New folder/gorilla.png" },
-  { name: "tiger", image: "./New folder/tiger.png" },
-  { name: "monkey", image: "./New folder/monkey.png" },
-  { name: "chameleon", image: "./New folder/chameleon.png" },
-  { name: "piranha", image: "./New folder/piranha.png" },
-  { name: "anaconda", image: "./New folder/anaconda.png" },
-  { name: "sloth", image: "./New folder/sloth.png" },
-  { name: "cockatoo", image: "./New folder/cockatoo.png" },
-  { name: "adam", image: "./New folder/adam.png" },
-];
+// //Items array
+
+// Fetch the JSON data
+fetch('yazan.json')
+  .then(response => response.json())
+  .then(data => {
+    // Populate items array with data from JSON
+    items = data.data.map(player => ({
+      name: player.name,
+      image: player.imageUrl
+    }));
+  })
+  .catch(error => console.error('Error loading JSON:', error));
+
 //initial time
 let seconds = 0,minutes = 0;
 //initial moves and win count
@@ -48,13 +47,13 @@ const movesCounter = () => {
   moves.innerHTML = `<span>Moves:</span>${movesCount}`;
 };
 //Pick random objects from the items array
-const generateRandom = (size = 4) => {
+const generateRandom = (size = 5) => {
   //temporary array
   let tempArray = [...items];
   //initializes cardValues array
   let cardValues = [];
   //size should be double (4*4 matrix)/2 since pairs of objects would exist
-  size = (size * size)/2;
+  size = (size * 4) / 2;
   //Random object selection
   for (let i = 0; i < size; i++) {
     const randomIndex = Math.floor(Math.random() * tempArray.length);
@@ -64,12 +63,12 @@ const generateRandom = (size = 4) => {
   }
   return cardValues;
 };
-const matrixGenerator = (cardValues, size = 4) => {
+const matrixGenerator = (cardValues, size = 5) => {
   gameContainer.innerHTML = "";
   cardValues = [...cardValues, ...cardValues];
   //simple shuffle
   cardValues.sort(() => Math.random() - 0.5);
-  for (let i = 0; i < size * size; i++) {
+  for (let i = 0; i < size * 4; i++) {
     /*
         Create Cards
         before => front side (contains question mark)
@@ -85,7 +84,7 @@ const matrixGenerator = (cardValues, size = 4) => {
      `;
   }
   //Grid
-  gameContainer.style.gridTemplateColumns = `repeat(${size},auto)`;
+  gameContainer.style.gridTemplateColumns = `repeat(5, auto)`;
   //Cards
   cards = document.querySelectorAll(".card-container");
   cards.forEach((card) => {

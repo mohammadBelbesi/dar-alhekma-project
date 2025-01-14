@@ -5,13 +5,13 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color:  #4b0081;
+  background-color:  #000957;
 }
 .wrapper {
   box-sizing: content-box;
   width: 35.87em;
   padding: 2.5em 3em;
-  background-color:  #8A2BE2;
+  background-color:  #ffffff;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -53,7 +53,7 @@ body {
   backface-visibility: hidden;
 }
 .card-before {
-  background-color:  #00FFFF;
+  background-color:  #FFEB00;
   font-size: 2.8em;
   font-weight: 600;
 }
@@ -75,7 +75,7 @@ body {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color:  #4B0082;
+  background-color: #344CB7;
   top: 0;
 }
 button {

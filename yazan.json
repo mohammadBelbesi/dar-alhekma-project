@@ -781,6 +781,209 @@
   "foot": "Left",
   "goals": 15,
   "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-002fwz-dfl-clu-00000g-dfl-sea-0001k8.png"
+},
+{
+  "id": "49",
+  "name": "Mike Maignan",
+  "nationality": "French",
+  "currentTeam": "AC Milan",
+  "prevTeams": [
+    "Lille OSC",
+    "Paris Saint-Germain (youth)"
+  ],
+  "position": "Goalkeeper",
+  "age": 28,
+  "height": "1.92 m",
+  "weight": "89 kg",
+  "foot": "Right",
+  "goals": 0,
+  "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/182906-1681459155.jpg?lm=1"
+},
+{
+  "id": "50",
+  "name": "Rafael Leão",
+  "nationality": "Portuguese",
+  "currentTeam": "AC Milan",
+  "prevTeams": [
+    "Sporting CP",
+    "Lille OSC"
+  ],
+  "position": "Forward",
+  "age": 24,
+  "height": "1.88 m",
+  "weight": "78 kg",
+  "foot": "Left",
+  "goals": 81,  
+  "imageUrl": "https://b.fssta.com/uploads/application/soccer/headshots/56178.png"
+},
+{
+  "id": "51",
+  "name": "Ismaël Bennacer",
+  "nationality": "Algerian",
+  "currentTeam": "AC Milan",
+  "prevTeams": [
+    "Empoli",
+    "Arsenal (youth)"
+  ],
+  "position": "Midfielder",
+  "age": 26,
+  "height": "1.75 m",
+  "weight": "67 kg",
+  "foot": "Right",
+  "goals": 12, 
+  "imageUrl": "https://s.hs-data.com/bilder/spieler/gross/293205.jpg"
+},
+{
+  "id": "52",
+  "name": "Davide Calabria",
+  "nationality": "Italian",
+  "currentTeam": "AC Milan",
+  "prevTeams": [
+    "AC Milan Youth"
+  ],
+  "position": "Right-back",
+  "age": 26,
+  "height": "1.77 m",
+  "weight": "70 kg",
+  "foot": "Right",
+  "goals": 10,
+  "imageUrl": "https://assets.sorare.com/playerpicture/9833193a-e89d-42ef-a756-9919499e4b0d/picture/squared-0c42b15e91431f620ed954a4dd5be363.png"
+},
+{
+  "id": "53",
+  "name": "Strahinja Pavlović",
+  "nationality": "Serbian",
+  "currentTeam": "AC Milan",
+  "prevTeams": ["AS Monaco",
+    "Red Star Belgrade",
+    "Partizan Belgrade"
+  ],
+  "position": "Center-back",
+  "age": 23,
+  "height": "1.94 m",
+  "weight": "85 kg",
+  "foot": "Left",
+  "goals": 8,  
+  "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250115948.jpg"
+},
+{
+  "id": "54",
+  "name": "Emerson Royal",
+  "nationality": "Brazilian",
+  "currentTeam": "Fiorentina",
+  "prevTeams": [
+    "Tottenham Hotspur",
+    "Real Betis",
+    "Barcelona"
+  ],
+  "position": "Right-back",
+  "age": 11,
+  "height": "1.80 m",
+  "weight": "74 kg",
+  "foot": "Right",
+  "goals": 5,  
+  "imageUrl": "https://assets-eu-01.kc-usercontent.com/1293c890-579f-01b7-8480-902cca7de55e/ced92758-db91-447d-88c6-ac01e65d0ec2/Royal-Large.png"
+},
+{
+  "id": "55",
+  "name": "Filippo Terracciano",
+  "nationality": "Italian",
+  "currentTeam": "AC Milan",
+  "prevTeams": [
+    "Fiorentina",
+    "Catania",
+    "Juventus (youth)"
+  ],
+  "position": "Goalkeeper",
+  "age": 30,
+  "height": "1.90 m",
+  "weight": "84 kg",
+  "foot": "Right",
+  "goals": 0,  
+  "imageUrl": "https://static.sky.it/images/skysport/it/calcio/serie-a/probabili-formazioni/superscudetto/512/508625.png"
+},
+{
+  "id": "56",
+  "name": "Marcus Thuram",
+  "nationality": "French",
+  "currentTeam": "Inter Milan",
+  "prevTeams": [
+    "Borussia Mönchengladbach",
+    "Guingamp"
+  ],
+  "position": "Forward",
+  "age": 26,
+  "height": "1.92 m",
+  "weight": "85 kg",
+  "foot": "Left",
+  "goals": 45,  
+  "imageUrl": "https://intermilan.bynder.com/m/79c292c49368eaa0/webimage-Thuram_2x.png"
+},
+{
+  "id": "57",
+  "name": "Lautaro Martínez",
+  "nationality": "Argentine",
+  "currentTeam": "Inter Milan",
+  "prevTeams": [
+    "Racing Club"
+  ],
+  "position": "Forward",
+  "age": 26,
+  "height": "1.74 m",
+  "weight": "73 kg",
+  "foot": "Right",
+  "goals": 166,  
+  "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250118281.webp"
+},
+{
+  "id": "58",
+  "name": "Nicolò Barella",
+  "nationality": "Italian",
+  "currentTeam": "Inter Milan",
+  "prevTeams": [
+    "Cagliari"
+  ],
+  "position": "Midfielder",
+  "age": 27,
+  "height": "1.73 m",
+  "weight": "68 kg",
+  "foot": "Right",
+  "goals": 32,  
+  "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250066739.webp"
+},
+{
+  "id": "59",
+  "name": "Hakan Çalhanoğlu",
+  "nationality": "Turkish",
+  "currentTeam": "Inter Milan",
+  "prevTeams": [
+    "AC Milan",
+    "Bayer Leverkusen",
+    "Hamburg"
+  ],
+  "position": "Midfielder",
+  "age": 29,
+  "height": "1.82 m",
+  "weight": "75 kg",
+  "foot": "Right",
+  "goals": 50,
+  "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250022829.webp"
+},
+{
+  "id": "60",
+  "name": "Piotr Zieliński",
+  "nationality": "Polish",
+  "currentTeam": "Inter Milan",
+  "prevTeams": ["Napoli",
+    "Udinese"
+  ],
+  "position": "Midfielder",
+  "age": 29,
+  "height": "1.80 m",
+  "weight": "72 kg",
+  "foot": "Right",
+  "goals": 30,  
+  "imageUrl": "https://b.fssta.com/uploads/application/soccer/headshots/1610.png"
 }
 
     ]

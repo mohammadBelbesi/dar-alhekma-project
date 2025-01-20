@@ -80,7 +80,7 @@
         "imageUrl": "https://cdn.vox-cdn.com/thumbor/05uwAMWZsGBg4jo_p-rz8AWHh3k=/0x0:5000x3333/1200x800/filters:focal(2133x493:2933x1293)/cdn.vox-cdn.com/uploads/chorus_image/image/73753075/2181616396.0.jpg"
       }
     }
-  ]
+  
 
 
 {
@@ -357,7 +357,7 @@
     "goals": 15,
     "imageUrl": "https://i0.wp.com/elkorapost.com/wp-content/uploads/2024/10/image-4874-scaled.jpeg"
   }
-}
+},
 {
   "player": {
     "id": 98,
@@ -405,7 +405,7 @@
     "goals": 0,
     "imageUrl": "https://static.independent.co.uk/2024/08/21/16/abd94da019b349a3cf8be32a4222120fY29udGVudHNlYXJjaGFwaSwxNzI0MzMzNzA3-2.77163188.jpg"
   }
-},
+}
 {
   "player": {
     "id": 101,
@@ -468,11 +468,10 @@
     "foot": "Right",
     "goals": 5,
     "imageUrl": "https://static.independent.co.uk/2024/10/10/16/6f3d91fe6d550005af890589fb156eecY29udGVudHNlYXJjaGFwaSwxNzI4NjU4MDI1-2.77494423.jpg"
-  }
+  },
 }
-{
-  "players": [
-    {
+ 
+  "players": {
       "id": 105,
       "name": "Toby Collye",
       "nationality": "English",
@@ -485,8 +484,9 @@
       "foot": "Right",
       "goals": 0,
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmxUis6FrwW7eQHmuGIK0kjTgl57HGEcnKBQ&s"
-    },
-    {
+   
+   },
+   "players": {
       "id": 106,
       "name": "Mason Mount",
       "nationality": "English",
@@ -500,7 +500,7 @@
       "goals": 15,
       "imageUrl": "https://tmssl.akamaized.net/images/foto/galerie/mount-mason-2023-2024-manchester-united-1033525869hjpg-1695738957-117757.jpg"
     },
-    {
+    "players":{
       "id": 107,
       "name": "Manuel Ugarte",
       "nationality": "Uruguayan",
@@ -514,7 +514,7 @@
       "goals": 3,
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXVWalE4v-jmOADLlc4YIbeY6qblyTjXjCOA&s"
     },
-    {
+    "players":{
       "id": 108,
       "name": "Kobbie Mainoo",
       "nationality": "English",
@@ -528,7 +528,7 @@
       "goals": 1,
       "imageUrl": "https://assets.manutd.com/AssetPicker/images/0/0/20/150/1349163/37-Kobbie-Mainoo_11723709556719.png"
     },
-    {
+    "players":{
       "id": 109,
       "name": "Daniel Gore",
       "nationality": "English",
@@ -541,12 +541,660 @@
       "foot": "Right",
       "goals": 2,
       "imageUrl": "https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333352/44-Dan-gore1719823879660.png"
+    },
+  
+
+  "players": {
+  "id": 110,
+  "name": "Nawaf Al-Aqidi",
+  "nationality": "Saudi Arabian",
+  "currentTeam": "Al-Nassr FC",
+  "prevTeams": ["Al-Taawon", "Al-Qadisiyah"],
+  "position": "Goalkeeper",
+  "age": 24,
+  "height": "1.91m",
+  "weight": "88kg",
+  "foot": "Right",
+  "goals": 0,
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk3qC9pkUmWsB9XvxrVdiZxQZgo429DmsE1Q&s"
+},
+   "players":{
+  "id": 111,
+  "name": "Ali Alawjami",
+  "nationality": "Saudi Arabian",
+  "currentTeam": "Al-Ittihad Club",
+  "prevTeams": ["Al-Fateh SC", "Al-Raed"],
+  "position": "Defender",
+  "age": 28,
+  "height": "1.78m",
+  "weight": "76kg",
+  "foot": "Right",
+  "goals": 8,
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAcjvKAqkRtetkTyDWMbPno1LP3z368JIeDA&s"
+},
+   "players":{
+  "id": 112,
+  "name": "Aymeric Laporte",
+  "nationality": "French",
+  "currentTeam": "Al-Nassr FC",
+  "prevTeams": ["Athletic Bilbao", "Manchester City"],
+  "position": "Centre-back",
+  "age": 29,
+  "height": "1.87m",
+  "weight": "82kg",
+  "foot": "Left",
+  "goals": 12,
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUFxpi_2oYQAximlKDbwwkxU0DkyXKuz2PQ&s"
+},
+ "players":{
+  "id": 113,
+  "name": "Hamad Al Mansour",
+  "nationality": "Saudi Arabian",
+  "currentTeam": "Al-Fateh SC",
+  "prevTeams": ["Al-Nassr FC", "Al-Khaleej FC"],
+  "position": "Defender",
+  "age": 27,
+  "height": "1.81m",
+  "weight": "78kg",
+  "foot": "Right",
+  "goals": 5,
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6tJvs0-tQFgsnWU-0DuLcCLhWoZ18J6cufA&s"
+},
+"players":{
+  "id": 114,
+  "name": "Nawaf Boushal",
+  "nationality": "Saudi Arabian",
+  "currentTeam": "Al-Hilal FC",
+  "prevTeams": ["Al-Ahli SC", "Al-Fateh SC"],
+  "position": "Midfielder",
+  "age": 25,
+  "height": "1.78m",
+  "weight": "74kg",
+  "foot": "Right",
+  "goals": 10,
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh1DaLLADUNPjUCzaM4msq0looniG1wfWDdw&s"
+},
+{
+  "players": [
+    {
+      "id": 115,
+      "name": "Sultan Al-Ghannam",
+      "nationality": "Saudi Arabian",
+      "currentTeam": "Al-Nassr FC",
+      "prevTeams": ["Al-Shabab", "Al-Tai"],
+      "position": "Right-back",
+      "age": 26,
+      "height": "1.76m",
+      "weight": "70kg",
+      "foot": "Right",
+      "goals": 10,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUxer6th9Xl9Bgl8ED52HCBR4Y5FAyzCBcQ&s"
+    }
+  ]
+},
+{
+  "players": [
+    {
+      "id": 116,
+      "name": "Abdullah Al Khaibari",
+      "nationality": "Saudi Arabian",
+      "currentTeam": "Al-Nassr FC",
+      "prevTeams": ["Al-Fateh SC", "Al-Taawon FC"],
+      "position": "Midfielder",
+      "age": 27,
+      "height": "1.80m",
+      "weight": "75kg",
+      "foot": "Right",
+      "goals": 7,
+      "imageUrl": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_315/315235.jpg"
+    }
+  ]
+},
+{
+  "players": [
+    {
+      "id": 117,
+      "name": "Ayman Salem",
+      "nationality": "Saudi Arabian",
+      "currentTeam": "Al-Ittihad Club",
+      "prevTeams": ["Al-Qadisiyah FC", "Al-Fateh SC"],
+      "position": "Midfielder",
+      "age": 28,
+      "height": "1.82m",
+      "weight": "78kg",
+      "foot": "Right",
+      "goals": 5,
+      "imageUrl": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_396/396114.jpg"
+    }
+  ]
+},
+{
+  "players": [
+    {
+      "id": 118,
+      "name": "Saad Hussain Haqawi",
+      "nationality": "Saudi Arabian",
+      "currentTeam": "Al-Fateh SC",
+      "prevTeams": ["Al-Ittihad FC", "Al-Nassr FC"],
+      "position": "Midfielder",
+      "age": 24,
+      "height": "1.75m",
+      "weight": "70kg",
+      "foot": "Right",
+      "goals": 12,
+      "imageUrl": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_470/470192.jpg"
+    }
+  ]
+},
+{
+  "player": {
+    "id": 119,
+    "name": "Mohamed Maran",
+    "nationality": "Country Name",
+    "currentTeam": "Current Team Name",
+    "prevTeams": ["Previous Team 1", "Previous Team 2", "Previous Team 3"],
+    "position": "Forward",
+    "age": 25,
+    "height": "1.85m",
+    "weight": "78kg",
+    "foot": "Right",
+    "goals": 12,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5KkMDVnxKT6BWW1HMh5quj6CeGat-juOV8A&s"
+  }
+},
+{
+  "player": {
+    "id": 120,
+    "name": "Sadio Mané",
+    "nationality": "Senegalese",
+    "currentTeam": "Al Nassr",
+    "prevTeams": ["Liverpool", "Red Bull Salzburg", "FC Metz"],
+    "position": "Forward",
+    "age": 31,
+    "height": "1.75m",
+    "weight": "69kg",
+    "foot": "Left",
+    "goals": 128,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTs3KxGKa4wfgbq6DOA0iloElRZfbgXkrsTg&s"
+  }
+},
+{
+  "player": {
+    "id": 121,
+    "name": "Wesley Gassova",
+    "nationality": "Country Name",
+    "currentTeam": "Current Team Name",
+    "prevTeams": ["Previous Team 1", "Previous Team 2"],
+    "position": "Midfielder",
+    "age": 27,
+    "height": "1.80m",
+    "weight": "75kg",
+    "foot": "Right",
+    "goals": 34,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOgaIe5FZ6xUo3omgJSlffiiKMMLhgUnYdUQ&s"
+  }
+},
+{
+  "player": {
+    "id": 122,
+    "name": "Angelo Gabriel",
+    "nationality": "Brazilian",
+    "currentTeam": "Chelsea",
+    "prevTeams": ["Santos"],
+    "position": "Winger",
+    "age": 19,
+    "height": "1.71m",
+    "weight": "67kg",
+    "foot": "Left",
+    "goals": 15,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH9IOGSuexk_IQOkWJzS6XKd1U8nHi4qOp1Q&s"
+  }
+},
+{
+  "player": {
+    "id": 123,
+    "name": "David Raya",
+    "nationality": "Spanish",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Brentford", "Wigan Athletic"],
+    "position": "Goalkeeper",
+    "age": 28,
+    "height": "1.85m",
+    "weight": "80kg",
+    "foot": "Right",
+    "goals": 0,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_WnsCoWDCSpFwskDSLJImnzb8i8f7m7_EIw&s"
+  }
+},
+{
+  "player": {
+    "id": 124,
+    "name": "Tommy Setford",
+    "nationality": "English",
+    "currentTeam": "Southend United",
+    "prevTeams": ["Brentwood Town", "Dagenham & Redbridge"],
+    "position": "Midfielder",
+    "age": 26,
+    "height": "1.80m",
+    "weight": "74kg",
+    "foot": "Right",
+    "goals": 10,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6V4IfoGHCXNOpYc0XFX9MYiVTvYt3OIt_hQ&s"
+  }
+},
+{
+  "player": {
+    "id": 125,
+    "name": "Neto",
+    "nationality": "Brazilian",
+    "currentTeam": "FC Barcelona",
+    "prevTeams": ["Valencia", "Juventus", "Florentina"],
+    "position": "Goalkeeper",
+    "age": 34,
+    "height": "1.92m",
+    "weight": "88kg",
+    "foot": "Right",
+    "goals": 0,
+    "imageUrl": "https://www.arsenal.com/sites/default/files/styles/desktop_16x9/public/images/Neto_web.png?h=8660f157&auto=webp&itok=pFsDRrC6"
+  }
+},
+{
+  "player": {
+    "id": 126,
+    "name": "Ben White",
+    "nationality": "English",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Brighton & Hove Albion"],
+    "position": "Defender",
+    "age": 26,
+    "height": "1.82m",
+    "weight": "76kg",
+    "foot": "Right",
+    "goals": 5,
+    "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250156002.webp"
+  }
+},
+{
+  "player": {
+    "id": 127,
+    "name": "Gabriel Magalhães",
+    "nationality": "Brazilian",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Lille"],
+    "position": "Defender",
+    "age": 26,
+    "height": "1.90m",
+    "weight": "85kg",
+    "foot": "Left",
+    "goals": 10,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyYjyfV1NkUb5s1AJgc-06GRdnLRI0LWB0pw&s"
+  }
+},
+{
+  "player": {
+    "id": 128,
+    "name": "Jakub Kiwior",
+    "nationality": "Polish",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Spezia", "Zielona Góra"],
+    "position": "Defender",
+    "age": 23,
+    "height": "1.87m",
+    "weight": "82kg",
+    "foot": "Left",
+    "goals": 3,
+    "imageUrl": "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Kiwior.jpg?h=74c28fda&auto=webp&itok=Y_n_jvHO"
+  }
+},
+{
+  "player": {
+    "id": 129,
+    "name": "Jurrien Timber",
+    "nationality": "Dutch",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Ajax"],
+    "position": "Defender",
+    "age": 23,
+    "height": "1.85m",
+    "weight": "77kg",
+    "foot": "Right",
+    "goals": 5,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_zcf0On4zQnkg1de7OdOvUOFiEigZDP_dg&s"
+  }
+},
+{
+  "player": {
+    "id": 130,
+    "name": "Declan Rice",
+    "nationality": "English",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["West Ham United"],
+    "position": "Midfielder",
+    "age": 24,
+    "height": "1.85m",
+    "weight": "80kg",
+    "foot": "Right",
+    "goals": 18,
+    "imageUrl": "https://example.com/images/declan-rice.jpg"
+  }
+},
+{
+  "player": {
+    "id": 131,
+    "name": "Jorginho",
+    "nationality": "Italian",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Chelsea", "Hellas Verona"],
+    "position": "Midfielder",
+    "age": 31,
+    "height": "1.80m",
+    "weight": "68kg",
+    "foot": "Right",
+    "goals": 20,
+    "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250067749.webp"
+  }
+},
+{
+  "player": {
+    "id": 132,
+    "name": "Martin Ødegaard",
+    "nationality": "Norwegian",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Real Madrid", "Vitesse", "Real Sociedad"],
+    "position": "Midfielder",
+    "age": 25,
+    "height": "1.75m",
+    "weight": "70kg",
+    "foot": "Right",
+    "goals": 30,
+    "imageUrl": "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Odegaard-New.jpg?h=74c28fda&auto=webp&itok=jNDebJPQ"
+  }
+},
+{
+  "player": {
+    "id": 133,
+    "name": "Mikel Merino",
+    "nationality": "Spanish",
+    "currentTeam": "Real Sociedad",
+    "prevTeams": ["Newcastle United", "Osasuna"],
+    "position": "Midfielder",
+    "age": 28,
+    "height": "1.86m",
+    "weight": "80kg",
+    "foot": "Right",
+    "goals": 15,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtUFunboDTVE-e7S-m9pa43SX7BWLDmqMJcg&s"
+  }
+},
+{
+  "player": {
+    "id": 134,
+    "name": "Bukayo Saka",
+    "nationality": "English",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Arsenal Youth"],
+    "position": "Winger",
+    "age": 22,
+    "height": "1.78m",
+    "weight": "70kg",
+    "foot": "Right",
+    "goals": 45,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUXQvTOcTHrI8nGnkWTFSfrIFCiaFyZqTpdQ&s"
+  }
+},
+{
+  "player": {
+    "id": 135,
+    "name": "Ethan Nwaneri",
+    "nationality": "English",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Arsenal Youth"],
+    "position": "Midfielder",
+    "age": 16,
+    "height": "1.68m",
+    "weight": "60kg",
+    "foot": "Right",
+    "goals": 5,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKtkHglPuiPYHBZKd8qVZTtDWEPYQZJO-_Q&s"
+  }
+},
+{
+  "player": {
+    "id": 135,
+    "name": "Gabriel Martinelli",
+    "nationality": "Brazilian",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Corinthians"],
+    "position": "Winger",
+    "age": 22,
+    "height": "1.75m",
+    "weight": "67kg",
+    "foot": "Left",
+    "goals": 30,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUNHEEcuGF-3_eVgOO5SWs5kKW9eF7kfvi8g&s"
+  }
+},
+{
+  "player": {
+    "id": 136,
+    "name": "Kai Havertz",
+    "nationality": "German",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Chelsea", "Bayer Leverkusen"],
+    "position": "Midfielder",
+    "age": 24,
+    "height": "1.92m",
+    "weight": "84kg",
+    "foot": "Left",
+    "goals": 45,
+    "imageUrl": "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/Havertz-New.jpg?h=74c28fda&auto=webp&itok=OBX0EvhX"
+  }
+},
+{
+  "player": {
+    "id": 137,
+    "name": "Jorginho",
+    "nationality": "Italian",
+    "currentTeam": "Arsenal",
+    "prevTeams": ["Chelsea", "Hellas Verona"],
+    "position": "Midfielder",
+    "age": 31,
+    "height": "1.80m",
+    "weight": "75kg",
+    "foot": "Right",
+    "goals": 20,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThk2x1uRxIfaIbqo-xsyzlxIYmrBXMCkCpzg&s"
+  }
+},
+{
+  "player": {
+    "id": 138,
+    "name": "Mattia Perin",
+    "nationality": "Italian",
+    "currentTeam": "Juventus",
+    "prevTeams": ["Genoa", "Pescara"],
+    "position": "Goalkeeper",
+    "age": 27,
+    "height": "1.88m",
+    "weight": "85kg",
+    "foot": "Right",
+    "goals": 0,
+    "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250007075.webp"
+  }
+},
+{
+  "players": [
+    {
+      "id": 139,
+      "name": "Andrea Cambiaso",
+      "nationality": "Italian",
+      "currentTeam": "Juventus",
+      "prevTeams": ["Genoa"],
+      "position": "Left-back",
+      "age": 23,
+      "height": "1.80m",
+      "weight": "72kg",
+      "foot": "Left",
+      "goals": 3,
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250163623.webp"
+    },
+    {
+      "id": 140,
+      "name": "Bremer",
+      "nationality": "Brazilian",
+      "currentTeam": "Juventus",
+      "prevTeams": ["Torino"],
+      "position": "Center-back",
+      "age": 26,
+      "height": "1.88m",
+      "weight": "83kg",
+      "foot": "Right",
+      "goals": 8,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEG9u-C-TI1kYktsX3zW8WF9ARMMo9NNuNpQ&s"
+    },
+    {
+      "id": 141,
+      "name": "Danilo",
+      "nationality": "Brazilian",
+      "currentTeam": "Juventus",
+      "prevTeams": ["Manchester City", "Real Madrid"],
+      "position": "Right-back",
+      "age": 31,
+      "height": "1.80m",
+      "weight": "77kg",
+      "foot": "Right",
+      "goals": 10,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOe2HlnLa1i4vA4RvICO1wW4G4HoReqqVYGg&s"
+    },
+    {
+      "id": 142,
+      "name": "Federico Gatti",
+      "nationality": "Italian",
+      "currentTeam": "Juventus",
+      "prevTeams": ["Frosinone"],
+      "position": "Center-back",
+      "age": 25,
+      "height": "1.90m",
+      "weight": "85kg",
+      "foot": "Right",
+      "goals": 2,
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250172907.webp"
+    },
+    {
+      "id": 143,
+      "name": "Nicolò Fagioli",
+      "nationality": "Italian",
+      "currentTeam": "Juventus",
+      "prevTeams": ["Cremonense"],
+      "position": "Midfielder",
+      "age": 23,
+      "height": "1.81m",
+      "weight": "74kg",
+      "foot": "Right",
+      "goals": 5,
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250113237.webp"
+    },
+    {
+      "id": 144,
+      "name": "Teun Koopmeiners",
+      "nationality": "Dutch",
+      "currentTeam": "Atalanta",
+      "prevTeams": ["AZ Alkmaar"],
+      "position": "Midfielder",
+      "age": 25,
+      "height": "1.83m",
+      "weight": "80kg",
+      "foot": "Left",
+      "goals": 15,
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250081553.webp"
+    },
+    {
+      "id": 145,
+      "name": "Timothy Weah",
+      "nationality": "American",
+      "currentTeam": "Juventus",
+      "prevTeams": ["Lille"],
+      "position": "Winger",
+      "age": 23,
+      "height": "1.75m",
+      "weight": "68kg",
+      "foot": "Right",
+      "goals": 10,
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250101472.webp"
+    },
+    {
+      "id": 146,
+      "name": "Weston McKennie",
+      "nationality": "American",
+      "currentTeam": "Juventus",
+      "prevTeams": ["Schalke"],
+      "position": "Midfielder",
+      "age": 25,
+      "height": "1.83m",
+      "weight": "78kg",
+      "foot": "Right",
+      "goals": 14,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCgzM7SAgRZKExYVvWG8h0l273QxjjOPfnPA&s"
+    },
+    {
+      "id": 147,
+      "name": "Nicolás González",
+      "nationality": "Argentinian",
+      "currentTeam": "Fiorentina",
+      "prevTeams": ["Argentinos Juniors"],
+      "position": "Winger",
+      "age": 25,
+      "height": "1.75m",
+      "weight": "70kg",
+      "foot": "Left",
+      "goals": 12,
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250137525.webp"
+    },
+    {
+      "id": 148,
+      "name": "Francisco Conceição",
+      "nationality": "Portuguese",
+      "currentTeam": "Porto",
+      "prevTeams": ["Sporting CP Youth"],
+      "position": "Winger",
+      "age": 21,
+      "height": "1.78m",
+      "weight": "70kg",
+      "foot": "Right",
+      "goals": 6,
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250117405.webp"
+    },
+    {
+      "id": 149,
+      "name": "Dušan Vlahović",
+      "nationality": "Serbian",
+      "currentTeam": "Juventus",
+      "prevTeams": ["Fiorentina"],
+      "position": "Striker",
+      "age": 23,
+      "height": "1.90m",
+      "weight": "80kg",
+      "foot": "Left",
+      "goals": 60,
+      "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250099180.webp"
     }
   ]
 }
-
-
-
-
-
+{
+  "player": {
+    "id": 150,
+    "name": "Kenan Yıldız",
+    "nationality": "Turkish",
+    "currentTeam": "Juventus",
+    "prevTeams": ["Bayer Leverkusen Youth", "FC Bayern Munich Youth"],
+    "position": "Attacking Midfielder",
+    "age": 19,
+    "height": "1.75m",
+    "weight": "70kg",
+    "foot": "Right",
+    "goals": 8,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnqnmnryatO31Br4cL7b7jWQc3Ri3PXTvfqw&s"
+  }
+}
+  ]
 }

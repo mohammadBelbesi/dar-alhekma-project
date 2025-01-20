@@ -83,7 +83,7 @@
         "weight": "75 kg",
         "foot": "Right",
         "goals": 58,
-        "imageUrl": "https://example.com/bellingham.jpg"
+        "imageUrl": "https://assets.laliga.com/squad/2024/t186/p244855/2048x2048/p244855_t186_2024_1_002_000.jpg"
       },
       {
         "id": 7,
@@ -111,7 +111,7 @@
         "weight": "70 kg",
         "foot": "Left",
         "goals": 20,
-        "imageUrl": "https://example.com/brahim-diaz.jpg"
+        "imageUrl": "https://assets.laliga.com/squad/2024/t186/p216183/1024x1024/p216183_t186_2024_1_003_000.png"
       },
       {
         "id": 9,
@@ -212,7 +212,7 @@
         "imageUrl": "https://assets.laliga.com/squad/2024/t186/p60772/1024x1024/p60772_t186_2024_1_003_000.png"
       },
       {
-        "id": 7,
+        "id": 15,
         "name": "Andriy Lunin",
         "nationality": "Ukrainian",
         "currentTeam": "Real Madrid",
@@ -224,7 +224,564 @@
         "foot": "Right",
         "goals": 0,
         "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250089824.jpg"
-      }
-      
-]
+      },
+      {
+        "id": "16",
+        "name": "Erling Haaland",
+        "nationality": "Norwegian",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Bryne FK",
+          "Molde FK",
+          "RB Salzburg",
+          "Borussia Dortmund"
+        ],
+        "position": "Striker",
+        "age": 24,
+        "height": "1.95 m",
+        "weight": "94 kg",
+        "foot": "Right",
+        "goals": 58,
+        "imageUrl": "https://www.mancity.com/meta/media/edspvvtx/erling-haaland.png"
+      },
+      {
+        "id": "17",
+        "name": "Jérémy Doku",
+        "nationality": "Belgian",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "RSC Anderlecht,AS Monaco"
+        ],
+        "position": "Winger",
+        "age": 23,
+        "height": "1.72 m",
+        "weight": "68 kg",
+        "foot": "Right",
+        "goals": 12,
+        "imageUrl": "https://www.mancity.com/meta/media/vc3jf1et/je-re-my-doku.png"
+      },
+      {
+        "id": "18",
+        "name": "Savio",
+        "nationality": "Brazilian",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Flamengo,Arsenal"
+        ],
+        "position": "Winger",
+        "age": 19,
+        "height": "1.76 m",
+        "weight": "72 kg",
+        "foot": "Left",
+        "goals": 8,
+        "imageUrl": "https://pbs.twimg.com/media/GFmHYhjWQAIfScE.jpg:large"
+      },
+      {
+        "id": "19",
+        "name": "Kevin De Bruyne",
+        "nationality": "Belgian",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Chelsea",
+          "Werder Bremen",
+          "VfL Wolfsburg"
+        ],
+        "position": "Midfielder",
+        "age": 32,
+        "height": "1.81 m",
+        "weight": "70 kg",
+        "foot": "Right",
+        "goals": 67,
+        "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250008901.webp"
+      },
+      {
+        "id": "20",
+        "name": "Phil Foden",
+        "nationality": "English",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "None"
+        ],
+        "position": "Midfielder",
+        "age": 25,
+        "height": "1.71 m",
+        "weight": "70 kg",
+        "foot": "Right",
+        "goals": 90,
+        "imageUrl": "https://www.mancity.com/meta/media/wdxnvi4w/phil-foden.png"
+      },
+      {
+        "id": "21",
+        "name": "Bernardo Silva",
+        "nationality": "Portuguese",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Monaco",
+          "Benfica"
+        ],
+        "position": "Midfielder",
+        "age": 30,
+        "height": "1.73 m",
+        "weight": "67 kg",
+        "foot": "Right",
+        "goals": 35,
+        "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/241641-1684311533.jpg?lm=1"
+      },
+      {
+        "id": "22",
+        "name": "İlkay Gündoğan",
+        "nationality": "German",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Real Madrid",
+          "Borussia Dortmund"
+        ],
+        "position": "Midfielder",
+        "age": 34,
+        "height": "1.80 m",
+        "weight": "74 kg",
+        "foot": "Right",
+        "goals": 60,
+        "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250005335.webp"
+      },
+      {
+        "id": "23",
+        "name": "Rodri",
+        "nationality": "Spanish",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Atlético Madrid B",
+          "Villarreal"
+        ],
+        "position": "Defensive Midfielder",
+        "age": 28,
+        "height": "1.91 m",
+        "weight": "85 kg",
+        "foot": "Right",
+        "goals": 12,
+        "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/357565-1682587890.jpg?lm=1"
+      },
+      {
+        "id": "24",
+        "name": "Mateo Kovačić",
+        "nationality": "Croatian",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Real Madrid",
+          "Inter Milan",
+          "Chelsea"
+        ],
+        "position": "Midfielder",
+        "age": 29,
+        "height": "1.82 m",
+        "weight": "76 kg",
+        "foot": "Right",
+        "goals": 12,
+        "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250023551.webp"
+      },
+      {
+        "id": "25",
+        "name": "Kyle Walker",
+        "nationality": "English",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Tottenham Hotspur"
+        ],
+        "position": "Right-back",
+        "age": 36,
+        "height": "1.83 m",
+        "weight": "76 kg",
+        "foot": "Right",
+        "goals": 12,
+        "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250010259.webp"
+      },
+      {
+        "id": "26",
+        "name": "Ruben Dias",
+        "nationality": "Portuguese",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Benfica"
+        ],
+        "position": "Centre-back",
+        "age": 27,
+        "height": "1.87 m",
+        "weight": "85 kg",
+        "foot": "Right",
+        "goals": 15,
+        "imageUrl": "https://www.mancity.com/meta/media/0wdjb5yh/ruben-dias.png"
+      },
+      {
+        "id": "27",
+        "name": "John Stones",
+        "nationality": "English",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Everton"
+        ],
+        "position": "Centre-back",
+        "age": 31,
+        "height": "1.88 m",
+        "weight": "76 kg",
+        "foot": "Right",
+        "goals": 15,
+        "imageUrl": "https://www.mancity.com/meta/media/vryfhe0q/john-stones.png"
+      },
+      {
+        "id": "28",
+        "name": "Nathan Aké",
+        "nationality": "Dutch",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Bournemouth",
+          "Chelsea"
+        ],
+        "position": "Centre-back",
+        "age": 29,
+        "height": "1.80 m",
+        "weight": "75 kg",
+        "foot": "Left",
+        "goals": 10,
+        "imageUrl": "https://www.mancity.com/meta/media/tswdjjhm/nathan-ake.png"
+      },
+      {
+        "id": "29",
+        "name": "Ederson",
+        "nationality": "Brazilian",
+        "currentTeam": "Manchester City",
+        "prevTeams": [
+          "Benfica"
+        ],
+        "position": "Goalkeeper",
+        "age": 32,
+        "height": "1.88 m",
+        "weight": "85 kg",
+        "foot": "Right",
+        "goals": 0,
+        "imageUrl": "https://example.com/images/ederson.jpg"
+      },
+      {
+        "id": "30",
+        "name": "Cristiano Ronaldo",
+        "nationality": "Portuguese",
+        "currentTeam": "Al Nassr",
+        "prevTeams": [
+          "Manchester United",
+          "Juventus",
+          "Real Madrid",
+          "Sporting CP"
+        ],
+        "position": "Forward",
+        "age": 40,
+        "height": "1.87 m",
+        "weight": "84 kg",
+        "foot": "Right",
+        "goals": 901,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Cristiano_Ronaldo%2C_2023.jpg"
+      },
+      {
+        "id": "31",
+        "name": "Lionel Messi",
+        "nationality": "Argentine",
+        "currentTeam": "Inter Miami",
+        "prevTeams": [
+          "Paris Saint-Germain",
+          "Barcelona"
+        ],
+        "position": "Forward",
+        "age": 38,
+        "height": "1.70 m",
+        "weight": "72 kg",
+        "foot": "Left",
+        "goals": 814,
+        "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/28003-1710080339.jpg?lm=1"
+      },
+      {
+        "id": "32",
+        "name": "Nicolas Jackson",
+        "nationality": "Senegalese",
+        "currentTeam": "Chelsea FC",
+        "prevTeams": [
+          "Villarreal",
+          "FC Botoșani"
+        ],
+        "position": "Forward",
+        "age": 23,
+        "height": "1.85 m",
+        "weight": "75 kg",
+        "foot": "Right",
+        "goals": 20,
+        "imageUrl": "https://example.com/images/nicolas_jackson.jpg"
+      },
+      {
+        "id": "33",
+        "name": "Christopher Nkunku",
+        "nationality": "French",
+        "currentTeam": "Chelsea FC",
+        "prevTeams": [
+          "RB Leipzig",
+          "Paris Saint-Germain"
+        ],
+        "position": "Forward",
+        "age": 27,
+        "height": "1.80 m",
+        "weight": "74 kg",
+        "foot": "Right",
+        "goals": 75,
+        "imageUrl": "https://example.com/images/christopher_nkunku.jpg"
+      },
+      {
+        "id": "34",
+        "name": "João Félix",
+        "nationality": "Portuguese",
+        "currentTeam": "Chelsea FC",
+        "prevTeams": [
+          "Atlético Madrid",
+          "Benfica"
+        ],
+        "position": "Forward",
+        "age": 24,
+        "height": "1.82 m",
+        "weight": "70 kg",
+        "foot": "Right",
+        "goals": 40,
+        "imageUrl": "https://example.com/images/joao_felix.jpg"
+      },
+      {
+        "id": "35",
+        "name": "Cole Palmer",
+        "nationality": "English",
+        "currentTeam": "Chelsea FC",
+        "prevTeams": [
+          "Manchester City"
+        ],
+        "position": "Winger",
+        "age": 22,
+        "height": "1.75 m",
+        "weight": "70 kg",
+        "foot": "Left",
+        "goals": 15,
+        "imageUrl": "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Cole_Palmer_profile_2024-25_fever_avatar-removebg.png"
+      },
+      {
+        "id": "36",
+        "name": "Enzo Fernández",
+        "nationality": "Argentine",
+        "currentTeam": "Chelsea FC",
+        "prevTeams": [
+          "Benfica",
+          "River Plate"
+        ],
+        "position": "Midfielder",
+        "age": 24,
+        "height": "1.80 m",
+        "weight": "78 kg",
+        "foot": "Right",
+        "goals": 10,
+        "imageUrl": "https://res.cloudinary.com/chelsea-production/image/upload/c_fit,h_630,w_1200/v1/editorial/people/first-team/2024-25/Enzo_Fernandez_profile_2024-25_fever_avatar-removebg"
+      },
+      {
+        "id": "37",
+        "name": "Mykhailo Mudryk",
+        "nationality": "Ukrainian",
+        "currentTeam": "Chelsea FC",
+        "prevTeams": [
+          "Shakhtar Donetsk"
+        ],
+        "position": "Winger",
+        "age": 24,
+        "height": "1.75 m",
+        "weight": "72 kg",
+        "foot": "Right",
+        "goals": 17,
+        "imageUrl": "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Mykhailo_Mudryk_profile_2024-25_fever_avatar-removebg.png"
+      },
+      {
+        "id": "38",
+        "name": "Reece James",
+        "nationality": "English",
+        "currentTeam": "Chelsea FC",
+        "prevTeams": [
+          "Wigan Athletic"
+        ],
+        "position": "Right-back",
+        "age": 26,
+        "height": "1.82 m",
+        "weight": "84 kg",
+        "foot": "Right",
+        "goals": 10,
+        "imageUrl": "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Reece_James_profile_2024-25_fever_avatar-removebg.png"
+      },
+      {
+        "id": "39",
+        "name": "Thomas Müller",
+        "nationality": "German",
+        "currentTeam": "Bayern Munich",
+        "prevTeams": [
+          "None"
+        ],
+        "position": "Forward",
+        "age": 35,
+        "height": "1.86 m",
+        "weight": "76 kg",
+        "foot": "Right",
+        "goals": 235,
+        "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-0000ia-dfl-clu-00000g-dfl-sea-0001k8.png"
+      },
+      {
+        "id": "40",
+        "name": "Serge Gnabry",
+        "nationality": "German",
+        "currentTeam": "Bayern Munich",
+        "prevTeams": [
+            "Arsenal",
+            "West Bromwich Albion",
+            "Hoffenheim",
+            "Bayern Munich (loan)"
+        ],
+        "position": "Winger",
+        "age": 30,
+        "height": 1.75,
+        "weight": 77,
+        "foot": "Right",
+        "goals": 80,
+        "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-0027g6-dfl-clu-00000g-dfl-sea-0001k8.png"
+    },
+    {
+      "id": "41",
+      "name": "Harry Kane",
+      "nationality": "English",
+      "currentTeam": "Bayern Munich",
+      "prevTeams": [
+          "Tottenham Hotspur",
+          "Bayern Munich (loan)"
+      ],
+      "position": "Striker",
+      "age": 31,
+      "height": 1.88,
+      "weight": 86,
+      "foot": "Right",
+      "goals": 255,
+      "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-j00zz3-dfl-clu-00000g-dfl-sea-0001k8.png"
+  },
+  {
+    "id": "42",
+    "name": "Kingsley Coman",
+    "nationality": "French",
+    "currentTeam": "Bayern Munich",
+    "prevTeams": [
+        "PSG",
+        "Juventus",
+        "Bayern Munich (loan)"
+    ],
+    "position": "Winger",
+    "age": 27,
+    "height": 1.80,
+    "weight": 70,
+    "foot": "Right",
+    "goals": 50,
+    "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-0026pm-dfl-clu-00000g-dfl-sea-0001k8.png"
+},
+{
+  "id": "43",
+  "name": "Michael Olise",
+  "nationality": "French",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "Reading",
+      "Crystal Palace"
+  ],
+  "position": "Winger",
+  "age": 22,
+  "height": 1.80,
+  "weight": 75,
+  "foot": "Left",
+  "goals": 10,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-j01r3r-dfl-clu-00000g-dfl-sea-0001k8.png"
+},
+{
+  "id": "44",
+  "name": "Leon Goretzka",
+  "nationality": "German",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "Schalke 04"
+  ],
+  "position": "Midfielder",
+  "age": 29,
+  "height": 1.89,
+  "weight": 82,
+  "foot": "Right",
+  "goals": 35,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-000191-dfl-clu-00000g-dfl-sea-0001k8.png?fit=320,320"
+},
+{
+  "id": "45",
+  "name": "Jamal Musiala",
+  "nationality": "German",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "Chelsea Academy",
+      "Bayern Munich Academy"
+  ],
+  "position": "Attacking Midfielder",
+  "age": 22,
+  "height": 1.80,
+  "weight": 75,
+  "foot": "Both",
+  "goals": 25,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-002gcr-dfl-clu-00000g-dfl-sea-0001k8.png?fit=320,320"
+},
+{
+  "id": "46",
+  "name": "Dayot Upamecano",
+  "nationality": "French",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "RB Leipzig"
+  ],
+  "position": "Center-back",
+  "age": 25,
+  "height": 1.86,
+  "weight": 82,
+  "foot": "Right",
+  "goals": 10,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-0027kl-dfl-clu-00000g-dfl-sea-0001k8.png?fit=320,320"
+},
+{
+  "id": "47",
+  "name": "Min-jae Kim",
+  "nationality": "South Korean",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "Napoli",
+      "Fenerbahçe",
+      "Jeonbuk Hyundai Motors"
+  ],
+  "position": "Center-back",
+  "age": 27,
+  "height": 1.90,
+  "weight": 85,
+  "foot": "Right",
+  "goals": 5,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-j01ae6-dfl-clu-00000g-dfl-sea-0001k8.png"
+},
+{
+  "id": "48",
+  "name": "Alphonso Davies",
+  "nationality": "Canadian",
+  "currentTeam": "Bayern Munich",
+  "prevTeams": [
+      "Vancouver Whitecaps"
+  ],
+  "position": "Left-back",
+  "age": 23,
+  "height": 1.76,
+  "weight": 71,
+  "foot": "Left",
+  "goals": 15,
+  "imageUrl": "https://assets.bundesliga.com/player/dfl-obj-002fwz-dfl-clu-00000g-dfl-sea-0001k8.png"
 }
+
+    ]
+    }

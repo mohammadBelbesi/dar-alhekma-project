@@ -79,7 +79,7 @@
         "goals": 5,
         "imageUrl": "https://cdn.vox-cdn.com/thumbor/05uwAMWZsGBg4jo_p-rz8AWHh3k=/0x0:5000x3333/1200x800/filters:focal(2133x493:2933x1293)/cdn.vox-cdn.com/uploads/chorus_image/image/73753075/2181616396.0.jpg"
       }
-    }
+    },
   
 
 
@@ -96,7 +96,7 @@
     "weight": "60kg",
     "foot": "Left",
     "goals": 14,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfgYf9er-0pfjILXSkydusTmk2eXak-Pe5Eg&s ",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfgYf9er-0pfjILXSkydusTmk2eXak-Pe5Eg&s "
 
   }
 },
@@ -113,7 +113,7 @@
     "weight": "66kg",
     "foot": "Right",
     "goals": 7,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8iPlA3fzlNfxvJuZi9LnCHrE_4yD5Rqf1A&s ",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8iPlA3fzlNfxvJuZi9LnCHrE_4yD5Rqf1A&s "
   }
 },
 {
@@ -129,7 +129,7 @@
     "weight": "65kg",
     "foot": "Right",
     "goals": 3,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUZwEUh4eYiADY0o2oqs3Y0Ae1suR0PuhzDA&s ",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUZwEUh4eYiADY0o2oqs3Y0Ae1suR0PuhzDA&s "
   }
 },
 {
@@ -145,7 +145,7 @@
     "weight": "70kg",
     "foot": "Left",
     "goals": 14,
-    "imageUrl": "https://tmssl.akamaized.net/images/foto/galerie/raphinha-fc-barcelona-2024-2025-1729714757-152192.jpg ",
+    "imageUrl": "https://tmssl.akamaized.net/images/foto/galerie/raphinha-fc-barcelona-2024-2025-1729714757-152192.jpg "
 
 
   }
@@ -163,7 +163,7 @@
     "weight": "60kg",
     "foot": "Left",
     "goals": 6,
-    "imageUrl": "https://www.fcbarcelona.com/photo-resources/2024/12/25/524f5dd8-1925-4c64-ad06-5fce9a855f6d/EA019746.jpg?width=1200&height=750 ",
+    "imageUrl": "https://www.fcbarcelona.com/photo-resources/2024/12/25/524f5dd8-1925-4c64-ad06-5fce9a855f6d/EA019746.jpg?width=1200&height=750 "
   }
 },
 {
@@ -179,7 +179,7 @@
     "weight": "81kg",
     "foot": "Right",
     "goals": 500,
-    "imageUrl": "https://www.fcbarcelona.com/photo-resources/2024/10/13/b666059e-1d0a-493f-a7e5-dd7a258d8165/09-Lewandowski-M.jpg?width=1200&height=750 ",
+    "imageUrl": "https://www.fcbarcelona.com/photo-resources/2024/10/13/b666059e-1d0a-493f-a7e5-dd7a258d8165/09-Lewandowski-M.jpg?width=1200&height=750 "
   }
 },
 {
@@ -195,7 +195,7 @@
     "weight": "71kg",
     "foot": "Left",
     "goals": 200,
-    "imageUrl": "https://assets-fr.imgfoot.com/media/cache/1200x1200/mohamed-salah-2425.jpg ",
+    "imageUrl": "https://assets-fr.imgfoot.com/media/cache/1200x1200/mohamed-salah-2425.jpg "
   }
 },
 {
@@ -211,7 +211,7 @@
     "weight": "75kg",
     "foot": "Right",
     "goals": 35,
-    "imageUrl": "https://i2-prod.liverpoolecho.co.uk/article28742134.ece/ALTERNATES/s615/0_GettyImages-1923405093.jpg ",
+    "imageUrl": "https://i2-prod.liverpoolecho.co.uk/article28742134.ece/ALTERNATES/s615/0_GettyImages-1923405093.jpg "
   }
 },
 {
@@ -405,7 +405,7 @@
     "goals": 0,
     "imageUrl": "https://static.independent.co.uk/2024/08/21/16/abd94da019b349a3cf8be32a4222120fY29udGVudHNlYXJjaGFwaSwxNzI0MzMzNzA3-2.77163188.jpg"
   }
-}
+},
 {
   "player": {
     "id": 101,
@@ -421,7 +421,7 @@
     "goals": 5,
     "imageUrl": "https://cdn1.unitedinfocus.com/uploads/14/2024/09/GettyImages-2169803850-scaled.jpg"
   }
-}
+},
 {
   "player": {
     "id": 102,
@@ -437,7 +437,7 @@
     "goals": 12,
     "imageUrl": "https://www.thesun.co.uk/wp-content/uploads/2024/02/habeeb-ogunneye-manchester-united-u21s-880760162.jpg?strip=all&w=958"
   }
-}
+},
 {
   "player": {
     "id": 103,
@@ -453,7 +453,7 @@
     "goals": 5,
     "imageUrl": "https://assets.manutd.com/AssetPicker/images/0/0/20/196/1361138/41-Harry-Amass_31725464821468.png"
   }
-}
+},
 {
   "player": {
     "id": 104,
@@ -468,10 +468,10 @@
     "foot": "Right",
     "goals": 5,
     "imageUrl": "https://static.independent.co.uk/2024/10/10/16/6f3d91fe6d550005af890589fb156eecY29udGVudHNlYXJjaGFwaSwxNzI4NjU4MDI1-2.77494423.jpg"
-  },
-}
+  }
+},
  
-  "players": {
+    "players": {
       "id": 105,
       "name": "Toby Collye",
       "nationality": "English",
@@ -484,7 +484,6 @@
       "foot": "Right",
       "goals": 0,
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmxUis6FrwW7eQHmuGIK0kjTgl57HGEcnKBQ&s"
-   
    },
    "players": {
       "id": 106,

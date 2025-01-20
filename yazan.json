@@ -984,6 +984,76 @@
   "foot": "Right",
   "goals": 30,  
   "imageUrl": "https://b.fssta.com/uploads/application/soccer/headshots/1610.png"
+},
+{
+  "id": "61",
+  "name": "Kolo Muani",
+  "nationality": "French",
+  "currentTeam": "Paris",
+  "prevTeams": ["Nantes , Eintracht Frankfurt"],
+  "position": "Forward",
+  "age": 25,
+  "height": "185 cm",
+  "weight": "74 kg",
+  "foot": "Right",
+  "goals": 15,
+  "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250146926.jpg"
+},
+{
+  "id": "62",
+  "name": "Ibrahim Mbaye",
+  "nationality": "Senegalese",
+  "currentTeam": "Paris Saint-Germain",
+  "prevTeams": ["AS Monaco", "FC Metz"],
+  "position": "Defender",
+  "age": 22,
+  "height": "182 cm",
+  "weight": "80 kg",
+  "foot": "Left",
+  "goals": 5,
+  "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250190117.jpg"
+},
+{
+  "id": "63",
+  "name": "Gonçalo Ramos",
+  "nationality": "Portuguese",
+  "currentTeam": "Paris Saint-Germain",
+  "prevTeams": ["Benfica"],
+  "position": "Forward",
+  "age": 22,
+  "height": "185 cm",
+  "weight": "78 kg",
+  "foot": "Right",
+  "goals": 12,
+  "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250116654.webp"
+},
+{
+  "id": "64",
+  "name": "Ousmane Dembélé",
+  "nationality": "French",
+  "currentTeam": "Paris Saint-Germain",
+  "prevTeams": ["FC Barcelona", "Borussia Dortmund", "Rennes"],
+  "position": "Winger",
+  "age": 26,
+  "height": "178 cm",
+  "weight": "67 kg",
+  "foot": "Right",
+  "goals": 9,
+  "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250066886.webp"
+},
+{
+  "id": "65",
+  "name": "Marco Asensio",
+  "nationality": "Spanish",
+  "currentTeam": "Paris Saint-Germain",
+  "prevTeams": ["Real Madrid", "Mallorca"],
+  "position": "Winger",
+  "age": 28,
+  "height": "177 cm",
+  "weight": "75 kg",
+  "foot": "Left",
+  "goals": 6,
+  "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250080570.webp"
 }
 
     ]

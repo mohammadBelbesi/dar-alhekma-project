@@ -109,13 +109,14 @@ const matrixGenerator = (cardValues, size = 5) => {
             //if both cards match add matched class so these cards would beignored next time
             firstCard.classList.add("matched");
             secondCard.classList.add("matched");
-            //set firstCard to false since next card would be first now
+            firstCard to false since next card would be first now
             firstCard = false;
             //winCount increment as user found a correct match
             winCount += 1;
             //check if winCount ==half of cardValues
             if (winCount == Math.floor(cardValues.length / 2)) {
               result.innerHTML = `<h2>You Won</h2>
+              
             <h4>Moves: ${movesCount}</h4>`;
               stopGame();
             }

@@ -124,15 +124,24 @@ const matrixGenerator = (cardValues, size = 5) => {
             // If both cards match, add matched class
             firstCard.classList.add("matched");
             secondCard.classList.add("matched");
+<<<<<<< HEAD
 
             // Set firstCard to false as the next card will become first now
+=======
+            firstCard to false since next card would be first now
+>>>>>>> 045e94c2743ee2436da1d5508486b7fe0aeb9c7e
             firstCard = false;
             winCount += 1;
 
             // If all pairs are matched
             if (winCount == Math.floor(cardValues.length / 2)) {
               result.innerHTML = `<h2>You Won</h2>
+<<<<<<< HEAD
                 <h4>Moves: ${movesCount}</h4>`;
+=======
+              
+            <h4>Moves: ${movesCount}</h4>`;
+>>>>>>> 045e94c2743ee2436da1d5508486b7fe0aeb9c7e
               stopGame();
             }
 

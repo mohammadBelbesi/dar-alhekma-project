@@ -8,8 +8,8 @@ const controls = document.querySelector(".controls-container");
 let cards;
 let interval;
 let firstCard = false;
-let secondcard = false;
-// //Items array
+let secondCard = false;
+let items = []; // Items array
 
 // Fetch the JSON data
 fetch('yazan.json')
@@ -18,110 +18,147 @@ fetch('yazan.json')
     // Populate items array with data from JSON
     items = data.data.map(player => ({
       name: player.name,
-      image: player.imageUrl
+      imageUrl: player.imageUrl,
+      nationality: player.nationality,
+      currentTeam: player.currentTeam,
+      prevTeam: player.prevTeam,
+      position: player.position,
+      age: player.age,
+      height: player.height,
+      weight: player.weight,
+      foot: player.foot,
+      goals: player.goals
     }));
   })
   .catch(error => console.error('Error loading JSON:', error));
 
-//initial time
-let seconds = 0,minutes = 0;
-//initial moves and win count
+// Initial time
+let seconds = 0, minutes = 0;
+// Initial moves and win count
 let movesCount = 0, winCount = 0;
-//for timer
+
+// Timer logic
 const timerGenerator = () => {
   seconds += 1;
-  //minutes logic
+  // Minutes logic
   if (seconds >= 60) {
     minutes += 1;
     seconds = 0;
-}
+  }
 
-//format file before display
-let secondsvalue = seconds < 10 ? `0${seconds}` : seconds;
-let minutesvalue = minutes < 10 ? `0${minutes}` : minutes;
-timeValue.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`;
+  // Format time before display
+  let secondsValue = seconds < 10 ? `0${seconds}` : seconds;
+  let minutesValue = minutes < 10 ? `0${minutes}` : minutes;
+  timeValue.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`;
 };
-//For calculating moves
+
+// For calculating moves
 const movesCounter = () => {
   movesCount += 1;
-  moves.innerHTML = `<span>Moves:</span>${movesCount}`;
+  moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
 };
-//Pick random objects from the items array
+
+// Pick random objects from the items array
 const generateRandom = (size = 5) => {
-  //temporary array
+  // Temporary array
   let tempArray = [...items];
-  //initializes cardValues array
+  // Initializes cardValues array
   let cardValues = [];
-  //size should be double (4*4 matrix)/2 since pairs of objects would exist
+  // Size should be double (4*4 matrix)/2 since pairs of objects would exist
   size = (size * 4) / 2;
-  //Random object selection
+  // Random object selection
   for (let i = 0; i < size; i++) {
     const randomIndex = Math.floor(Math.random() * tempArray.length);
     cardValues.push(tempArray[randomIndex]);
-    //once selected remove the object from temp array
+    // Once selected, remove the object from temp array
     tempArray.splice(randomIndex, 1);
   }
   return cardValues;
 };
+
 const matrixGenerator = (cardValues, size = 5) => {
   gameContainer.innerHTML = "";
-  cardValues = [...cardValues, ...cardValues];
-  //simple shuffle
+  cardValues = [...cardValues, ...cardValues]; // Create pairs
+  // Shuffle the card values
   cardValues.sort(() => Math.random() - 0.5);
+
   for (let i = 0; i < size * 4; i++) {
-    /*
-        Create Cards
-        before => front side (contains question mark)
-        after => back side (contains actual image);
-        data-card-values is a custom attribute which stores the names of the cards to match later
-      */
+    // Create Cards
+    // Before => front side (contains question mark)
+    // After => back side (contains actual image)
+    // data-card-value is a custom attribute which stores the names of the cards to match later
     gameContainer.innerHTML += `
-     <div class="card-container" data-card-value="${cardValues[i].name}">
+      <div class="card-container" data-card-value="${cardValues[i].name}" data-nationality="${cardValues[i].nationality}" data-current-team="${cardValues[i].currentTeam}" data-position="${cardValues[i].position}" data-age="${cardValues[i].age}" data-height="${cardValues[i].height}" data-weight="${cardValues[i].weight}" data-foot="${cardValues[i].foot}" data-goals="${cardValues[i].goals}">
         <div class="card-before">?</div>
         <div class="card-after">
-        <img src="${cardValues[i].image}" class="image"/></div>
-     </div>
-     `;
+          <img src="${cardValues[i].imageUrl}" class="image"/>
+        </div>
+      </div>
+    `;
   }
-  //Grid
+
+  // Grid settings
   gameContainer.style.gridTemplateColumns = `repeat(5, auto)`;
-  //Cards
+
+  // Cards setup
   cards = document.querySelectorAll(".card-container");
   cards.forEach((card) => {
     card.addEventListener("click", () => {
-      //If selected card is not matched yet then only run (i.e already matched card when clicked would be ignored)
+      // If selected card is not matched yet
       if (!card.classList.contains("matched") && !card.classList.contains("flipped")) {
-        //flip the cliked card
+        // Flip the clicked card
         card.classList.add("flipped");
-        //if it is the firstcard (!firstCard since firstCard is initially false)
+        // If it's the first card
         if (!firstCard) {
-          //so current card will become firstCard
+          // Set first card
           firstCard = card;
-          //current cards value becomes firstCardValue
           firstCardValue = card.getAttribute("data-card-value");
         } else {
-          //increment moves since user selected second card
+          // Increment moves
           movesCounter();
-          //secondCard and value
+          // Set second card
           secondCard = card;
           let secondCardValue = card.getAttribute("data-card-value");
+
           if (firstCardValue == secondCardValue) {
-            //if both cards match add matched class so these cards would beignored next time
+            // If both cards match, add matched class
             firstCard.classList.add("matched");
             secondCard.classList.add("matched");
-            //set firstCard to false since next card would be first now
+
+            // Set firstCard to false as the next card will become first now
             firstCard = false;
-            //winCount increment as user found a correct match
             winCount += 1;
-            //check if winCount ==half of cardValues
+
+            // If all pairs are matched
             if (winCount == Math.floor(cardValues.length / 2)) {
               result.innerHTML = `<h2>You Won</h2>
-            <h4>Moves: ${movesCount}</h4>`;
+                <h4>Moves: ${movesCount}</h4>`;
               stopGame();
             }
+
+            // Show details of the matched cards
+            const nationality = secondCard.getAttribute('data-nationality');
+            const currentTeam = secondCard.getAttribute('data-current-team');
+            const position = secondCard.getAttribute('data-position');
+            const age = secondCard.getAttribute('data-age');
+            const height = secondCard.getAttribute('data-height');
+            const weight = secondCard.getAttribute('data-weight');
+            const foot = secondCard.getAttribute('data-foot');
+            const goals = secondCard.getAttribute('data-goals');
+
+            let cardDetails = `
+              Nationality: ${nationality}
+              <br>Current Team: ${currentTeam}
+              <br>Position: ${position}
+              <br>Age: ${age}
+              <br>Height: ${height}
+              <br>Weight: ${weight}
+              <br>Foot: ${foot}
+              <br>Goals: ${goals}
+            `;
+            alert(`Great! You matched a player! Here are the details:\n\n${cardDetails}`);
           } else {
-            //if the cards dont match
-            //flip the cards back to normal
+            // If the cards don't match, flip them back
             let [tempFirst, tempSecond] = [firstCard, secondCard];
             firstCard = false;
             secondCard = false;
@@ -135,36 +172,31 @@ const matrixGenerator = (cardValues, size = 5) => {
     });
   });
 };
-//Start game
+
+// Start game
 startButton.addEventListener("click", () => {
   movesCount = 0;
   seconds = 0;
   minutes = 0;
-  //controls amd buttons visibility
   controls.classList.add("hide");
   stopButton.classList.remove("hide");
   startButton.classList.add("hide");
-  //Start timer
-  // interval = setInterval(timeGenerator, 1000);
-  //initial moves
   moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
   initializer();
 });
-//Stop game
-stopButton.addEventListener(
-  "click",
-  (stopGame = () => {
-    controls.classList.remove("hide");
-    stopButton.classList.add("hide");
-    startButton.classList.remove("hide");
-    clearInterval(interval);
-  })
-);
-//Initialize values and func calls
+
+// Stop game
+stopButton.addEventListener("click", () => {
+  controls.classList.remove("hide");
+  stopButton.classList.add("hide");
+  startButton.classList.remove("hide");
+  clearInterval(interval);
+});
+
+// Initialize game
 const initializer = () => {
   result.innerText = "";
   winCount = 0;
   let cardValues = generateRandom();
-  console.log(cardValues);
   matrixGenerator(cardValues);
 };

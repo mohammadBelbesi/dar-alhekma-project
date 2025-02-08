@@ -90,44 +90,44 @@ const matrixGenerator = (cardValues, size = 5) => {
           movesCounter();
           secondCard = card;
 
-          // Get image URL to match the player correctly
-          let firstCardImage = firstCard.querySelector(".image").src;
-          let secondCardImage = secondCard.querySelector(".image").src;
+          setTimeout(() => {
+            let firstCardImage = firstCard.querySelector(".image").src;
+            let secondCardImage = secondCard.querySelector(".image").src;
 
-          if (firstCardImage === secondCardImage) {
-            firstCard.classList.add("matched");
-            secondCard.classList.add("matched");
+            if (firstCardImage === secondCardImage) {
+              firstCard.classList.add("matched");
+              secondCard.classList.add("matched");
 
-            // Find the player based on image URL
-            let matchedPlayer = items.find(player => player.imageUrl === firstCardImage);
-            if (matchedPlayer) {
-              alert(
-                `🎉 You found a match! 🎉\n\n` +
-                `👤 Player: ${matchedPlayer.name}\n` +
-                `🌍 Nationality: ${matchedPlayer.nationality}\n` +
-                `⚽ Position: ${matchedPlayer.position}\n` +
-                `🏟️ Current Team: ${matchedPlayer.currentTeam}\n` +
-                `🏆 Goals: ${matchedPlayer.goals}`
-              );
+              let matchedPlayer = items.find(player => player.imageUrl === firstCardImage);
+              if (matchedPlayer) {
+                alert(
+                  `🎉 You found a match! 🎉\n\n` +
+                  `👤 Player: ${matchedPlayer.name}\n` +
+                  `🌍 Nationality: ${matchedPlayer.nationality}\n` +
+                  `⚽ Position: ${matchedPlayer.position}\n` +
+                  `🏟️ Current Team: ${matchedPlayer.currentTeam}\n` +
+                  `🏆 Goals: ${matchedPlayer.goals}`
+                );
+              }
+
+              firstCard = false;
+              winCount += 1;
+
+              if (winCount == Math.floor(cardValues.length / 2)) {
+                clearInterval(interval);
+                alert("🎊 Congratulations! You won the game! 🎊");
+                result.innerHTML = `<h2>You Won</h2><h4>Moves: ${movesCount}</h4><h4>Time: ${timeValue.innerText.substring(5)}</h4>`;
+              }
+            } else {
+              let [tempFirst, tempSecond] = [firstCard, secondCard];
+              firstCard = false;
+              secondCard = false;
+              setTimeout(() => {
+                tempFirst.classList.remove("flipped");
+                tempSecond.classList.remove("flipped");
+              }, 900);
             }
-
-            firstCard = false;
-            winCount += 1;
-
-            if (winCount == Math.floor(cardValues.length / 2)) {
-              clearInterval(interval);
-              alert("🎊 Congratulations! You won the game! 🎊");
-              result.innerHTML = `<h2>You Won</h2><h4>Moves: ${movesCount}</h4><h4>Time: ${timeValue.innerText.substring(5)}</h4>`;
-            }
-          } else {
-            let [tempFirst, tempSecond] = [firstCard, secondCard];
-            firstCard = false;
-            secondCard = false;
-            setTimeout(() => {
-              tempFirst.classList.remove("flipped");
-              tempSecond.classList.remove("flipped");
-            }, 900);
-          }
+          }, 500);
         }
       }
     });

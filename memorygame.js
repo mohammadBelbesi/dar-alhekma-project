@@ -98,6 +98,7 @@ const matrixGenerator = (cardValues, size = 5) => {
               firstCard.classList.add("matched");
               secondCard.classList.add("matched");
 
+              // Find the matched player based on image URL
               let matchedPlayer = items.find(player => player.imageUrl === firstCardImage);
               if (matchedPlayer) {
                 alert(
@@ -106,7 +107,11 @@ const matrixGenerator = (cardValues, size = 5) => {
                   `🌍 Nationality: ${matchedPlayer.nationality}\n` +
                   `⚽ Position: ${matchedPlayer.position}\n` +
                   `🏟️ Current Team: ${matchedPlayer.currentTeam}\n` +
-                  `🏆 Goals: ${matchedPlayer.goals}`
+                  `🏆 Goals: ${matchedPlayer.goals}\n` +
+                  `👟 Preferred Foot: ${matchedPlayer.foot}\n` +
+                  `📏 Height: ${matchedPlayer.height} cm\n` +
+                  `⚖️ Weight: ${matchedPlayer.weight} kg\n` +
+                  `🎂 Age: ${matchedPlayer.age}`
                 );
               }
 

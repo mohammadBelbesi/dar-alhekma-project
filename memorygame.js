@@ -12,7 +12,7 @@ let secondCard = false;
 let items = []; // Items array
 
 // Fetch the JSON data
-fetch('yazan.json')
+fetch('data.json')
   .then(response => response.json())
   .then(data => {
     items = data.data.map(player => ({

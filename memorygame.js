@@ -5,11 +5,17 @@ const stopButton = document.getElementById("stop");
 const gameContainer = document.querySelector(".game-container");
 const result = document.getElementById("result");
 const controls = document.querySelector(".controls-container");
+
+const bgMusic = document.getElementById("back-ground-music");
+const successSound = document.getElementById("success");
+const failSound = document.getElementById("fail");
+const winSound = document.getElementById("win");
+
 let cards;
 let interval;
 let firstCard = false;
 let secondCard = false;
-let items = []; // Items array
+let items = [];
 
 // Fetch the JSON data
 fetch('data.json')
@@ -97,6 +103,7 @@ const matrixGenerator = (cardValues, size = 5) => {
             if (firstCardImage === secondCardImage) {
               firstCard.classList.add("matched");
               secondCard.classList.add("matched");
+              successSound.play(); // Play success sound
 
               // Find the matched player based on image URL
               let matchedPlayer = items.find(player => player.imageUrl === firstCardImage);
@@ -120,10 +127,12 @@ const matrixGenerator = (cardValues, size = 5) => {
 
               if (winCount == Math.floor(cardValues.length / 2)) {
                 clearInterval(interval);
+                winSound.play(); // Play win sound
                 alert("🎊 Congratulations! You won the game! 🎊");
                 result.innerHTML = `<h2>You Won</h2><h4>Moves: ${movesCount}</h4><h4>Time: ${timeValue.innerText.substring(5)}</h4>`;
               }
             } else {
+              failSound.play(); // Play fail sound
               let [tempFirst, tempSecond] = [firstCard, secondCard];
               firstCard = false;
               secondCard = false;
@@ -150,6 +159,9 @@ startButton.addEventListener("click", () => {
   moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
   let cardValues = generateRandom();
   matrixGenerator(cardValues);
+  
+  bgMusic.play(); // Start background music
+  bgMusic.loop = true; // Loop background music
 });
 
 stopButton.addEventListener("click", () => {
@@ -157,4 +169,6 @@ stopButton.addEventListener("click", () => {
   stopButton.classList.add("hide");
   startButton.classList.remove("hide");
   clearInterval(interval);
+  bgMusic.pause(); // Pause background music
+  bgMusic.currentTime = 0; // Reset background music
 });

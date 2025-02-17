@@ -58,6 +58,16 @@ const movesCounter = () => {
   moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
 };
 
+// Add a function to check if the game is won (all cards are matched)
+const checkIfGameWon = () => {
+  if (winCount === cards.length / 2) { // When all pairs are matched
+    clearInterval(interval); // Stop the timer
+    bgMusic.pause(); // Stop background music
+    winSound.play(); // Play win sound
+    alert(`🎉 Congratulations! You won! 🎉\n\nTime: ${minutes}:${seconds < 10 ? "0" + seconds : seconds}\nMoves: ${movesCount}`);
+  }
+};
+
 const generateRandom = (size = 5) => {
   let tempArray = [...items];
   let cardValues = [];
@@ -88,7 +98,6 @@ const matrixGenerator = (cardValues, size = 5) => {
   gameContainer.style.gridTemplateColumns = `repeat(5, auto)`;
   cards = document.querySelectorAll(".card-container");
 
-  // Disable and Enable card interaction functions
   const disableCards = () => {
     cards.forEach(card => {
       card.classList.add("disabled");
@@ -142,6 +151,7 @@ const matrixGenerator = (cardValues, size = 5) => {
 
               firstCard = false;
               winCount += 1;
+              checkIfGameWon(); // Check if game is won after each match
 
             } else {
               failSound.play(); // Play fail sound
@@ -220,39 +230,34 @@ stopButton.addEventListener("click", () => {
   bgMusic.play();
   bgMusic.loop = true;
 });
-// الحصول على العناصر الصوتية والأزرار
-const backgroundMusic = document.getElementById("back-ground-music");
+
+// Mute and unmute functionality for background music
 const muteButton = document.getElementById("mute-button");
 const unmuteButton = document.getElementById("unmute-button");
 const soundModal = document.getElementById("sound-modal");
 const closeModalButton = document.getElementById("close-modal");
 const soundControlButton = document.getElementById("sound-control-button");
 
-
-
-// إظهار نافذة التحكم بالصوت عند الضغط على الزر
 soundControlButton.onclick = function() {
-  soundModal.style.display = "flex"; // عرض النافذة المنبثقة
+  soundModal.style.display = "flex"; // Show the sound control modal
 };
 
-// إغلاق نافذة التحكم بالصوت
 closeModalButton.onclick = function() {
-  soundModal.style.display = "none"; // إخفاء النافذة المنبثقة
+  soundModal.style.display = "none"; // Close the sound control modal
 };
 
-// دالة لإيقاف الصوت
 muteButton.onclick = function() {
-  backgroundMusic.muted = true;
+  bgMusic.muted = true;
   muteButton.classList.add("hide");
   unmuteButton.classList.remove("hide");
 };
 
-// دالة لتشغيل الصوت
 unmuteButton.onclick = function() {
-  backgroundMusic.muted = false;
+  bgMusic.muted = false;
   unmuteButton.classList.add("hide");
   muteButton.classList.remove("hide");
 };  
+
 stopGameButton.addEventListener("click", () => {
   clearInterval(interval);
   bgMusic.pause();

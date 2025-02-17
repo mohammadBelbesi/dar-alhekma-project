@@ -2,6 +2,7 @@ const moves = document.getElementById("moves-count");
 const timeValue = document.getElementById("time");
 const startButton = document.getElementById("start");
 const stopButton = document.getElementById("stop");
+const stopGameButton = document.getElementById("stop-game");
 const gameContainer = document.querySelector(".game-container");
 const result = document.getElementById("result");
 const controls = document.querySelector(".controls-container");
@@ -17,11 +18,7 @@ let firstCard = false;
 let secondCard = false;
 let items = [];
 
-<<<<<<< HEAD
-// Fetch the JSON data
-=======
-// Fetch JSON data before game start
->>>>>>> 6ab53dc803940d0e2b6a94267c9a5ff67fa354ab
+
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
@@ -222,4 +219,15 @@ stopButton.addEventListener("click", () => {
   // Play background music
   bgMusic.play();
   bgMusic.loop = true;
+});
+// Stop Game
+stopGameButton.addEventListener("click", () => {
+  clearInterval(interval);
+  bgMusic.pause();
+  bgMusic.currentTime = 0;
+  controls.classList.remove("hide");
+  stopButton.classList.add("hide");
+  stopGameButton.classList.add("hide");
+  startButton.classList.remove("hide");
+  gameContainer.innerHTML = "";
 });

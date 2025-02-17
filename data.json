@@ -637,9 +637,7 @@
   "name": "Leon Goretzka",
   "nationality": "German",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "Schalke 04"
-  ],
+  "prevTeams": "Schalke 04",
   "position": "Midfielder",
   "age": 29,
   "height": 1.89,
@@ -653,10 +651,7 @@
   "name": "Jamal Musiala",
   "nationality": "German",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "Chelsea Academy",
-      "Bayern Munich Academy"
-  ],
+  "prevTeams": "Chelsea Academy , Bayern Munich Academy",
   "position": "Attacking Midfielder",
   "age": 22,
   "height": 1.80,
@@ -670,9 +665,7 @@
   "name": "Dayot Upamecano",
   "nationality": "French",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "RB Leipzig"
-  ],
+  "prevTeams": "RB Leipzig",
   "position": "Center-back",
   "age": 25,
   "height": 1.86,
@@ -686,11 +679,8 @@
   "name": "Min-jae Kim",
   "nationality": "South Korean",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "Napoli",
-      "Fenerbahçe",
-      "Jeonbuk Hyundai Motors"
-  ],
+  "prevTeams":
+      "Napoli , Fenerbahçe , Jeonbuk Hyundai Motors",
   "position": "Center-back",
   "age": 27,
   "height": 1.90,
@@ -704,9 +694,7 @@
   "name": "Alphonso Davies",
   "nationality": "Canadian",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "Vancouver Whitecaps"
-  ],
+  "prevTeams": "Vancouver Whitecaps",
   "position": "Left-back",
   "age": 23,
   "height": 1.76,
@@ -720,10 +708,8 @@
   "name": "Mike Maignan",
   "nationality": "French",
   "currentTeam": "AC Milan",
-  "prevTeams": [
-    "Lille OSC",
-    "Paris Saint-Germain (youth)"
-  ],
+  "prevTeams": 
+    "Lille OSC , Paris Saint-Germain (youth)",
   "position": "Goalkeeper",
   "age": 28,
   "height": "1.92 m",
@@ -737,10 +723,7 @@
   "name": "Rafael Leão",
   "nationality": "Portuguese",
   "currentTeam": "AC Milan",
-  "prevTeams": [
-    "Sporting CP",
-    "Lille OSC"
-  ],
+  "prevTeams":  "Sporting CP , Lille OSC",
   "position": "Forward",
   "age": 24,
   "height": "1.88 m",
@@ -754,10 +737,8 @@
   "name": "Ismaël Bennacer",
   "nationality": "Algerian",
   "currentTeam": "AC Milan",
-  "prevTeams": [
-    "Empoli",
-    "Arsenal (youth)"
-  ],
+  "prevTeams": 
+    "Empoli , Arsenal (youth)",
   "position": "Midfielder",
   "age": 26,
   "height": "1.75 m",
@@ -771,9 +752,7 @@
   "name": "Davide Calabria",
   "nationality": "Italian",
   "currentTeam": "AC Milan",
-  "prevTeams": [
-    "AC Milan Youth"
-  ],
+  "prevTeams":  "AC Milan Youth",
   "position": "Right-back",
   "age": 26,
   "height": "1.77 m",
@@ -787,10 +766,7 @@
   "name": "Strahinja Pavlović",
   "nationality": "Serbian",
   "currentTeam": "AC Milan",
-  "prevTeams": ["AS Monaco",
-    "Red Star Belgrade",
-    "Partizan Belgrade"
-  ],
+  "prevTeams": "AS Monaco , Red Star Belgrade , Partizan Belgrade",
   "position": "Center-back",
   "age": 23,
   "height": "1.94 m",
@@ -804,11 +780,7 @@
   "name": "Emerson Royal",
   "nationality": "Brazilian",
   "currentTeam": "Fiorentina",
-  "prevTeams": [
-    "Tottenham Hotspur",
-    "Real Betis",
-    "Barcelona"
-  ],
+  "prevTeams": "Tottenham Hotspur , Real Betis , Barcelona",
   "position": "Right-back",
   "age": 11,
   "height": "1.80 m",
@@ -822,11 +794,8 @@
   "name": "Filippo Terracciano",
   "nationality": "Italian",
   "currentTeam": "AC Milan",
-  "prevTeams": [
-    "Fiorentina",
-    "Catania",
-    "Juventus (youth)"
-  ],
+  "prevTeams": 
+    "Fiorentina , Catania , Juventus (youth)",
   "position": "Goalkeeper",
   "age": 30,
   "height": "1.90 m",
@@ -840,10 +809,7 @@
   "name": "Marcus Thuram",
   "nationality": "French",
   "currentTeam": "Inter Milan",
-  "prevTeams": [
-    "Borussia Mönchengladbach",
-    "Guingamp"
-  ],
+  "prevTeams": "Borussia Mönchengladbach , Guingamp",
   "position": "Forward",
   "age": 26,
   "height": "1.92 m",
@@ -857,9 +823,8 @@
   "name": "Lautaro Martínez",
   "nationality": "Argentine",
   "currentTeam": "Inter Milan",
-  "prevTeams": [
-    "Racing Club"
-  ],
+  "prevTeams": 
+    "Racing Club",
   "position": "Forward",
   "age": 26,
   "height": "1.74 m",
@@ -873,9 +838,8 @@
   "name": "Nicolò Barella",
   "nationality": "Italian",
   "currentTeam": "Inter Milan",
-  "prevTeams": [
-    "Cagliari"
-  ],
+  "prevTeams": 
+    "Cagliari",
   "position": "Midfielder",
   "age": 27,
   "height": "1.73 m",
@@ -889,11 +853,8 @@
   "name": "Hakan Çalhanoğlu",
   "nationality": "Turkish",
   "currentTeam": "Inter Milan",
-  "prevTeams": [
-    "AC Milan",
-    "Bayer Leverkusen",
-    "Hamburg"
-  ],
+  "prevTeams": 
+    "AC Milan , Bayer Leverkusen , Hamburg",
   "position": "Midfielder",
   "age": 29,
   "height": "1.82 m",
@@ -907,9 +868,7 @@
   "name": "Piotr Zieliński",
   "nationality": "Polish",
   "currentTeam": "Inter Milan",
-  "prevTeams": ["Napoli",
-    "Udinese"
-  ],
+  "prevTeams": "Napoli , Udinese",
   "position": "Midfielder",
   "age": 29,
   "height": "1.80 m",
@@ -923,7 +882,7 @@
   "name": "Kolo Muani",
   "nationality": "French",
   "currentTeam": "Paris",
-  "prevTeams": ["Nantes , Eintracht Frankfurt"],
+  "prevTeams": "Nantes , Eintracht Frankfurt",
   "position": "Forward",
   "age": 25,
   "height": "185 cm",
@@ -937,7 +896,7 @@
   "name": "Ibrahim Mbaye",
   "nationality": "Senegalese",
   "currentTeam": "Paris Saint-Germain",
-  "prevTeams": ["AS Monaco", "FC Metz"],
+  "prevTeams": "AS Monaco , FC Metz",
   "position": "Defender",
   "age": 22,
   "height": "182 cm",
@@ -951,7 +910,7 @@
   "name": "Gonçalo Ramos",
   "nationality": "Portuguese",
   "currentTeam": "Paris Saint-Germain",
-  "prevTeams": ["Benfica"],
+  "prevTeams": "Benfica",
   "position": "Forward",
   "age": 22,
   "height": "185 cm",
@@ -965,7 +924,7 @@
   "name": "Ousmane Dembélé",
   "nationality": "French",
   "currentTeam": "Paris Saint-Germain",
-  "prevTeams": ["FC Barcelona", "Borussia Dortmund", "Rennes"],
+  "prevTeams": "FC Barcelona , Borussia Dortmund , Rennes",
   "position": "Winger",
   "age": 26,
   "height": "178 cm",
@@ -979,7 +938,7 @@
   "name": "Marco Asensio",
   "nationality": "Spanish",
   "currentTeam": "Paris Saint-Germain",
-  "prevTeams": ["Real Madrid", "Mallorca"],
+  "prevTeams": "Real Madrid , Mallorca",
   "position": "Winger",
   "age": 28,
   "height": "177 cm",

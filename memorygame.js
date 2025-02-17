@@ -164,11 +164,43 @@ startButton.addEventListener("click", () => {
   bgMusic.loop = true; // Loop background music
 });
 
+// Updated stopButton to act as a restart button
 stopButton.addEventListener("click", () => {
+  // Reset game state
+  movesCount = 0;
+  seconds = 0;
+  minutes = 0;
+  winCount = 0;
+  firstCard = false;
+  secondCard = false;
+
+  // Clear the interval for the timer
+  clearInterval(interval);
+
+  // Reset the timer and moves display
+  timeValue.innerHTML = `<span>Time:</span>00:00`;
+  moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
+
+  // Hide the stop button and show the start button
   controls.classList.remove("hide");
   stopButton.classList.add("hide");
   startButton.classList.remove("hide");
-  clearInterval(interval);
-  bgMusic.pause(); // Pause background music
-  bgMusic.currentTime = 0; // Reset background music
+
+  // Reset the game container by generating a new set of cards
+  let cardValues = generateRandom();
+  matrixGenerator(cardValues);
+
+  // Reset background music
+  bgMusic.pause();
+  bgMusic.currentTime = 0;
+
+  // Start a new game immediately
+  controls.classList.add("hide");
+  stopButton.classList.remove("hide");
+  startButton.classList.add("hide");
+  interval = setInterval(timeGenerator, 1000);
+
+  // Play background music
+  bgMusic.play();
+  bgMusic.loop = true;
 });

@@ -86,15 +86,32 @@ const matrixGenerator = (cardValues, size = 5) => {
   }
   gameContainer.style.gridTemplateColumns = `repeat(5, auto)`;
   cards = document.querySelectorAll(".card-container");
+
+  // Disable and Enable card interaction functions
+  const disableCards = () => {
+    cards.forEach(card => {
+      card.classList.add("disabled");
+    });
+  };
+
+  const enableCards = () => {
+    cards.forEach(card => {
+      card.classList.remove("disabled");
+    });
+  };
+
   cards.forEach((card) => {
     card.addEventListener("click", () => {
-      if (!card.classList.contains("matched") && !card.classList.contains("flipped")) {
+      if (!card.classList.contains("matched") && !card.classList.contains("flipped") && !card.classList.contains("disabled")) {
         card.classList.add("flipped");
         if (!firstCard) {
           firstCard = card;
         } else {
           movesCounter();
           secondCard = card;
+
+          // Disable the cards during the check
+          disableCards();
 
           setTimeout(() => {
             let firstCardImage = firstCard.querySelector(".image").src;
@@ -125,12 +142,6 @@ const matrixGenerator = (cardValues, size = 5) => {
               firstCard = false;
               winCount += 1;
 
-              if (winCount == Math.floor(cardValues.length / 2)) {
-                clearInterval(interval);
-                winSound.play(); // Play win sound
-                alert("🎊 Congratulations! You won the game! 🎊");
-                result.innerHTML = `<h2>You Won</h2><h4>Moves: ${movesCount}</h4><h4>Time: ${timeValue.innerText.substring(5)}</h4>`;
-              }
             } else {
               failSound.play(); // Play fail sound
               let [tempFirst, tempSecond] = [firstCard, secondCard];
@@ -141,6 +152,10 @@ const matrixGenerator = (cardValues, size = 5) => {
                 tempSecond.classList.remove("flipped");
               }, 900);
             }
+
+            // Re-enable the cards after 1 second
+            setTimeout(enableCards, 1000);
+
           }, 500);
         }
       }

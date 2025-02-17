@@ -17,7 +17,7 @@ let firstCard = false, secondCard = false;
 let items = [];
 let itemsLoaded = false;
 
-// Fetch JSON data before game starts
+// Fetch JSON data before game start
 fetch('data.json')
   .then(response => response.json())
   .then(data => {

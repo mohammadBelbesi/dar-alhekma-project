@@ -12,8 +12,8 @@ body {
 .wrapper {
   box-sizing: content-box;
   width: 35.87em;
-  padding: 2.5em 3em;
-  background-color: #4DA1A9;
+  padding: 2em 3em;
+  background-color:  #4DA1A9;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -107,7 +107,13 @@ button {
   background-color: #000000;
   color: #D5ED9F;
 }
-
+#stop-game {
+  font-size: 1.1em;
+  display: block;
+  margin: 1.1em auto 0 auto;
+  background-color: #000000;
+  color: #D5ED9F;
+}
 .controls-container button {
   font-size: 1.3em;
   box-shadow: 0 0.6em 2em rgba(86, 66, 0, 0.2);
@@ -171,4 +177,8 @@ button {
   height: 100%; 
   border: 1px solid #000000;
   border-radius: 50%; 
+}
+.buttons{
+  display: flex;
+  margin-top: 0.4px ;
 }

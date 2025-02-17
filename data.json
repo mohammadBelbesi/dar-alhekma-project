@@ -426,7 +426,7 @@
         "weight": "85 kg",
         "foot": "Right",
         "goals": 0,
-        "imageUrl": "https://example.com/images/ederson.jpg"
+        "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250073809.webp"
       },
       {
         "id": "30",
@@ -469,7 +469,7 @@
         "weight": "75 kg",
         "foot": "Right",
         "goals": 20,
-        "imageUrl": "https://example.com/images/nicolas_jackson.jpg"
+        "imageUrl": "https://img.uefa.com/imgml/TP/players/2019/2025/324x324/250163689.jpg"
       },
       {
         "id": "33",
@@ -483,7 +483,7 @@
         "weight": "74 kg",
         "foot": "Right",
         "goals": 75,
-        "imageUrl": "https://example.com/images/christopher_nkunku.jpg"
+        "imageUrl": "https://www.zerozero.pt/img/jogadores/new/51/16/425116_christopher_nkunku_20240817020636.png"
       },
       {
         "id": "34",
@@ -498,7 +498,7 @@
         "weight": "70 kg",
         "foot": "Right",
         "goals": 40,
-        "imageUrl": "https://example.com/images/joao_felix.jpg"
+        "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/462250-1668165358.jpg?lm=1"
       },
       {
         "id": "35",
@@ -1896,7 +1896,7 @@
     "weight": 92,
     "foot": "Right",
     "goals": 25,
-    "imageUrl": "https://static.srpcdigital.com/styles/1037xauto/public/2024-10/825422.jpeg.web"
+    "imageUrl": "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2024-06/virgil-van-dijk-profile-body-shot-202425.png?itok=gg-ELW7M"
   
 },
 {
@@ -2485,7 +2485,7 @@
     "weight": "80kg",
     "foot": "Right",
     "goals": 18,
-    "imageUrl": "https://example.com/images/declan-rice.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/2022_FIFA_World_Cup_England_6%E2%80%932_Iran_-_%288%29_%28Declan_Rice%29.jpg"
   
 },
 {

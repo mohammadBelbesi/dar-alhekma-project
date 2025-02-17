@@ -4,9 +4,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
-  background-color:  #9ACBD0;
+  background-color: #9ACBD0;
 }
+
 .wrapper {
   box-sizing: content-box;
   width: 35.87em;
@@ -18,27 +20,34 @@ body {
   top: 50%;
   border-radius: 0.6em;
   box-shadow: 0 0.9em 2.8em rgba(86, 66, 0, 0.2);
-
 }
+
 .game-container {
   position: relative;
   width: 100%;
   display: grid;
   gap: 0.6em;
+  transition: background-color 0.3s ease; /* Added transition for background change */
 }
+
 .stats-container {
   text-align: right;
   margin-bottom: 1.2em;
 }
+
 .stats-container span {
   font-weight: 600;
 }
+
 .card-container {
   position: relative;
   width: 6.25em;
   height: 6.25em;
   cursor: pointer;
+  border-radius: 50%; 
+  overflow: hidden;  
 }
+
 .card-before,
 .card-after {
   position: absolute;
@@ -52,21 +61,26 @@ body {
   transition: transform 0.7s ease-out;
   backface-visibility: hidden;
 }
+
 .card-before {
-  background-color:  #EB5A3C;
+  background-color: #EB5A3C;
   font-size: 2.8em;
   font-weight: 600;
 }
+
 .card-after {
   background-color: hsl(0, 0%, 100%);
   transform: rotateY(180deg);
 }
+
 .card-container.flipped .card-before {
   transform: rotateY(180deg);
 }
+
 .card-container.flipped .card-after {
   transform: rotateY(0deg);
 }
+
 .controls-container {
   position: absolute;
   display: flex;
@@ -78,12 +92,14 @@ body {
   background-color: #9ACBD0;
   top: 0;
 }
+
 button {
   border: none;
   border-radius: 0.3em;
   padding: 1em 1.5em;
   cursor: pointer;
 }
+
 #stop {
   font-size: 1.1em;
   display: block;
@@ -102,28 +118,60 @@ button {
   font-size: 1.3em;
   box-shadow: 0 0.6em 2em rgba(86, 66, 0, 0.2);
 }
+
 .hide {
   display: none;
 }
+
 #result {
   text-align: center;
 }
+
 #result h2 {
   font-size: 2.5em;
 }
+
 #result h4 {
   font-size: 1.8em;
   margin: 0.6em 0 1em 0;
 }
-.card-container {
-  position: relative;
-  width: 6.25em;
-  height: 6.25em;
-  cursor: pointer;
-  border-radius: 50%; 
-  overflow: hidden;  
+
+/* Won Background */
+.won-background {
+  background-color: rgba(0, 128, 0, 0.7); /* Greenish background */
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
 }
 
+.game-container.won-background {
+  background-color: rgba(20, 146, 146, 0.3); /* Slightly transparent background for the game container */
+  pointer-events: none; /* Disable interactions with the game board when won */
+}
+
+/* Make the result message stand out more */
+.win-background h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.win-background h4 {
+  font-size: 30px;
+}
+
+/* Card image styling */
 .card-after .image {
   width: 100%; 
   height: 100%; 

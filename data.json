@@ -230,12 +230,8 @@
         "name": "Erling Haaland",
         "nationality": "Norwegian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Bryne FK",
-          "Molde FK",
-          "RB Salzburg",
-          "Borussia Dortmund"
-        ],
+        "prevTeams": 
+          "Bryne FK , Molde FK , RB Salzburg , Borussia Dortmund" , 
         "position": "Striker",
         "age": 24,
         "height": "1.95 m",
@@ -249,9 +245,7 @@
         "name": "Jérémy Doku",
         "nationality": "Belgian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "RSC Anderlecht,AS Monaco"
-        ],
+        "prevTeams": "RSC Anderlecht,AS Monaco",
         "position": "Winger",
         "age": 23,
         "height": "1.72 m",
@@ -265,9 +259,8 @@
         "name": "Savio",
         "nationality": "Brazilian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Flamengo,Arsenal"
-        ],
+        "prevTeams": "Flamengo,Arsenal"
+        ,
         "position": "Winger",
         "age": 19,
         "height": "1.76 m",
@@ -281,11 +274,8 @@
         "name": "Kevin De Bruyne",
         "nationality": "Belgian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Chelsea",
-          "Werder Bremen",
-          "VfL Wolfsburg"
-        ],
+        "prevTeams":"Chelsea,Werder Bremen , VfL Wolfsburg",
+        
         "position": "Midfielder",
         "age": 32,
         "height": "1.81 m",
@@ -299,9 +289,8 @@
         "name": "Phil Foden",
         "nationality": "English",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "None"
-        ],
+        "prevTeams":"None",
+        
         "position": "Midfielder",
         "age": 25,
         "height": "1.71 m",
@@ -315,10 +304,8 @@
         "name": "Bernardo Silva",
         "nationality": "Portuguese",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Monaco",
-          "Benfica"
-        ],
+        "prevTeams": 
+          "Monaco , Benfica",
         "position": "Midfielder",
         "age": 30,
         "height": "1.73 m",
@@ -332,10 +319,8 @@
         "name": "İlkay Gündoğan",
         "nationality": "German",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Real Madrid",
-          "Borussia Dortmund"
-        ],
+        "prevTeams":"Real Madrid , Borussia Dortmund"
+        ,
         "position": "Midfielder",
         "age": 34,
         "height": "1.80 m",
@@ -349,10 +334,8 @@
         "name": "Rodri",
         "nationality": "Spanish",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Atlético Madrid B",
-          "Villarreal"
-        ],
+        "prevTeams": 
+          "Atlético Madrid B , Villarreal" , 
         "position": "Defensive Midfielder",
         "age": 28,
         "height": "1.91 m",
@@ -366,11 +349,7 @@
         "name": "Mateo Kovačić",
         "nationality": "Croatian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Real Madrid",
-          "Inter Milan",
-          "Chelsea"
-        ],
+        "prevTeams": "Real Madrid ,Inter Milan , Chelsea",
         "position": "Midfielder",
         "age": 29,
         "height": "1.82 m",
@@ -384,9 +363,7 @@
         "name": "Kyle Walker",
         "nationality": "English",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Tottenham Hotspur"
-        ],
+        "prevTeams": "Tottenham Hotspur",
         "position": "Right-back",
         "age": 36,
         "height": "1.83 m",
@@ -400,9 +377,7 @@
         "name": "Ruben Dias",
         "nationality": "Portuguese",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Benfica"
-        ],
+        "prevTeams": "Benfica",
         "position": "Centre-back",
         "age": 27,
         "height": "1.87 m",
@@ -416,9 +391,7 @@
         "name": "John Stones",
         "nationality": "English",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Everton"
-        ],
+        "prevTeams": "Everton",
         "position": "Centre-back",
         "age": 31,
         "height": "1.88 m",
@@ -432,10 +405,7 @@
         "name": "Nathan Aké",
         "nationality": "Dutch",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Bournemouth",
-          "Chelsea"
-        ],
+        "prevTeams": "Bournemouth , Chelsea",
         "position": "Centre-back",
         "age": 29,
         "height": "1.80 m",
@@ -449,28 +419,21 @@
         "name": "Ederson",
         "nationality": "Brazilian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Benfica"
-        ],
+        "prevTeams": "Benfica",
         "position": "Goalkeeper",
         "age": 32,
         "height": "1.88 m",
         "weight": "85 kg",
         "foot": "Right",
         "goals": 0,
-        "imageUrl": "https://example.com/images/ederson.jpg"
+        "imageUrl": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250073809.webp"
       },
       {
         "id": "30",
         "name": "Cristiano Ronaldo",
         "nationality": "Portuguese",
         "currentTeam": "Al Nassr",
-        "prevTeams": [
-          "Manchester United",
-          "Juventus",
-          "Real Madrid",
-          "Sporting CP"
-        ],
+        "prevTeams": "Manchester United , Juventus, Real Madrid , Sporting CP",
         "position": "Forward",
         "age": 40,
         "height": "1.87 m",
@@ -484,10 +447,7 @@
         "name": "Lionel Messi",
         "nationality": "Argentine",
         "currentTeam": "Inter Miami",
-        "prevTeams": [
-          "Paris Saint-Germain",
-          "Barcelona"
-        ],
+        "prevTeams": "Paris Saint-Germain , Barcelona",
         "position": "Forward",
         "age": 38,
         "height": "1.70 m",
@@ -501,60 +461,52 @@
         "name": "Nicolas Jackson",
         "nationality": "Senegalese",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Villarreal",
-          "FC Botoșani"
-        ],
+        "prevTeams": 
+          "Villarreal , FC Botoșani",
         "position": "Forward",
         "age": 23,
         "height": "1.85 m",
         "weight": "75 kg",
         "foot": "Right",
         "goals": 20,
-        "imageUrl": "https://example.com/images/nicolas_jackson.jpg"
+        "imageUrl": "https://img.uefa.com/imgml/TP/players/2019/2025/324x324/250163689.jpg"
       },
       {
         "id": "33",
         "name": "Christopher Nkunku",
         "nationality": "French",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "RB Leipzig",
-          "Paris Saint-Germain"
-        ],
+        "prevTeams": "RB Leipzig ,Paris Saint-German" ,
         "position": "Forward",
         "age": 27,
         "height": "1.80 m",
         "weight": "74 kg",
         "foot": "Right",
         "goals": 75,
-        "imageUrl": "https://example.com/images/christopher_nkunku.jpg"
+        "imageUrl": "https://www.zerozero.pt/img/jogadores/new/51/16/425116_christopher_nkunku_20240817020636.png"
       },
       {
         "id": "34",
         "name": "João Félix",
         "nationality": "Portuguese",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Atlético Madrid",
-          "Benfica"
-        ],
+        "prevTeams": 
+          "Atlético Madrid , Benfica",
         "position": "Forward",
         "age": 24,
         "height": "1.82 m",
         "weight": "70 kg",
         "foot": "Right",
         "goals": 40,
-        "imageUrl": "https://example.com/images/joao_felix.jpg"
+        "imageUrl": "https://img.a.transfermarkt.technology/portrait/big/462250-1668165358.jpg?lm=1"
       },
       {
         "id": "35",
         "name": "Cole Palmer",
         "nationality": "English",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Manchester City"
-        ],
+        "prevTeams": 
+          "Manchester City",
         "position": "Winger",
         "age": 22,
         "height": "1.75 m",
@@ -568,10 +520,8 @@
         "name": "Enzo Fernández",
         "nationality": "Argentine",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Benfica",
-          "River Plate"
-        ],
+        "prevTeams": 
+          "Benfica , River Plate",
         "position": "Midfielder",
         "age": 24,
         "height": "1.80 m",
@@ -585,9 +535,7 @@
         "name": "Mykhailo Mudryk",
         "nationality": "Ukrainian",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Shakhtar Donetsk"
-        ],
+        "prevTeams": "Shakhtar Donetsk",
         "position": "Winger",
         "age": 24,
         "height": "1.75 m",
@@ -601,9 +549,7 @@
         "name": "Reece James",
         "nationality": "English",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Wigan Athletic"
-        ],
+        "prevTeams": "Wigan Athletic",
         "position": "Right-back",
         "age": 26,
         "height": "1.82 m",
@@ -617,9 +563,7 @@
         "name": "Thomas Müller",
         "nationality": "German",
         "currentTeam": "Bayern Munich",
-        "prevTeams": [
-          "None"
-        ],
+        "prevTeams": "None",
         "position": "Forward",
         "age": 35,
         "height": "1.86 m",
@@ -633,12 +577,8 @@
         "name": "Serge Gnabry",
         "nationality": "German",
         "currentTeam": "Bayern Munich",
-        "prevTeams": [
-            "Arsenal",
-            "West Bromwich Albion",
-            "Hoffenheim",
-            "Bayern Munich (loan)"
-        ],
+        "prevTeams": 
+            "Arsenal , West Bromwich Albion , Bayern Munich (loan)",
         "position": "Winger",
         "age": 30,
         "height": 1.75,
@@ -652,10 +592,8 @@
       "name": "Harry Kane",
       "nationality": "English",
       "currentTeam": "Bayern Munich",
-      "prevTeams": [
-          "Tottenham Hotspur",
-          "Bayern Munich (loan)"
-      ],
+      "prevTeams": 
+          "Tottenham Hotspur , Bayern Munich (loan)",
       "position": "Striker",
       "age": 31,
       "height": 1.88,
@@ -669,11 +607,8 @@
     "name": "Kingsley Coman",
     "nationality": "French",
     "currentTeam": "Bayern Munich",
-    "prevTeams": [
-        "PSG",
-        "Juventus",
-        "Bayern Munich (loan)"
-    ],
+    "prevTeams": 
+        "PSG ,Juventus , Bayern Munich (loan)",
     "position": "Winger",
     "age": 27,
     "height": 1.80,
@@ -687,10 +622,8 @@
   "name": "Michael Olise",
   "nationality": "French",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "Reading",
-      "Crystal Palace"
-  ],
+  "prevTeams": 
+      "Reading , Crystal Palace",
   "position": "Winger",
   "age": 22,
   "height": 1.80,
@@ -704,9 +637,7 @@
   "name": "Leon Goretzka",
   "nationality": "German",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "Schalke 04"
-  ],
+  "prevTeams": "Schalke 04",
   "position": "Midfielder",
   "age": 29,
   "height": 1.89,
@@ -720,10 +651,7 @@
   "name": "Jamal Musiala",
   "nationality": "German",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "Chelsea Academy",
-      "Bayern Munich Academy"
-  ],
+  "prevTeams": "Chelsea Academy , Bayern Munich Academy",
   "position": "Attacking Midfielder",
   "age": 22,
   "height": 1.80,
@@ -737,9 +665,7 @@
   "name": "Dayot Upamecano",
   "nationality": "French",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "RB Leipzig"
-  ],
+  "prevTeams": "RB Leipzig",
   "position": "Center-back",
   "age": 25,
   "height": 1.86,
@@ -753,11 +679,8 @@
   "name": "Min-jae Kim",
   "nationality": "South Korean",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "Napoli",
-      "Fenerbahçe",
-      "Jeonbuk Hyundai Motors"
-  ],
+  "prevTeams":
+      "Napoli , Fenerbahçe , Jeonbuk Hyundai Motors",
   "position": "Center-back",
   "age": 27,
   "height": 1.90,
@@ -771,9 +694,7 @@
   "name": "Alphonso Davies",
   "nationality": "Canadian",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "Vancouver Whitecaps"
-  ],
+  "prevTeams": "Vancouver Whitecaps",
   "position": "Left-back",
   "age": 23,
   "height": 1.76,
@@ -787,10 +708,8 @@
   "name": "Mike Maignan",
   "nationality": "French",
   "currentTeam": "AC Milan",
-  "prevTeams": [
-    "Lille OSC",
-    "Paris Saint-Germain (youth)"
-  ],
+  "prevTeams": 
+    "Lille OSC , Paris Saint-Germain (youth)",
   "position": "Goalkeeper",
   "age": 28,
   "height": "1.92 m",
@@ -804,10 +723,7 @@
   "name": "Rafael Leão",
   "nationality": "Portuguese",
   "currentTeam": "AC Milan",
-  "prevTeams": [
-    "Sporting CP",
-    "Lille OSC"
-  ],
+  "prevTeams":  "Sporting CP , Lille OSC",
   "position": "Forward",
   "age": 24,
   "height": "1.88 m",
@@ -821,10 +737,8 @@
   "name": "Ismaël Bennacer",
   "nationality": "Algerian",
   "currentTeam": "AC Milan",
-  "prevTeams": [
-    "Empoli",
-    "Arsenal (youth)"
-  ],
+  "prevTeams": 
+    "Empoli , Arsenal (youth)",
   "position": "Midfielder",
   "age": 26,
   "height": "1.75 m",
@@ -838,9 +752,7 @@
   "name": "Davide Calabria",
   "nationality": "Italian",
   "currentTeam": "AC Milan",
-  "prevTeams": [
-    "AC Milan Youth"
-  ],
+  "prevTeams":  "AC Milan Youth",
   "position": "Right-back",
   "age": 26,
   "height": "1.77 m",
@@ -854,10 +766,7 @@
   "name": "Strahinja Pavlović",
   "nationality": "Serbian",
   "currentTeam": "AC Milan",
-  "prevTeams": ["AS Monaco",
-    "Red Star Belgrade",
-    "Partizan Belgrade"
-  ],
+  "prevTeams": "AS Monaco , Red Star Belgrade , Partizan Belgrade",
   "position": "Center-back",
   "age": 23,
   "height": "1.94 m",
@@ -871,11 +780,7 @@
   "name": "Emerson Royal",
   "nationality": "Brazilian",
   "currentTeam": "Fiorentina",
-  "prevTeams": [
-    "Tottenham Hotspur",
-    "Real Betis",
-    "Barcelona"
-  ],
+  "prevTeams": "Tottenham Hotspur , Real Betis , Barcelona",
   "position": "Right-back",
   "age": 11,
   "height": "1.80 m",
@@ -889,11 +794,8 @@
   "name": "Filippo Terracciano",
   "nationality": "Italian",
   "currentTeam": "AC Milan",
-  "prevTeams": [
-    "Fiorentina",
-    "Catania",
-    "Juventus (youth)"
-  ],
+  "prevTeams": 
+    "Fiorentina , Catania , Juventus (youth)",
   "position": "Goalkeeper",
   "age": 30,
   "height": "1.90 m",
@@ -907,10 +809,7 @@
   "name": "Marcus Thuram",
   "nationality": "French",
   "currentTeam": "Inter Milan",
-  "prevTeams": [
-    "Borussia Mönchengladbach",
-    "Guingamp"
-  ],
+  "prevTeams": "Borussia Mönchengladbach , Guingamp",
   "position": "Forward",
   "age": 26,
   "height": "1.92 m",
@@ -924,9 +823,8 @@
   "name": "Lautaro Martínez",
   "nationality": "Argentine",
   "currentTeam": "Inter Milan",
-  "prevTeams": [
-    "Racing Club"
-  ],
+  "prevTeams": 
+    "Racing Club",
   "position": "Forward",
   "age": 26,
   "height": "1.74 m",
@@ -940,9 +838,8 @@
   "name": "Nicolò Barella",
   "nationality": "Italian",
   "currentTeam": "Inter Milan",
-  "prevTeams": [
-    "Cagliari"
-  ],
+  "prevTeams": 
+    "Cagliari",
   "position": "Midfielder",
   "age": 27,
   "height": "1.73 m",
@@ -956,11 +853,8 @@
   "name": "Hakan Çalhanoğlu",
   "nationality": "Turkish",
   "currentTeam": "Inter Milan",
-  "prevTeams": [
-    "AC Milan",
-    "Bayer Leverkusen",
-    "Hamburg"
-  ],
+  "prevTeams": 
+    "AC Milan , Bayer Leverkusen , Hamburg",
   "position": "Midfielder",
   "age": 29,
   "height": "1.82 m",
@@ -974,9 +868,7 @@
   "name": "Piotr Zieliński",
   "nationality": "Polish",
   "currentTeam": "Inter Milan",
-  "prevTeams": ["Napoli",
-    "Udinese"
-  ],
+  "prevTeams": "Napoli , Udinese",
   "position": "Midfielder",
   "age": 29,
   "height": "1.80 m",
@@ -990,7 +882,7 @@
   "name": "Kolo Muani",
   "nationality": "French",
   "currentTeam": "Paris",
-  "prevTeams": ["Nantes , Eintracht Frankfurt"],
+  "prevTeams": "Nantes , Eintracht Frankfurt",
   "position": "Forward",
   "age": 25,
   "height": "185 cm",
@@ -1004,7 +896,7 @@
   "name": "Ibrahim Mbaye",
   "nationality": "Senegalese",
   "currentTeam": "Paris Saint-Germain",
-  "prevTeams": ["AS Monaco", "FC Metz"],
+  "prevTeams": "AS Monaco , FC Metz",
   "position": "Defender",
   "age": 22,
   "height": "182 cm",
@@ -1018,7 +910,7 @@
   "name": "Gonçalo Ramos",
   "nationality": "Portuguese",
   "currentTeam": "Paris Saint-Germain",
-  "prevTeams": ["Benfica"],
+  "prevTeams": "Benfica",
   "position": "Forward",
   "age": 22,
   "height": "185 cm",
@@ -1032,7 +924,7 @@
   "name": "Ousmane Dembélé",
   "nationality": "French",
   "currentTeam": "Paris Saint-Germain",
-  "prevTeams": ["FC Barcelona", "Borussia Dortmund", "Rennes"],
+  "prevTeams": "FC Barcelona , Borussia Dortmund , Rennes",
   "position": "Winger",
   "age": 26,
   "height": "178 cm",
@@ -1046,7 +938,7 @@
   "name": "Marco Asensio",
   "nationality": "Spanish",
   "currentTeam": "Paris Saint-Germain",
-  "prevTeams": ["Real Madrid", "Mallorca"],
+  "prevTeams": "Real Madrid , Mallorca",
   "position": "Winger",
   "age": 28,
   "height": "177 cm",
@@ -1064,7 +956,7 @@
         "Bordeaux,Juventus,Real Madrid",
     "position": "Attacking Midfielder",
     "age": 52,
-    "height": "1.85m",
+    "height": "1.85m", 
     "weight": "80kg",
     "foot": "right",
     "goals": 126,
@@ -1979,7 +1871,7 @@
     "name": "Alison Becker",
     "nationality": "Brazilian",
     "currentTeam": "Liverpool FC",
-    "prevTeams": [ "Internacional", "Roma" ],
+    "prevTeams":  "Internacional, Roma" ,
     "position": "Goalkeeper",
     "age": 32,
     "height": 1.93,
@@ -1994,17 +1886,15 @@
     "name": "Virgil van Dijk",
     "nationality": "Dutch",
     "currentTeam": "Liverpool FC",
-    "prevTeams": [
-      "Celtic",
-      "Southampton"
-    ],
+    "prevTeams": 
+      "Celtic,Southampton",
     "position": "Centre-back",
     "age": 33,
     "height": 1.93,
     "weight": 92,
     "foot": "Right",
     "goals": 25,
-    "imageUrl": "https://static.srpcdigital.com/styles/1037xauto/public/2024-10/825422.jpeg.web"
+    "imageUrl": "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2024-06/virgil-van-dijk-profile-body-shot-202425.png?itok=gg-ELW7M"
   
 },
 {
@@ -2013,9 +1903,8 @@
     "name": "Ibrahima Konaté",
     "nationality": "French",
     "currentTeam": "Liverpool FC",
-    "prevTeams": [
-      "RB Leipzig"
-    ],
+    "prevTeams": 
+      "RB Leipzig",
     "position": "Centre-back",
     "age": 25,
     "height": 1.94,
@@ -2030,10 +1919,8 @@
     "name": "Andrew Robertson",
     "nationality": "Scottish",
     "currentTeam": "Liverpool FC",
-    "prevTeams": [
-      "Hull City",
-      "Dundee United"
-    ],
+    "prevTeams": 
+"Hull City,Dundee United",
     "position": "Left-back",
     "age": 29,
     "height": 1.78,
@@ -2048,9 +1935,8 @@
     "name": "Trent Alexander-Arnold",
     "nationality": "English",
     "currentTeam": "Liverpool FC",
-    "prevTeams": [
-      "None"
-    ],
+    "prevTeams": 
+      "None",
     "position": "Right-back",
     "age": 25,
     "height": 1.82,
@@ -2065,10 +1951,8 @@
     "name": "Diogo Jota",
     "nationality": "Portuguese",
     "currentTeam": "Liverpool FC",
-    "prevTeams": [
-      "Wolves",
-      "Paços de Ferreira"
-    ],
+    "prevTeams": 
+      "Wolves,Paços de Ferreira",
     "position": "Winger/Forward",
     "age": 27,
     "height": 1.78,
@@ -2084,10 +1968,7 @@
     "name": "Luis Díaz",
     "nationality": "Colombian",
     "currentTeam": "Liverpool FC",
-    "prevTeams": [
-      "Porto",
-      "Junior FC"
-    ],
+    "prevTeams": "Porto,Junior FC",
     "position": "Winger/Forward",
     "age": 26,
     "height": 1.78,
@@ -2101,7 +1982,7 @@
     "name": "Federico Chiesa",
     "nationality": "Italian",
     "currentTeam": "Juventus",
-    "prevTeams": ["Fiorentina"],
+    "prevTeams": "Fiorentina",
     "position": "Winger",
     "age": 26,
     "height": "1.78m",
@@ -2116,7 +1997,7 @@
     "name": "Altay Bayindir",
     "nationality": "Turkish",
     "currentTeam": "Fenerbahçe",
-    "prevTeams": ["Ankaragücü"],
+    "prevTeams": "Ankaragücü",
     "position": "Goalkeeper",
     "age": 26,
     "height": "1.92m",
@@ -2131,7 +2012,7 @@
     "name": "André Onana",
     "nationality": "Cameroonian",
     "currentTeam": "Manchester United",
-    "prevTeams": ["Ajax", "RSC Anderlecht"],
+    "prevTeams": "Ajax, RSC Anderlecht",
     "position": "Goalkeeper",
     "age": 27,
     "height": "1.95m",
@@ -2146,7 +2027,7 @@
     "name": "Tom Heaton",
     "nationality": "English",
     "currentTeam": "Manchester United",
-    "prevTeams": ["Aston Villa", "Burnley", "Cardiff City", "Brentford"],
+    "prevTeams": "Aston Villa, Burnley, Cardiff City, Brentford",
     "position": "Goalkeeper",
     "age": 38,
     "height": "1.93m",
@@ -2161,7 +2042,7 @@
     "name": "Diogo Dalot",
     "nationality": "Portugal",
     "currentTeam": "Manchester United",
-    "prevTeams": ["FC Porto", "AC Milan"],
+    "prevTeams": "FC Porto, AC Milan",
     "position": "Right-back",
     "age": 24,
     "height": "1.82m",
@@ -2176,7 +2057,7 @@
     "name": "Habeeb Ogunneye",
     "nationality": "Nigeria",
     "currentTeam": "Example FC",
-    "prevTeams": ["Youth Team", "Example Academy"],
+    "prevTeams": "Youth Team, Example Academy",
     "position": "Midfielder",
     "age": 22,
     "height": "1.80m",
@@ -2191,7 +2072,7 @@
     "name": "Harry Amass",
     "nationality": "English",
     "currentTeam": "Example FC",
-    "prevTeams": ["Youth Team", "Example Academy"],
+    "prevTeams": "Youth Team, Example Academy",
     "position": "Defender",
     "age": 21,
     "height": "1.85m",
@@ -2206,7 +2087,7 @@
     "name": "Noussair Mazraoui",
     "nationality": "Moroccan",
     "currentTeam": "Bayern Munich",
-    "prevTeams": ["Ajax"],
+    "prevTeams": "Ajax",
     "position": "Right-back",
     "age": 27,
     "height": "1.80m",
@@ -2221,7 +2102,7 @@
       "name": "Toby Collye",
       "nationality": "English",
       "currentTeam": "Manchester United",
-      "prevTeams": ["None"],
+      "prevTeams": "None",
       "position": "Midfielder",
       "age": 18,
       "height": "1.75m",
@@ -2235,7 +2116,7 @@
       "name": "Mason Mount",
       "nationality": "English",
       "currentTeam": "Manchester United",
-      "prevTeams": ["Chelsea"],
+      "prevTeams": "Chelsea",
       "position": "Midfielder",
       "age": 25,
       "height": "1.78m",
@@ -2249,7 +2130,7 @@
       "name": "Manuel Ugarte",
       "nationality": "Uruguayan",
       "currentTeam": "Chelsea",
-      "prevTeams": ["Sporting CP"],
+      "prevTeams": "Sporting CP",
       "position": "Midfielder",
       "age": 22,
       "height": "1.80m",
@@ -2263,7 +2144,7 @@
       "name": "Kobbie Mainoo",
       "nationality": "English",
       "currentTeam": "Manchester United",
-      "prevTeams": ["None"],
+      "prevTeams": "None",
       "position": "Midfielder",
       "age": 18,
       "height": "1.80m",
@@ -2277,7 +2158,7 @@
       "name": "Daniel Gore",
       "nationality": "English",
       "currentTeam": "Manchester United",
-      "prevTeams": ["None"],
+      "prevTeams": "None",
       "position": "Midfielder",
       "age": 19,
       "height": "1.78m",
@@ -2293,7 +2174,7 @@
   "name": "Nawaf Al-Aqidi",
   "nationality": "Saudi Arabian",
   "currentTeam": "Al-Nassr FC",
-  "prevTeams": ["Al-Taawon", "Al-Qadisiyah"],
+  "prevTeams": "Al-Taawon, Al-Qadisiyah",
   "position": "Goalkeeper",
   "age": 24,
   "height": "1.91m",
@@ -2307,7 +2188,7 @@
   "name": "Ali Alawjami",
   "nationality": "Saudi Arabian",
   "currentTeam": "Al-Ittihad Club",
-  "prevTeams": ["Al-Fateh SC", "Al-Raed"],
+  "prevTeams": "Al-Fateh SC, Al-Raed",
   "position": "Defender",
   "age": 28,
   "height": "1.78m",
@@ -2321,7 +2202,7 @@
   "name": "Aymeric Laporte",
   "nationality": "French",
   "currentTeam": "Al-Nassr FC",
-  "prevTeams": ["Athletic Bilbao", "Manchester City"],
+  "prevTeams": "Athletic Bilbao, Manchester City",
   "position": "Centre-back",
   "age": 29,
   "height": "1.87m",
@@ -2335,7 +2216,7 @@
   "name": "Hamad Al Mansour",
   "nationality": "Saudi Arabian",
   "currentTeam": "Al-Fateh SC",
-  "prevTeams": ["Al-Nassr FC", "Al-Khaleej FC"],
+  "prevTeams": "Al-Nassr FC, Al-Khaleej FC",
   "position": "Defender",
   "age": 27,
   "height": "1.81m",
@@ -2349,7 +2230,7 @@
   "name": "Nawaf Boushal",
   "nationality": "Saudi Arabian",
   "currentTeam": "Al-Hilal FC",
-  "prevTeams": ["Al-Ahli SC", "Al-Fateh SC"],
+  "prevTeams": "Al-Ahli SC, Al-Fateh SC",
   "position": "Midfielder",
   "age": 25,
   "height": "1.78m",
@@ -2358,14 +2239,13 @@
   "goals": 10,
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh1DaLLADUNPjUCzaM4msq0looniG1wfWDdw&s"
 },
-{
-  "players": [
+
     {
       "id": 115,
       "name": "Sultan Al-Ghannam",
       "nationality": "Saudi Arabian",
       "currentTeam": "Al-Nassr FC",
-      "prevTeams": ["Al-Shabab", "Al-Tai"],
+      "prevTeams": "Al-Shabab, Al-Tai",
       "position": "Right-back",
       "age": 26,
       "height": "1.76m",
@@ -2373,17 +2253,14 @@
       "foot": "Right",
       "goals": 10,
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUxer6th9Xl9Bgl8ED52HCBR4Y5FAyzCBcQ&s"
-    }
-  ]
-},
-{
-  "players": [
+    },
+
     {
       "id": 116,
       "name": "Abdullah Al Khaibari",
       "nationality": "Saudi Arabian",
       "currentTeam": "Al-Nassr FC",
-      "prevTeams": ["Al-Fateh SC", "Al-Taawon FC"],
+      "prevTeams": "Al-Fateh SC, Al-Taawon FC",
       "position": "Midfielder",
       "age": 27,
       "height": "1.80m",
@@ -2391,17 +2268,14 @@
       "foot": "Right",
       "goals": 7,
       "imageUrl": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_315/315235.jpg"
-    }
-  ]
-},
-{
-  "players": [
+    },
+
     {
       "id": 117,
       "name": "Ayman Salem",
       "nationality": "Saudi Arabian",
       "currentTeam": "Al-Ittihad Club",
-      "prevTeams": ["Al-Qadisiyah FC", "Al-Fateh SC"],
+      "prevTeams": "Al-Qadisiyah FC, Al-Fateh SC",
       "position": "Midfielder",
       "age": 28,
       "height": "1.82m",
@@ -2409,17 +2283,14 @@
       "foot": "Right",
       "goals": 5,
       "imageUrl": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_396/396114.jpg"
-    }
-  ]
-},
-{
-  "players": [
+    },
+
     {
       "id": 118,
       "name": "Saad Hussain Haqawi",
       "nationality": "Saudi Arabian",
       "currentTeam": "Al-Fateh SC",
-      "prevTeams": ["Al-Ittihad FC", "Al-Nassr FC"],
+      "prevTeams": "Al-Ittihad FC, Al-Nassr FC",
       "position": "Midfielder",
       "age": 24,
       "height": "1.75m",
@@ -2427,15 +2298,13 @@
       "foot": "Right",
       "goals": 12,
       "imageUrl": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_470/470192.jpg"
-    }
-  ]
-},
+    },
 {
     "id": 119,
     "name": "Mohamed Maran",
     "nationality": "Country Name",
     "currentTeam": "Current Team Name",
-    "prevTeams": ["Previous Team 1", "Previous Team 2", "Previous Team 3"],
+    "prevTeams": "Previous Team 1, Previous Team 2, Previous Team 3",
     "position": "Forward",
     "age": 25,
     "height": "1.85m",
@@ -2450,7 +2319,7 @@
     "name": "Sadio Mané",
     "nationality": "Senegalese",
     "currentTeam": "Al Nassr",
-    "prevTeams": ["Liverpool", "Red Bull Salzburg", "FC Metz"],
+    "prevTeams": "Liverpool, Red Bull Salzburg, FC Metz",
     "position": "Forward",
     "age": 31,
     "height": "1.75m",
@@ -2466,7 +2335,7 @@
     "name": "Wesley Gassova",
     "nationality": "Country Name",
     "currentTeam": "Current Team Name",
-    "prevTeams": ["Previous Team 1", "Previous Team 2"],
+    "prevTeams": "Previous Team 1, Previous Team 2",
     "position": "Midfielder",
     "age": 27,
     "height": "1.80m",
@@ -2482,7 +2351,7 @@
     "name": "Angelo Gabriel",
     "nationality": "Brazilian",
     "currentTeam": "Chelsea",
-    "prevTeams": ["Santos"],
+    "prevTeams": "Santos",
     "position": "Winger",
     "age": 19,
     "height": "1.71m",
@@ -2497,7 +2366,7 @@
     "name": "David Raya",
     "nationality": "Spanish",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Brentford", "Wigan Athletic"],
+    "prevTeams": "Brentford, Wigan Athletic",
     "position": "Goalkeeper",
     "age": 28,
     "height": "1.85m",
@@ -2511,7 +2380,7 @@
     "name": "Tommy Setford",
     "nationality": "English",
     "currentTeam": "Southend United",
-    "prevTeams": ["Brentwood Town", "Dagenham & Redbridge"],
+    "prevTeams": "Brentwood Town, Dagenham & Redbridge",
     "position": "Midfielder",
     "age": 26,
     "height": "1.80m",
@@ -2525,7 +2394,7 @@
     "name": "Neto",
     "nationality": "Brazilian",
     "currentTeam": "FC Barcelona",
-    "prevTeams": ["Valencia", "Juventus", "Florentina"],
+    "prevTeams": "Valencia, Juventus, Florentina",
     "position": "Goalkeeper",
     "age": 34,
     "height": "1.92m",
@@ -2539,7 +2408,7 @@
     "name": "Ben White",
     "nationality": "English",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Brighton & Hove Albion"],
+    "prevTeams": "Brighton & Hove Albion",
     "position": "Defender",
     "age": 26,
     "height": "1.82m",
@@ -2554,7 +2423,7 @@
     "name": "Gabriel Magalhães",
     "nationality": "Brazilian",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Lille"],
+    "prevTeams": "Lille",
     "position": "Defender",
     "age": 26,
     "height": "1.90m",
@@ -2569,7 +2438,7 @@
     "name": "Jakub Kiwior",
     "nationality": "Polish",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Spezia", "Zielona Góra"],
+    "prevTeams": "Spezia, Zielona Góra",
     "position": "Defender",
     "age": 23,
     "height": "1.87m",
@@ -2584,7 +2453,7 @@
     "name": "Jurrien Timber",
     "nationality": "Dutch",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Ajax"],
+    "prevTeams": "Ajax",
     "position": "Defender",
     "age": 23,
     "height": "1.85m",
@@ -2598,14 +2467,14 @@
     "name": "Declan Rice",
     "nationality": "English",
     "currentTeam": "Arsenal",
-    "prevTeams": ["West Ham United"],
+    "prevTeams": "West Ham United",
     "position": "Midfielder",
     "age": 24,
     "height": "1.85m",
     "weight": "80kg",
     "foot": "Right",
     "goals": 18,
-    "imageUrl": "https://example.com/images/declan-rice.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/2022_FIFA_World_Cup_England_6%E2%80%932_Iran_-_%288%29_%28Declan_Rice%29.jpg"
   
 },
 {
@@ -2613,7 +2482,7 @@
     "name": "Jorginho",
     "nationality": "Italian",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Chelsea", "Hellas Verona"],
+    "prevTeams": "Chelsea, Hellas Verona",
     "position": "Midfielder",
     "age": 31,
     "height": "1.80m",
@@ -2627,7 +2496,7 @@
     "name": "Martin Ødegaard",
     "nationality": "Norwegian",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Real Madrid", "Vitesse", "Real Sociedad"],
+    "prevTeams": "Real Madrid, Vitesse, Real Sociedad",
     "position": "Midfielder",
     "age": 25,
     "height": "1.75m",
@@ -2642,7 +2511,7 @@
     "name": "Mikel Merino",
     "nationality": "Spanish",
     "currentTeam": "Real Sociedad",
-    "prevTeams": ["Newcastle United", "Osasuna"],
+    "prevTeams": "Newcastle United, Osasuna",
     "position": "Midfielder",
     "age": 28,
     "height": "1.86m",
@@ -2657,7 +2526,7 @@
     "name": "Bukayo Saka",
     "nationality": "English",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Arsenal Youth"],
+    "prevTeams": "Arsenal Youth",
     "position": "Winger",
     "age": 22,
     "height": "1.78m",
@@ -2672,7 +2541,7 @@
     "name": "Ethan Nwaneri",
     "nationality": "English",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Arsenal Youth"],
+    "prevTeams": "Arsenal Youth",
     "position": "Midfielder",
     "age": 16,
     "height": "1.68m",
@@ -2687,7 +2556,7 @@
     "name": "Gabriel Martinelli",
     "nationality": "Brazilian",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Corinthians"],
+    "prevTeams": "Corinthians",
     "position": "Winger",
     "age": 22,
     "height": "1.75m",
@@ -2702,7 +2571,7 @@
     "name": "Kai Havertz",
     "nationality": "German",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Chelsea", "Bayer Leverkusen"],
+    "prevTeams": "Chelsea, Bayer Leverkusen",
     "position": "Midfielder",
     "age": 24,
     "height": "1.92m",
@@ -2717,7 +2586,7 @@
     "name": "Jorginho",
     "nationality": "Italian",
     "currentTeam": "Arsenal",
-    "prevTeams": ["Chelsea", "Hellas Verona"],
+    "prevTeams": "Chelsea, Hellas Verona",
     "position": "Midfielder",
     "age": 31,
     "height": "1.80m",
@@ -2732,7 +2601,7 @@
     "name": "Mattia Perin",
     "nationality": "Italian",
     "currentTeam": "Juventus",
-    "prevTeams": ["Genoa", "Pescara"],
+    "prevTeams": "Genoa, Pescara",
     "position": "Goalkeeper",
     "age": 27,
     "height": "1.88m",
@@ -2748,7 +2617,7 @@
       "name": "Andrea Cambiaso",
       "nationality": "Italian",
       "currentTeam": "Juventus",
-      "prevTeams": ["Genoa"],
+      "prevTeams": "Genoa",
       "position": "Left-back",
       "age": 23,
       "height": "1.80m",
@@ -2762,7 +2631,7 @@
       "name": "Bremer",
       "nationality": "Brazilian",
       "currentTeam": "Juventus",
-      "prevTeams": ["Torino"],
+      "prevTeams": "Torino",
       "position": "Center-back",
       "age": 26,
       "height": "1.88m",
@@ -2776,7 +2645,7 @@
       "name": "Danilo",
       "nationality": "Brazilian",
       "currentTeam": "Juventus",
-      "prevTeams": ["Manchester City", "Real Madrid"],
+      "prevTeams": "Manchester City, Real Madrid",
       "position": "Right-back",
       "age": 31,
       "height": "1.80m",
@@ -2790,7 +2659,7 @@
       "name": "Federico Gatti",
       "nationality": "Italian",
       "currentTeam": "Juventus",
-      "prevTeams": ["Frosinone"],
+      "prevTeams": "Frosinone",
       "position": "Center-back",
       "age": 25,
       "height": "1.90m",
@@ -2804,7 +2673,7 @@
       "name": "Nicolò Fagioli",
       "nationality": "Italian",
       "currentTeam": "Juventus",
-      "prevTeams": ["Cremonense"],
+      "prevTeams": "Cremonense",
       "position": "Midfielder",
       "age": 23,
       "height": "1.81m",
@@ -2818,7 +2687,7 @@
       "name": "Teun Koopmeiners",
       "nationality": "Dutch",
       "currentTeam": "Atalanta",
-      "prevTeams": ["AZ Alkmaar"],
+      "prevTeams": "AZ Alkmaar",
       "position": "Midfielder",
       "age": 25,
       "height": "1.83m",
@@ -2832,7 +2701,7 @@
       "name": "Timothy Weah",
       "nationality": "American",
       "currentTeam": "Juventus",
-      "prevTeams": ["Lille"],
+      "prevTeams": "Lille",
       "position": "Winger",
       "age": 23,
       "height": "1.75m",
@@ -2846,7 +2715,7 @@
       "name": "Weston McKennie",
       "nationality": "American",
       "currentTeam": "Juventus",
-      "prevTeams": ["Schalke"],
+      "prevTeams": "Schalke",
       "position": "Midfielder",
       "age": 25,
       "height": "1.83m",
@@ -2860,7 +2729,7 @@
       "name": "Nicolás González",
       "nationality": "Argentinian",
       "currentTeam": "Fiorentina",
-      "prevTeams": ["Argentinos Juniors"],
+      "prevTeams": "Argentinos Juniors",
       "position": "Winger",
       "age": 25,
       "height": "1.75m",

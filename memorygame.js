@@ -204,3 +204,36 @@ stopButton.addEventListener("click", () => {
   bgMusic.play();
   bgMusic.loop = true;
 });
+// الحصول على العناصر الصوتية والأزرار
+const backgroundMusic = document.getElementById("back-ground-music");
+const muteButton = document.getElementById("mute-button");
+const unmuteButton = document.getElementById("unmute-button");
+const soundModal = document.getElementById("sound-modal");
+const closeModalButton = document.getElementById("close-modal");
+const soundControlButton = document.getElementById("sound-control-button");
+
+
+
+// إظهار نافذة التحكم بالصوت عند الضغط على الزر
+soundControlButton.onclick = function() {
+  soundModal.style.display = "flex"; // عرض النافذة المنبثقة
+};
+
+// إغلاق نافذة التحكم بالصوت
+closeModalButton.onclick = function() {
+  soundModal.style.display = "none"; // إخفاء النافذة المنبثقة
+};
+
+// دالة لإيقاف الصوت
+muteButton.onclick = function() {
+  backgroundMusic.muted = true;
+  muteButton.classList.add("hide");
+  unmuteButton.classList.remove("hide");
+};
+
+// دالة لتشغيل الصوت
+unmuteButton.onclick = function() {
+  backgroundMusic.muted = false;
+  unmuteButton.classList.add("hide");
+  muteButton.classList.remove("hide");
+};  

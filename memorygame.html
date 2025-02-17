@@ -3,12 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Memory Game</title>
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="MemoryGame.css" />
   </head>
   <body>
@@ -18,11 +13,20 @@
         <div id="time"></div>
       </div>
       <div class="game-container"></div>
-      <button id="stop" class="hide">Restart Game</button>
+      <button id="stop" class="hide"><h5>Restart Game</button>
+      <button id="sound-control-button"><h5>Sound Control</button>  
+
+      <div id="sound-modal" class="modal">
+        <div class="modal-content">
+          <button id="mute-button"> <h5>Mute</button>
+          <button id="unmute-button" class="hide"><h5>Unmute</button>
+          <button id="close-modal"><h5>Close</button>         
+        </div>
+      </div>
     </div>
+
     <div class="controls-container">
       <p id="result"></p>
-      <!-- "You Won" message with a "Play Again" button -->
       <div id="you-won-message" class="hide">
         <h2>You Won!</h2>
         <p>Moves: <span id="final-moves"></span></p>
@@ -32,13 +36,10 @@
       <button id="start">Start Game</button>
     </div>
 
-    <!-- Audio Elements -->
     <audio id="back-ground-music" src="audio/back-ground-music.mp3" preload="auto" loop></audio>
     <audio id="success" src="audio/success.mp3" preload="auto"></audio>
     <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
     <audio id="win" src="audio/win.mp3" preload="auto"></audio>
-    
-    <!-- Script -->
+
     <script src="Memorygame.js"></script>
-  </body>
 </html>

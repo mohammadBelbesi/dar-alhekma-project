@@ -230,12 +230,8 @@
         "name": "Erling Haaland",
         "nationality": "Norwegian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Bryne FK",
-          "Molde FK",
-          "RB Salzburg",
-          "Borussia Dortmund"
-        ],
+        "prevTeams": 
+          "Bryne FK , Molde FK , RB Salzburg , Borussia Dortmund" , 
         "position": "Striker",
         "age": 24,
         "height": "1.95 m",
@@ -249,9 +245,7 @@
         "name": "Jérémy Doku",
         "nationality": "Belgian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "RSC Anderlecht,AS Monaco"
-        ],
+        "prevTeams": "RSC Anderlecht,AS Monaco",
         "position": "Winger",
         "age": 23,
         "height": "1.72 m",
@@ -265,9 +259,8 @@
         "name": "Savio",
         "nationality": "Brazilian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Flamengo,Arsenal"
-        ],
+        "prevTeams": "Flamengo,Arsenal"
+        ,
         "position": "Winger",
         "age": 19,
         "height": "1.76 m",
@@ -281,11 +274,8 @@
         "name": "Kevin De Bruyne",
         "nationality": "Belgian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Chelsea",
-          "Werder Bremen",
-          "VfL Wolfsburg"
-        ],
+        "prevTeams":"Chelsea,Werder Bremen , VfL Wolfsburg",
+        
         "position": "Midfielder",
         "age": 32,
         "height": "1.81 m",
@@ -299,9 +289,8 @@
         "name": "Phil Foden",
         "nationality": "English",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "None"
-        ],
+        "prevTeams":"None",
+        
         "position": "Midfielder",
         "age": 25,
         "height": "1.71 m",
@@ -315,10 +304,8 @@
         "name": "Bernardo Silva",
         "nationality": "Portuguese",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Monaco",
-          "Benfica"
-        ],
+        "prevTeams": 
+          "Monaco , Benfica",
         "position": "Midfielder",
         "age": 30,
         "height": "1.73 m",
@@ -332,10 +319,8 @@
         "name": "İlkay Gündoğan",
         "nationality": "German",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Real Madrid",
-          "Borussia Dortmund"
-        ],
+        "prevTeams":"Real Madrid , Borussia Dortmund"
+        ,
         "position": "Midfielder",
         "age": 34,
         "height": "1.80 m",
@@ -349,10 +334,8 @@
         "name": "Rodri",
         "nationality": "Spanish",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Atlético Madrid B",
-          "Villarreal"
-        ],
+        "prevTeams": 
+          "Atlético Madrid B , Villarreal" , 
         "position": "Defensive Midfielder",
         "age": 28,
         "height": "1.91 m",
@@ -366,11 +349,7 @@
         "name": "Mateo Kovačić",
         "nationality": "Croatian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Real Madrid",
-          "Inter Milan",
-          "Chelsea"
-        ],
+        "prevTeams": "Real Madrid ,Inter Milan , Chelsea",
         "position": "Midfielder",
         "age": 29,
         "height": "1.82 m",
@@ -384,9 +363,7 @@
         "name": "Kyle Walker",
         "nationality": "English",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Tottenham Hotspur"
-        ],
+        "prevTeams": "Tottenham Hotspur",
         "position": "Right-back",
         "age": 36,
         "height": "1.83 m",
@@ -400,9 +377,7 @@
         "name": "Ruben Dias",
         "nationality": "Portuguese",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Benfica"
-        ],
+        "prevTeams": "Benfica",
         "position": "Centre-back",
         "age": 27,
         "height": "1.87 m",
@@ -416,9 +391,7 @@
         "name": "John Stones",
         "nationality": "English",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Everton"
-        ],
+        "prevTeams": "Everton",
         "position": "Centre-back",
         "age": 31,
         "height": "1.88 m",
@@ -432,10 +405,7 @@
         "name": "Nathan Aké",
         "nationality": "Dutch",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Bournemouth",
-          "Chelsea"
-        ],
+        "prevTeams": "Bournemouth , Chelsea",
         "position": "Centre-back",
         "age": 29,
         "height": "1.80 m",
@@ -449,9 +419,7 @@
         "name": "Ederson",
         "nationality": "Brazilian",
         "currentTeam": "Manchester City",
-        "prevTeams": [
-          "Benfica"
-        ],
+        "prevTeams": "Benfica",
         "position": "Goalkeeper",
         "age": 32,
         "height": "1.88 m",
@@ -465,12 +433,7 @@
         "name": "Cristiano Ronaldo",
         "nationality": "Portuguese",
         "currentTeam": "Al Nassr",
-        "prevTeams": [
-          "Manchester United",
-          "Juventus",
-          "Real Madrid",
-          "Sporting CP"
-        ],
+        "prevTeams": "Manchester United , Juventus, Real Madrid , Sporting CP",
         "position": "Forward",
         "age": 40,
         "height": "1.87 m",
@@ -484,10 +447,7 @@
         "name": "Lionel Messi",
         "nationality": "Argentine",
         "currentTeam": "Inter Miami",
-        "prevTeams": [
-          "Paris Saint-Germain",
-          "Barcelona"
-        ],
+        "prevTeams": "Paris Saint-Germain , Barcelona",
         "position": "Forward",
         "age": 38,
         "height": "1.70 m",
@@ -501,10 +461,8 @@
         "name": "Nicolas Jackson",
         "nationality": "Senegalese",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Villarreal",
-          "FC Botoșani"
-        ],
+        "prevTeams": 
+          "Villarreal , FC Botoșani",
         "position": "Forward",
         "age": 23,
         "height": "1.85 m",
@@ -518,10 +476,7 @@
         "name": "Christopher Nkunku",
         "nationality": "French",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "RB Leipzig",
-          "Paris Saint-Germain"
-        ],
+        "prevTeams": "RB Leipzig ,Paris Saint-German" ,
         "position": "Forward",
         "age": 27,
         "height": "1.80 m",
@@ -535,10 +490,8 @@
         "name": "João Félix",
         "nationality": "Portuguese",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Atlético Madrid",
-          "Benfica"
-        ],
+        "prevTeams": 
+          "Atlético Madrid , Benfica",
         "position": "Forward",
         "age": 24,
         "height": "1.82 m",
@@ -552,9 +505,8 @@
         "name": "Cole Palmer",
         "nationality": "English",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Manchester City"
-        ],
+        "prevTeams": 
+          "Manchester City",
         "position": "Winger",
         "age": 22,
         "height": "1.75 m",
@@ -568,10 +520,8 @@
         "name": "Enzo Fernández",
         "nationality": "Argentine",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Benfica",
-          "River Plate"
-        ],
+        "prevTeams": 
+          "Benfica , River Plate",
         "position": "Midfielder",
         "age": 24,
         "height": "1.80 m",
@@ -585,9 +535,7 @@
         "name": "Mykhailo Mudryk",
         "nationality": "Ukrainian",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Shakhtar Donetsk"
-        ],
+        "prevTeams": "Shakhtar Donetsk",
         "position": "Winger",
         "age": 24,
         "height": "1.75 m",
@@ -601,9 +549,7 @@
         "name": "Reece James",
         "nationality": "English",
         "currentTeam": "Chelsea FC",
-        "prevTeams": [
-          "Wigan Athletic"
-        ],
+        "prevTeams": "Wigan Athletic",
         "position": "Right-back",
         "age": 26,
         "height": "1.82 m",
@@ -617,9 +563,7 @@
         "name": "Thomas Müller",
         "nationality": "German",
         "currentTeam": "Bayern Munich",
-        "prevTeams": [
-          "None"
-        ],
+        "prevTeams": "None",
         "position": "Forward",
         "age": 35,
         "height": "1.86 m",
@@ -633,12 +577,8 @@
         "name": "Serge Gnabry",
         "nationality": "German",
         "currentTeam": "Bayern Munich",
-        "prevTeams": [
-            "Arsenal",
-            "West Bromwich Albion",
-            "Hoffenheim",
-            "Bayern Munich (loan)"
-        ],
+        "prevTeams": 
+            "Arsenal , West Bromwich Albion , Bayern Munich (loan)",
         "position": "Winger",
         "age": 30,
         "height": 1.75,
@@ -652,10 +592,8 @@
       "name": "Harry Kane",
       "nationality": "English",
       "currentTeam": "Bayern Munich",
-      "prevTeams": [
-          "Tottenham Hotspur",
-          "Bayern Munich (loan)"
-      ],
+      "prevTeams": 
+          "Tottenham Hotspur , Bayern Munich (loan)",
       "position": "Striker",
       "age": 31,
       "height": 1.88,
@@ -669,11 +607,8 @@
     "name": "Kingsley Coman",
     "nationality": "French",
     "currentTeam": "Bayern Munich",
-    "prevTeams": [
-        "PSG",
-        "Juventus",
-        "Bayern Munich (loan)"
-    ],
+    "prevTeams": 
+        "PSG ,Juventus , Bayern Munich (loan)",
     "position": "Winger",
     "age": 27,
     "height": 1.80,
@@ -687,10 +622,8 @@
   "name": "Michael Olise",
   "nationality": "French",
   "currentTeam": "Bayern Munich",
-  "prevTeams": [
-      "Reading",
-      "Crystal Palace"
-  ],
+  "prevTeams": 
+      "Reading , Crystal Palace",
   "position": "Winger",
   "age": 22,
   "height": 1.80,
@@ -2358,8 +2291,7 @@
   "goals": 10,
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh1DaLLADUNPjUCzaM4msq0looniG1wfWDdw&s"
 },
-{
-  "players": [
+
     {
       "id": 115,
       "name": "Sultan Al-Ghannam",
@@ -2373,11 +2305,8 @@
       "foot": "Right",
       "goals": 10,
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUxer6th9Xl9Bgl8ED52HCBR4Y5FAyzCBcQ&s"
-    }
-  ]
-},
-{
-  "players": [
+    },
+
     {
       "id": 116,
       "name": "Abdullah Al Khaibari",
@@ -2391,11 +2320,8 @@
       "foot": "Right",
       "goals": 7,
       "imageUrl": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_315/315235.jpg"
-    }
-  ]
-},
-{
-  "players": [
+    },
+
     {
       "id": 117,
       "name": "Ayman Salem",
@@ -2409,11 +2335,8 @@
       "foot": "Right",
       "goals": 5,
       "imageUrl": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_396/396114.jpg"
-    }
-  ]
-},
-{
-  "players": [
+    },
+
     {
       "id": 118,
       "name": "Saad Hussain Haqawi",
@@ -2427,9 +2350,7 @@
       "foot": "Right",
       "goals": 12,
       "imageUrl": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_470/470192.jpg"
-    }
-  ]
-},
+    },
 {
     "id": 119,
     "name": "Mohamed Maran",

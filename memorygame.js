@@ -268,3 +268,34 @@ stopGameButton.addEventListener("click", () => {
   startButton.classList.remove("hide");
   gameContainer.innerHTML = "";
 });
+// Sound control button to stop the game
+soundControlButton.onclick = function() {
+  // Stop the game by clearing the interval and pausing the background music
+  clearInterval(interval);
+  bgMusic.pause(); // Pause background music
+  bgMusic.currentTime = 0; // Reset background music time
+
+  // Disable the cards to prevent further interaction
+  cards.forEach(card => {
+    card.classList.add("disabled");
+  });
+
+  // Show the sound control modal
+  soundModal.style.display = "flex";
+};
+
+// Close the sound control modal and resume the game
+closeModalButton.onclick = function() {
+  // Hide the sound control modal
+  soundModal.style.display = "none";
+
+  // Restart the game (resume the timer and background music)
+  interval = setInterval(timeGenerator, 1000);
+  bgMusic.play(); // Resume background music
+  bgMusic.loop = true; // Loop background music
+
+  // Enable the cards again
+  cards.forEach(card => {
+    card.classList.remove("disabled");
+  });
+};

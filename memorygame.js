@@ -12,11 +12,16 @@ const successSound = document.getElementById("success");
 const failSound = document.getElementById("fail");
 const winSound = document.getElementById("win");
 
+const level1Button = document.getElementById("level1");
+const level2Button = document.getElementById("level2");
+const level3Button = document.getElementById("level3");
+
 let cards;
 let interval;
 let firstCard = false;
 let secondCard = false;
 let items = [];
+let currentLevel = 1; // Default level
 
 // Fetch the JSON data
 fetch('data.json')
@@ -44,7 +49,7 @@ let movesCount = 0, winCount = 0;
 
 const timeGenerator = () => {
   seconds += 1;
-  if (seconds >= 60) {
+  if (seconds === 60) {
     minutes += 1;
     seconds = 0;
   }
@@ -58,20 +63,22 @@ const movesCounter = () => {
   moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
 };
 
-// Add a function to check if the game is won (all cards are matched)
 const checkIfGameWon = () => {
-  if (winCount === cards.length / 2) { // When all pairs are matched
-    clearInterval(interval); // Stop the timer
-    bgMusic.pause(); // Stop background music
-    winSound.play(); // Play win sound
+  if (winCount === cards.length / 2) {
+    clearInterval(interval);
+    bgMusic.pause();
+    winSound.play();
     alert(`🎉 Congratulations! You won! 🎉\n\nTime: ${minutes}:${seconds < 10 ? "0" + seconds : seconds}\nMoves: ${movesCount}`);
   }
 };
 
-const generateRandom = (size = 5) => {
+const generateRandom = (size = 4) => { // Default size is 4 (for Level 1: 5x4 grid)
   let tempArray = [...items];
   let cardValues = [];
-  size = (size * 4) / 2;
+  size = (size * 5) / 2; // Adjusted for Level 1 (5x4 grid)
+  if (currentLevel === 3) {
+    size = 6; // 6 pairs for Level 3 (3x4 grid)
+  }
   for (let i = 0; i < size; i++) {
     const randomIndex = Math.floor(Math.random() * tempArray.length);
     cardValues.push(tempArray[randomIndex]);
@@ -80,12 +87,32 @@ const generateRandom = (size = 5) => {
   return cardValues;
 };
 
-const matrixGenerator = (cardValues, size = 5) => {
+const matrixGenerator = (cardValues, level) => {
   gameContainer.innerHTML = "";
-  cardValues = [...cardValues, ...cardValues];
-  cardValues.sort(() => Math.random() - 0.5);
+  cardValues = [...cardValues, ...cardValues]; // Duplicate cards for matching
+  cardValues.sort(() => Math.random() - 0.5); // Shuffle cards
 
-  for (let i = 0; i < size * 4; i++) {
+  let gridSize;
+  let rows;
+  switch (level) {
+    case 1:
+      gridSize = 5; // 5 columns for Level 1 (5x4 grid)
+      rows = 4; // 4 rows for Level 1
+      break;
+    case 2:
+      gridSize = 4; // 4 columns for Level 2 (4x4 grid)
+      rows = 4; // 4 rows for Level 2
+      break;
+    case 3:
+      gridSize = 3; // 3 columns for Level 3 (3x4 grid)
+      rows = 4; // 4 rows for Level 3
+      break;
+    default:
+      gridSize = 5;
+      rows = 4;
+  }
+
+  for (let i = 0; i < gridSize * rows; i++) {
     gameContainer.innerHTML += `
       <div class="card-container" data-card-value="${cardValues[i].imageUrl}">
         <div class="card-before">?</div>
@@ -95,7 +122,8 @@ const matrixGenerator = (cardValues, size = 5) => {
       </div>
     `;
   }
-  gameContainer.style.gridTemplateColumns = `repeat(5, auto)`;
+  gameContainer.style.gridTemplateColumns = `repeat(${gridSize}, auto)`;
+  gameContainer.classList.add(`level${level}`);
   cards = document.querySelectorAll(".card-container");
 
   const disableCards = () => {
@@ -119,8 +147,6 @@ const matrixGenerator = (cardValues, size = 5) => {
         } else {
           movesCounter();
           secondCard = card;
-
-          // Disable the cards during the check
           disableCards();
 
           setTimeout(() => {
@@ -130,7 +156,7 @@ const matrixGenerator = (cardValues, size = 5) => {
             if (firstCardImage === secondCardImage) {
               firstCard.classList.add("matched");
               secondCard.classList.add("matched");
-              successSound.play(); // Play success sound
+              successSound.play();
 
               // Find the matched player based on image URL
               let matchedPlayer = items.find(player => player.imageUrl === firstCardImage);
@@ -151,10 +177,9 @@ const matrixGenerator = (cardValues, size = 5) => {
 
               firstCard = false;
               winCount += 1;
-              checkIfGameWon(); // Check if game is won after each match
-
+              checkIfGameWon();
             } else {
-              failSound.play(); // Play fail sound
+              failSound.play();
               let [tempFirst, tempSecond] = [firstCard, secondCard];
               firstCard = false;
               secondCard = false;
@@ -164,9 +189,7 @@ const matrixGenerator = (cardValues, size = 5) => {
               }, 900);
             }
 
-            // Re-enable the cards after 1 second
             setTimeout(enableCards, 1000);
-
           }, 500);
         }
       }
@@ -174,64 +197,81 @@ const matrixGenerator = (cardValues, size = 5) => {
   });
 };
 
-startButton.addEventListener("click", () => {
-  movesCount = 0;
-  seconds = 0;
-  minutes = 0;
-  controls.classList.add("hide");
-  stopButton.classList.remove("hide");
-  startButton.classList.add("hide");
-  interval = setInterval(timeGenerator, 1000);
-  moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
-  let cardValues = generateRandom();
-  matrixGenerator(cardValues);
-  
-  bgMusic.play(); // Start background music
-  bgMusic.loop = true; // Loop background music
+level1Button.addEventListener("click", () => {
+  currentLevel = 1;
+  startGame();
 });
 
-// Updated stopButton to act as a restart button
-stopButton.addEventListener("click", () => {
-  // Reset game state
+level2Button.addEventListener("click", () => {
+  currentLevel = 2;
+  startGame();
+});
+
+level3Button.addEventListener("click", () => {
+  currentLevel = 3;
+  startGame();
+});
+
+const startGame = () => {
+  console.log("Start Game button clicked!"); // Debugging line
   movesCount = 0;
   seconds = 0;
   minutes = 0;
   winCount = 0;
   firstCard = false;
   secondCard = false;
-
-  // Clear the interval for the timer
-  clearInterval(interval);
-
-  // Reset the timer and moves display
-  timeValue.innerHTML = `<span>Time:</span>00:00`;
-  moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
-
-  // Hide the stop button and show the start button
-  controls.classList.remove("hide");
-  stopButton.classList.add("hide");
-  startButton.classList.remove("hide");
-
-  // Reset the game container by generating a new set of cards
-  let cardValues = generateRandom();
-  matrixGenerator(cardValues);
-
-  // Reset background music
-  bgMusic.pause();
-  bgMusic.currentTime = 0;
-
-  // Start a new game immediately
+  clearInterval(interval); // Clear any existing interval
   controls.classList.add("hide");
   stopButton.classList.remove("hide");
   startButton.classList.add("hide");
   interval = setInterval(timeGenerator, 1000);
+  moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
+  timeValue.innerHTML = `<span>Time:</span>00:00`; // Reset the timer display
+  let cardValues = generateRandom(currentLevel === 1 ? 4 : currentLevel === 2 ? 4 : 3); // Adjusted for Level 1 (5x4 grid)
+  matrixGenerator(cardValues, currentLevel);
+  bgMusic.play();
+  bgMusic.loop = true;
+};
 
-  // Play background music
+// Ensure the event listener is attached
+startButton.addEventListener("click", startGame);
+
+stopButton.addEventListener("click", () => {
+  movesCount = 0;
+  seconds = 0;
+  minutes = 0;
+  winCount = 0;
+  firstCard = false;
+  secondCard = false;
+  clearInterval(interval);
+  timeValue.innerHTML = `<span>Time:</span>00:00`; // Reset the timer display
+  moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
+  controls.classList.remove("hide");
+  stopButton.classList.add("hide");
+  startButton.classList.remove("hide");
+  let cardValues = generateRandom(currentLevel === 1 ? 4 : currentLevel === 2 ? 4 : 3); // Adjusted for Level 1 (5x4 grid)
+  matrixGenerator(cardValues, currentLevel);
+  bgMusic.pause();
+  bgMusic.currentTime = 0;
+  controls.classList.add("hide");
+  stopButton.classList.remove("hide");
+  startButton.classList.add("hide");
+  interval = setInterval(timeGenerator, 1000);
   bgMusic.play();
   bgMusic.loop = true;
 });
 
-// Mute and unmute functionality for background music
+stopGameButton.addEventListener("click", () => {
+  clearInterval(interval);
+  bgMusic.pause();
+  bgMusic.currentTime = 0;
+  controls.classList.remove("hide");
+  stopButton.classList.add("hide");
+  stopGameButton.classList.add("hide");
+  startButton.classList.remove("hide");
+  gameContainer.innerHTML = "";
+});
+
 const muteButton = document.getElementById("mute-button");
 const unmuteButton = document.getElementById("unmute-button");
 const soundModal = document.getElementById("sound-modal");
@@ -239,11 +279,11 @@ const closeModalButton = document.getElementById("close-modal");
 const soundControlButton = document.getElementById("sound-control-button");
 
 soundControlButton.onclick = function() {
-  soundModal.style.display = "flex"; // Show the sound control modal
+  soundModal.style.display = "flex";
 };
 
 closeModalButton.onclick = function() {
-  soundModal.style.display = "none"; // Close the sound control modal
+  soundModal.style.display = "none";
 };
 
 muteButton.onclick = function() {
@@ -256,46 +296,4 @@ unmuteButton.onclick = function() {
   bgMusic.muted = false;
   unmuteButton.classList.add("hide");
   muteButton.classList.remove("hide");
-};  
-
-stopGameButton.addEventListener("click", () => {
-  clearInterval(interval);
-  bgMusic.pause();
-  bgMusic.currentTime = 0;
-  controls.classList.remove("hide");
-  stopButton.classList.add("hide");
-  stopGameButton.classList.add("hide");
-  startButton.classList.remove("hide");
-  gameContainer.innerHTML = "";
-});
-// Sound control button to stop the game
-soundControlButton.onclick = function() {
-  // Stop the game by clearing the interval and pausing the background music
-  clearInterval(interval);
-  bgMusic.pause(); // Pause background music
-  bgMusic.currentTime = 0; // Reset background music time
-
-  // Disable the cards to prevent further interaction
-  cards.forEach(card => {
-    card.classList.add("disabled");
-  });
-
-  // Show the sound control modal
-  soundModal.style.display = "flex";
-};
-
-// Close the sound control modal and resume the game
-closeModalButton.onclick = function() {
-  // Hide the sound control modal
-  soundModal.style.display = "none";
-
-  // Restart the game (resume the timer and background music)
-  interval = setInterval(timeGenerator, 1000);
-  bgMusic.play(); // Resume background music
-  bgMusic.loop = true; // Loop background music
-
-  // Enable the cards again
-  cards.forEach(card => {
-    card.classList.remove("disabled");
-  });
 };

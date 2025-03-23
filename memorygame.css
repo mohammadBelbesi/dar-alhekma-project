@@ -13,7 +13,7 @@ body {
   box-sizing: content-box;
   width: 35.87em;
   padding: 2em 3em;
-  background-color:  #4DA1A9;
+  background-color: #4DA1A9;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -22,12 +22,41 @@ body {
   box-shadow: 0 0.9em 2.8em rgba(86, 66, 0, 0.2);
 }
 
+.level-selection {
+  text-align: center;
+  margin-bottom: 1.2em;
+}
+
+.level-selection button {
+  border: none;
+  border-radius: 0.3em;
+  padding: 0.8em 1.2em;
+  margin: 0.5em;
+  cursor: pointer;
+  background-color: #EB5A3C;
+  color: #000000;
+  font-weight: 600;
+}
+
 .game-container {
   position: relative;
   width: 100%;
   display: grid;
   gap: 0.6em;
-  transition: background-color 0.3s ease; /* Added transition for background change */
+  transition: background-color 0.3s ease;
+}
+
+.game-container.level1 {
+  grid-template-columns: repeat(5, auto); /* 5 columns for Level 1 (5x4 grid) */
+}
+
+.game-container.level2 {
+  grid-template-columns: repeat(4, auto); /* 4 columns for Level 2 (4x4 grid) */
+}
+
+.game-container.level3 {
+  grid-template-columns: repeat(3, auto); /* 3 columns for Level 3 (3x4 grid) */
+  grid-template-rows: repeat(4, auto); /* 4 rows for Level 3 (3x4 grid) */
 }
 
 .stats-container {
@@ -44,8 +73,8 @@ body {
   width: 6.25em;
   height: 6.25em;
   cursor: pointer;
-  border-radius: 50%; 
-  overflow: hidden;  
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .card-before,
@@ -105,8 +134,9 @@ button {
   display: block;
   margin: 1.1em auto 0 auto;
   background-color: #000000;
-  color: #ffffff
+  color: #ffffff;
 }
+
 #stop-game {
   font-size: 1.1em;
   display: block;
@@ -114,6 +144,7 @@ button {
   background-color: #000000;
   color: #ffffff;
 }
+
 .controls-container button {
   font-size: 1.3em;
   box-shadow: 0 0.6em 2em rgba(86, 66, 0, 0.2);
@@ -136,9 +167,8 @@ button {
   margin: 0.6em 0 1em 0;
 }
 
-/* Won Background */
 .won-background {
-  background-color: rgba(0, 128, 0, 0.7); /* Greenish background */
+  background-color: rgba(0, 128, 0, 0.7);
   padding: 50px;
   text-align: center;
   border-radius: 10px;
@@ -157,11 +187,10 @@ button {
 }
 
 .game-container.won-background {
-  background-color: rgba(20, 146, 146, 0.3); /* Slightly transparent background for the game container */
-  pointer-events: none; /* Disable interactions with the game board when won */
+  background-color: rgba(20, 146, 146, 0.3);
+  pointer-events: none;
 }
 
-/* Make the result message stand out more */
 .win-background h2 {
   font-size: 40px;
   font-weight: bold;
@@ -171,13 +200,13 @@ button {
   font-size: 30px;
 }
 
-/* Card image styling */
 .card-after .image {
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
   border: 1px solid #000000;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
+
 .modal {
   display: none;
   position: fixed;
@@ -200,10 +229,6 @@ button {
   border: 4px solid black;
 }
 
-.hide {
-  display: none;
-}
-
 #sound-control-button {
   position: absolute;
   top: 36px;
@@ -211,7 +236,7 @@ button {
   padding: 15px 15px;
   background-color: #EB5A3C;
   color: rgb(0, 0, 0);
-  border: 2px   groove black;
+  border: 2px groove black;
   cursor: pointer;
   z-index: 9999;
   font-size: large;
@@ -222,17 +247,20 @@ button {
   font-size: 15px;
   border: 2px solid black;
 }
+
 #close-modal {
   background-color: #4DA1A9;
   font-size: 15px;
   border: 2px solid black;
 }
-#unmute-button{
+
+#unmute-button {
   background: #4DA1A9;
   font-size: 15px;
   border: 2px solid black;
 }
-.buttons{
+
+.buttons {
   display: flex;
-  margin-top: 0.4px ;
+  margin-top: 0.4px;
 }

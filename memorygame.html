@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Game</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="MemoryGame.css" />
+    <link rel="stylesheet" href="memorygame.css" />
 </head>
 <body>
     <div class="wrapper">
         <div class="level-selection">
-            <button id="level1">Level 1 (5x4)</button>
+            <button id="level3">Level 1 (3x4)</button>
             <button id="level2">Level 2 (4x4)</button>
-            <button id="level3">Level 3 (3x4)</button>
+            <button id="level1">Level 3 (5x4)</button>
         </div>
         <div class="stats-container">
             <div id="moves-count"></div>
@@ -49,6 +51,29 @@
     <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
     <audio id="win" src="audio/win.mp3" preload="auto"></audio>
 
-    <script src="Memorygame.js"></script>
+    <script src="memorygame.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCTcjO_32K9ZbsbhkpjtquObRHCLwFjSjI",
+        authDomain: "brain-cipher-learning.firebaseapp.com",
+        projectId: "brain-cipher-learning",
+        storageBucket: "brain-cipher-learning.firebasestorage.app",
+        messagingSenderId: "560033390764",
+        appId: "1:560033390764:web:db2c4535b0c690effabf09",
+        measurementId: "G-P0WCCW27VG"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
 </body>
 </html>
